@@ -1,11 +1,72 @@
 ---
-import Welcome from '../components/Welcome.astro';
-import Layout from '../layouts/Layout.astro';
-
-// Welcome to Astro! Wondering what to do next? Check out the Astro documentation at https://docs.astro.build
-// Don't want to use any of this? Delete everything in this file, the `assets`, `components`, and `layouts` directories, and start fresh.
+import Layout from '../layouts/Layout.astro'
 ---
 
 <Layout>
-	<Welcome />
+  <header>
+    <nav>
+      <a href='/'>Logo</a>
+      <section>
+        <a href='/'>Home</a>
+        <a href='/perfumes'>Perfumes</a>
+        <a href='/colonias'>Colonias</a>
+        <a href='/cremas'>Cremas de Mano</a>
+      </section>
+    </nav>
+    <article>
+      <h1>Bienvenidos a Serena</h1>
+      <p>
+        Descubre la esencia del cuidado en cada detalle. Desde delicados perfumes y frescas colonias hasta cremas de mano que suavizan y revitalizan la piel. Cada aroma, cada textura, está pensada
+        para resaltar tu belleza natural y acompañarte en cada momento del día con elegancia y bienestar.
+      </p>
+    </article>
+  </header>
+  <main>
+    <article>
+      <section>
+        <h2>Perfumes</h2>
+        <p>
+          Explora nuestra exclusiva colección de perfumes inspirados en las fragancias más icónicas del mundo. Cada aroma ha sido cuidadosamente recreado para capturar la esencia y elegancia de las
+          marcas originales, ofreciendo una experiencia olfativa de alta calidad a un precio accesible.
+        </p>
+        <a href='/perfumes'>Ver Perfumes</a>
+      </section>
+      <section>
+        <img src='#' alt='perfume-img' />
+      </section>
+    </article>
+
+    <article>
+      <section>
+        <h2>Colocias</h2>
+        <p>Texto</p>
+        <a href='/colonias'>Ver Colonias</a>
+      </section>
+      <section>
+        <img src='#' alt='colonia-img' />
+      </section>
+    </article>
+
+    <article>
+      <section>
+        <h2>Cremas de Mano</h2>
+        <p>Texto</p>
+        <a href='/cremas'>Ver Cremas de Mano</a>
+      </section>
+      <section>
+        <img src='#' alt='crema-img' />
+      </section>
+    </article>
+
+    <article>
+      <section>
+        <h2>Crema de manos.</h2>
+        <p>Texto</p>
+        <a href='/cremas'>Ver Cremas de Mano</a>
+      </section>
+      <section>
+        <img src='#' alt='crema-img' />
+      </section>
+    </article>
+  </main>
 </Layout>
