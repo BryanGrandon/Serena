@@ -1,0 +1,22 @@
+{
+  "logo": "Serena",
+
+  "navigation": {
+    "home": {
+      "label": "Inicio",
+      "url": "/"
+    },
+    "perfumes": {
+      "label": "Perfumes",
+      "url": "/perfumes"
+    },
+    "creams": {
+      "label": "Cremas",
+      "url": "/creams"
+    },
+    "colonies": {
+      "label": "Colonias",
+      "url": "/colonies"
+    }
+  }
+}

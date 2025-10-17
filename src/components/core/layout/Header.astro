@@ -1,4 +1,6 @@
 ---
+import Navigation from '../ui/Navigation'
+
 type Props = {
   title?: string
   description?: string
@@ -7,18 +9,10 @@ type Props = {
 const { title, description } = Astro.props
 ---
 
-<header class='test flex flex-col items-center justify-center'>
-  <nav class='w-full flex items-center justify-between p-4'>
-    <a href='/'>Logo</a>
-    <section class='flex gap-5'>
-      <a href='/'>Home</a>
-      <a href='/perfumes'>Perfumes</a>
-      <a href='/colonias'>Colonias</a>
-      <a href='/cremas'>Cremas de Mano</a>
-    </section>
-  </nav>
-  <article class='p-4'>
-    <h1 class='font-basicaline text-4xl text-center py-5'>{title}</h1>
+<header class=''>
+  <Navigation />
+  <article class='flex flex-col items-center justify-center gap-4 p-4 min-h-[60vh]'>
+    <h1 class='font-basicaline text-5xl font-bold text-center'>{title}</h1>
     <p class='prose prose-lg dark:prose-invert'>{description}</p>
   </article>
 </header>
