@@ -1,26 +1,11 @@
 ---
+import Header from '../components/core/layout/Header.astro'
 import Layout from '../layouts/Layout.astro'
+import home from '../data/home.json'
 ---
 
 <Layout>
-  <header>
-    <nav>
-      <a href='/'>Logo</a>
-      <section>
-        <a href='/'>Home</a>
-        <a href='/perfumes'>Perfumes</a>
-        <a href='/colonias'>Colonias</a>
-        <a href='/cremas'>Cremas de Mano</a>
-      </section>
-    </nav>
-    <article>
-      <h1>Bienvenidos a Serena</h1>
-      <p>
-        Descubre la esencia del cuidado en cada detalle. Desde delicados perfumes y frescas colonias hasta cremas de mano que suavizan y revitalizan la piel. Cada aroma, cada textura, está pensada
-        para resaltar tu belleza natural y acompañarte en cada momento del día con elegancia y bienestar.
-      </p>
-    </article>
-  </header>
+  <Header title={home.header.title} description={home.header.description} />
   <main>
     <article>
       <section>
