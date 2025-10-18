@@ -9,8 +9,8 @@ type Props = {
 const { title, description, link, imgSrc, background } = Astro.props
 ---
 
-<article class={`test p-8  ${background ? 'bg-gray-800' : ''}`}>
-  <article class='flex items-center gap-8 p-8 md:flex-row flex-col justify-between max-w-[1300px] mx-auto'>
+<article class={`p-8  ${background ? 'bg-gray-800' : ''}`}>
+  <article class={`flex items-center gap-8 p-8 flex-col justify-between max-w-[1300px] mx-auto ${background ? 'md:flex-row' : 'md:flex-row-reverse '}  `}>
     <section class='flex flex-col gap-4'>
       <div>
         <h2 class='text-3xl font-bold font-basicaline'>{title}</h2>
@@ -20,7 +20,7 @@ const { title, description, link, imgSrc, background } = Astro.props
       <a href={link.href} class='border border-primary bg-primary text-black py-1 px-4 rounded-lg max-w-fit hover:scale-105 active:scale-95'>{link.text}</a>
     </section>
     <section class=''>
-      <img src={imgSrc} alt=`${title}-img` class='object-cover h-50 rounded-lg' />
+      <img src={imgSrc} alt=`${title}-img` class='object-cover h-50 min-w-80 rounded-lg' />
     </section>
   </article>
 </article>

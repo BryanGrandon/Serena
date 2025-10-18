@@ -2,51 +2,10 @@
 import Header from '../components/core/layout/Header.astro'
 import Layout from '../layouts/Layout.astro'
 import home from '../data/home.json'
-import Catalog from '../components/home/layout/Catalog.astro'
+import ContentHome from '../components/home/layout/ContentHome.astro'
 ---
 
 <Layout>
   <Header title={home.header.title} description={home.header.description} />
-  <main>
-    <Catalog
-      title='Perfumes'
-      description='Descubre perfumes inspirados en las fragancias más emblemáticas del mundo. Aromas únicos, elegantes y duraderos, creados para acompañarte en cada momento con distinción.'
-      link={{ href: '/perfumes', text: 'Ver Perfumes' }}
-      imgSrc='https://polinka.top/uploads/posts/2023-06/1686266578_polinka-top-p-krasivie-kartinki-parfyuma-krasivo-29.jpg'
-      background={true}
-    />
-
-    <article>
-      <section>
-        <h2>Colocias</h2>
-        <p>Texto</p>
-        <a href='/colonias'>Ver Colonias</a>
-      </section>
-      <section>
-        <img src='#' alt='colonia-img' />
-      </section>
-    </article>
-
-    <article>
-      <section>
-        <h2>Cremas de Mano</h2>
-        <p>Texto</p>
-        <a href='/cremas'>Ver Cremas de Mano</a>
-      </section>
-      <section>
-        <img src='#' alt='crema-img' />
-      </section>
-    </article>
-
-    <article>
-      <section>
-        <h2>Crema de manos.</h2>
-        <p>Texto</p>
-        <a href='/cremas'>Ver Cremas de Mano</a>
-      </section>
-      <section>
-        <img src='#' alt='crema-img' />
-      </section>
-    </article>
-  </main>
+  <ContentHome />
 </Layout>

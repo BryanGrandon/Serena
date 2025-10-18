@@ -1,0 +1,9 @@
+---
+import home from '../../../data/home.json'
+import Catalog from './Catalog.astro'
+const { catalogs } = home
+---
+
+<main>
+  {catalogs.map((catalog) => <Catalog title={catalog.title} description={catalog.description} link={catalog.link} imgSrc={catalog.imgSrc} background={catalog.background} />)}
+</main>

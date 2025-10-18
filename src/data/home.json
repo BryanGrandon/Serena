@@ -1,6 +1,43 @@
 {
   "header": {
-    "title": "Bienvenido a Serena",
-    "description": "Descubre la esencia del cuidado en cada detalle. Desde delicados perfumes y frescas colonias hasta cremas de mano que suavizan y revitalizan la piel. Cada aroma, cada textura, está pensada para resaltar tu belleza natural y acompañarte en cada momento del día con elegancia y bienestar."
-  }
+    "title": "Bienvenido a Brisa de Paz",
+    "description": "Descubre productos diseñados para resaltar tu belleza natural y brindarte bienestar, desde perfumes y colonias hasta cremas que cuidan y suavizan la piel con elegancia."
+  },
+  "catalogs": [
+    {
+      "title": "Perfumes",
+      "description": "Descubre perfumes inspirados en las fragancias más emblemáticas del mundo. Aromas únicos, elegantes y duraderos, creados para acompañarte en cada momento con distinción.",
+      "link": { "href": "/perfumes", "text": "Ver Perfumes" },
+      "imgSrc": "https://www.krasotkapro.ru/upload/medialibrary/90e/xshhi58fuux58n211quoettfpjrmkvas/5197477789501089524.jpg",
+      "background": true
+    },
+    {
+      "title": "Cremas",
+      "description": "Nuestras cremas de manos están formuladas para hidratar profundamente y proteger tu piel. Con ingredientes nutritivos y fragancias delicadas, son el complemento perfecto para mantener tus manos suaves y cuidadas durante todo el día.",
+      "link": { "href": "/creams", "text": "Ver Cremas" },
+      "imgSrc": "https://scontent.cdninstagram.com/v/t39.30808-6/560128219_1225838419578461_2004041756674307483_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=109&ig_cache_key=Mzc0MzQwMjc4NzI4MDgxMDEzOA%3D%3D.3-ccb1-7&ccb=1-7&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6InhwaWRzLjEzMjB4MTMyMC5zZHIuQzMifQ%3D%3D&_nc_ohc=8F3IdEBTGL4Q7kNvwFfrCKW&_nc_oc=Adkvzyd4ZipFmk2Ca-HcHuPzmLWS2S_GfhR13eRtJbG4JV9m4q_KSLOZ0Im0oUwttac&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=iVMpJkoQlFJ_St717CKI8g&oh=00_Afdsz9UwvtOliGPT-x9rPD3gdYo5FBJmcr9lVts5sJ25Yg&oe=68F8F7D3",
+      "background": false
+    },
+    {
+      "title": "Colonias",
+      "description": "Explora nuestra selección de colonias frescas y revitalizantes. Perfectas para el uso diario, nuestras colonias ofrecen una explosión de frescura que te acompañará en cada paso, dejando una impresión duradera.",
+      "link": { "href": "/colonies", "text": "Ver Colonias" },
+      "imgSrc": "https://polinka.top/uploads/posts/2023-06/1686266578_polinka-top-p-krasivie-kartinki-parfyuma-krasivo-29.jpg",
+      "background": true
+    },
+    {
+      "title": "Cuidado Personal",
+      "description": "Descubre nuestra gama de productos de cuidado personal diseñados para mimarte de pies a cabeza. Desde lociones corporales hasta geles de ducha, cada producto está formulado para ofrecerte una experiencia sensorial única y un cuidado efectivo.",
+      "link": { "href": "/personal-care", "text": "Ver Cuidado Personal" },
+      "imgSrc": "https://www.tebadul.com/storage/posts/image_1627540889_HTItzP1b0Mjn25CMNye3Wny9sLqYtpcxcWQta03E.jpeg",
+      "background": false
+    },
+    {
+      "title": "Ambientadores",
+      "description": "Crea un ambiente acogedor y refrescante en tu hogar con nuestra selección de ambientadores. Desde aromas florales hasta fragancias cítricas, nuestros ambientadores están diseñados para transformar cualquier espacio en un refugio de tranquilidad y bienestar.",
+      "link": { "href": "/Ambientadores", "text": "Ver Ambientadores" },
+      "imgSrc": "https://avatars.mds.yandex.net/i?id=2a0716734620f045f6c5e554b8048b5850245581-5340669-images-thumbs&n=13",
+      "background": true
+    }
+  ]
 }
