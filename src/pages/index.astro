@@ -2,24 +2,19 @@
 import Header from '../components/core/layout/Header.astro'
 import Layout from '../layouts/Layout.astro'
 import home from '../data/home.json'
+import Catalog from '../components/home/layout/Catalog.astro'
 ---
 
 <Layout>
   <Header title={home.header.title} description={home.header.description} />
   <main>
-    <article>
-      <section>
-        <h2>Perfumes</h2>
-        <p>
-          Explora nuestra exclusiva colección de perfumes inspirados en las fragancias más icónicas del mundo. Cada aroma ha sido cuidadosamente recreado para capturar la esencia y elegancia de las
-          marcas originales, ofreciendo una experiencia olfativa de alta calidad a un precio accesible.
-        </p>
-        <a href='/perfumes'>Ver Perfumes</a>
-      </section>
-      <section>
-        <img src='#' alt='perfume-img' />
-      </section>
-    </article>
+    <Catalog
+      title='Perfumes'
+      description='Descubre perfumes inspirados en las fragancias más emblemáticas del mundo. Aromas únicos, elegantes y duraderos, creados para acompañarte en cada momento con distinción.'
+      link={{ href: '/perfumes', text: 'Ver Perfumes' }}
+      imgSrc='https://polinka.top/uploads/posts/2023-06/1686266578_polinka-top-p-krasivie-kartinki-parfyuma-krasivo-29.jpg'
+      background={true}
+    />
 
     <article>
       <section>
