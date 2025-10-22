@@ -1,0 +1,1163 @@
+{
+  "Important": "create description to ladies and add new structure a gentlemen, niche, youthful",
+  "list_of_fragrances-ladies": [
+    {
+      "id": 1,
+      "name": "F01",
+      "inspiration": "Paloma Picasso",
+      "highlight": "Paloma Picasso / 1984 / Chypre Floral",
+      "olfactory_families": ["Chypre", "Floral"],
+      "brand": "perfums d'perfums",
+      "genre": "Woman",
+      "description": "Parfums F01 es un perfume Chipre Floral, elegante y clásico, ideal para mujeres que disfrutan de aromas como Paloma Picasso. Perfecto para el uso diario y climas cálidos."
+    },
+    {
+      "id": 2,
+      "name": "F02",
+      "inspiration": "poison",
+      "highlight": "Christian Doir / 1985 / Floral Especiado",
+      "olfactory_families": ["Floral", "Especiado"],
+      "brand": "perfums d'perfums",
+      "genre": "Woman",
+      "description": ""
+    },
+    {
+      "id": 3,
+      "name": "F03",
+      "inspiration": "Oscar de la Renta",
+      "highlight": "Oscar de la Renta / 1976 / Floral Oriental",
+      "olfactory_families": ["Floral", "Oriental"],
+      "brand": "perfums d'perfums",
+      "genre": "Woman",
+      "description": ""
+    },
+    {
+      "id": 4,
+      "name": "F04",
+      "inspiration": " Angel (T.Mugler)",
+      "highlight": "Thiery Mugier / 1992/ Floral Almizclado",
+      "olfactory_families": ["Floral", "Almizclado"],
+      "brand": "perfums d'perfums",
+      "genre": "Woman",
+      "description": ""
+    },
+    {
+      "id": 5,
+      "name": "F05",
+      "inspiration": "Chanel NO.5",
+      "highlight": "Chanel / 1921 / Floral Aldehídico",
+      "olfactory_families": ["Floral", "Aldehídico"],
+      "brand": "perfums d'perfums",
+      "genre": "Woman",
+      "description": ""
+    },
+    {
+      "id": 6,
+      "name": "F06",
+      "inspiration": "212 VIP Rose",
+      "highlight": "Carolina Herrera / 2014 / Chypre Frutal",
+      "olfactory_families": ["Chypre", "Frutal"],
+      "brand": "perfums d'perfums",
+      "genre": "Woman",
+      "description": ""
+    },
+    {
+      "id": 7,
+      "name": "F07",
+      "inspiration": "Ralph",
+      "highlight": "Ralph Lauren / 2000 / Floral Frutal",
+      "olfactory_families": ["Floral", "Frutal"],
+      "brand": "perfums d'perfums",
+      "genre": "Woman",
+      "description": ""
+    },
+    {
+      "id": 8,
+      "name": "F08",
+      "inspiration": "Paradox (Prada)",
+      "highlight": "Prada / 2022 / Oriental Floral",
+      "olfactory_families": ["Oriental", "Floral"],
+      "brand": "perfums d'perfums",
+      "genre": "Woman",
+      "description": ""
+    },
+    {
+      "id": 9,
+      "name": "F09",
+      "inspiration": "Tresor",
+      "highlight": "Lancôme / 1993 / Floral Frutal",
+      "olfactory_families": ["Frutal", "Floral"],
+      "brand": "perfums d'perfums",
+      "genre": "Woman",
+      "description": ""
+    },
+    {
+      "id": 10,
+      "name": "F10",
+      "inspiration": "Coco Mademoiselle",
+      "highlight": "Chanel / 2002/ Chypre Frutal",
+      "olfactory_families": ["Frutal", "Chypre"],
+      "brand": "perfums d'perfums",
+      "genre": "Woman",
+      "description": ""
+    },
+    {
+      "id": 11,
+      "name": "F11",
+      "inspiration": "Coco Chanel",
+      "highlight": "Chanel/ 1984 / Chypre Frutal",
+      "olfactory_families": ["Frutal", "Chypre"],
+      "brand": "perfums d'perfums",
+      "genre": "Woman",
+      "description": ""
+    },
+    {
+      "id": 12,
+      "name": "F12",
+      "inspiration": "Black Opium",
+      "highlight": "Yves Saint Laurent / 2017 / Floral Oriental",
+      "olfactory_families": ["Frutal", "Oriental"],
+      "brand": "perfums d'perfums",
+      "genre": "Woman",
+      "description": ""
+    },
+    {
+      "id": 13,
+      "name": "F13",
+      "inspiration": "212 Heroes For Her",
+      "highlight": "Carolina Herrera / 2021 / Floral Frutal",
+      "olfactory_families": ["Frutal", "Floral"],
+      "brand": "perfums d'perfums",
+      "genre": "Woman",
+      "description": ""
+    },
+    {
+      "id": 14,
+      "name": "F14",
+      "inspiration": "CH",
+      "highlight": "Carolina Herrera / 2007 / Oriental Citrico",
+      "olfactory_families": ["Oriental", "Citrico"],
+      "brand": "perfums d'perfums",
+      "genre": "Woman",
+      "description": ""
+    },
+    {
+      "id": 15,
+      "name": "F15",
+      "inspiration": "Lolita Lempicka",
+      "highlight": "Lolita Empicka / 1997 / Oriental Frutal",
+      "olfactory_families": ["Oriental", "Frutal"],
+      "brand": "perfums d'perfums",
+      "genre": "Woman",
+      "description": "Personalidad: Sensuales - Seductoras; Notas de Salida son violeta, hiedra y anís estrellado. Notas de Corazón son iris , amarilis, regaliz, raíz de lirio y cereza. Notas de Fondo son haba tonka, vainilla, vetiver, almizcle blanco y praliné."
+    },
+    {
+      "id": 16,
+      "name": "F16",
+      "inspiration": "Anais - Anais",
+      "highlight": "Cacharel / 1978 / Floral Fresco",
+      "olfactory_families": ["Floral", "Fresco"],
+      "brand": "perfums d'perfums",
+      "genre": "Woman",
+      "description": "Personalidad: Tiernas - Románticas; Notas de Salida son flor de azahar del naranjo, lavanda, gálbano, madreselva, jacinto, limón, bergamota, grosellas negras y azucena blanca. Notas de Corazón son jazmín de Marruecos, madreselva, clavel, nardos, iris , azucena, , raíz de lirio, ylang-ylang, lirio de los valles y rosa. Notas de Fondo son cuero, sándalo, ámbar, pachulí, almizcle, musgo de roble, vetiver, incienso y cedro."
+    },
+    {
+      "id": 17,
+      "name": "F17",
+      "inspiration": "O de Lancôme",
+      "highlight": "Lancôme / 1965 / Citrico Chypre",
+      "olfactory_families": ["Citrico", "Chypre"],
+      "brand": "perfums d'perfums",
+      "genre": "Woman",
+      "description": "Personalidad: Activas - Modernas; Notas de Salida son cchabacano, flor de azahar del naranjo, notas verdes, bergamota y palo de rosa de Brasil. Notas de Corazón son madreselva, nardo de la India, jacinto, jazmín, ylang-ylang, lirio de los valles, narciso y jazmín español. Notas de Fondo son sándalo, ámbar, almizcle, algalia, musgo de roble, vetiver y cedro."
+    },
+    {
+      "id": 18,
+      "name": "F18",
+      "inspiration": "Carolina Herrera",
+      "highlight": "Carolina Herrera / 1978 / Floral Fresco",
+      "olfactory_families": ["Floral", "Fresco"],
+      "brand": "perfums d'perfums",
+      "genre": "Woman",
+      "description": "Personalidad: Clásicas - Elegantes; Notas de Salida son chabacano, flor de azahar del naranjo, notas verdes, bergamota y palo de rosa de Brasil. Notas de Corazón son madreselva, nardo de la India, jacinto, jazmín, ylang-ylang, lirio de los valles, narciso y jazmín español. Notas de Fondo son sándalo, ámbar, almizcle, algalia, musgo de roble, vetiver y cedro."
+    },
+    {
+      "id": 19,
+      "name": "F19",
+      "inspiration": "L'eau d'Issey",
+      "highlight": "Issey Miyake / 1992 / Floral Verde",
+      "olfactory_families": ["Floral", "Verde"],
+      "brand": "perfums d'perfums",
+      "genre": "Woman",
+      "description": "Personalidad: Activas - Modernas; Notas de Salida son aldehídos, eucalipto, flor de azahar del naranjo, melón, menta picante, limón y menta acuática. Notas de Corazón son ciclamen, nuez moscada, jengibre, azucena, almizcle, violeta, amapola, fresia, ylang-ylang y rosa. Notas de Fondo son sándalo, ámbar, pachulí, madera de ébano, roble y cedro."
+    },
+    {
+      "id": 20,
+      "name": "F20",
+      "inspiration": "Eternity",
+      "highlight": "Calvin Klein / 1988 / Floral Floral",
+      "olfactory_families": ["Floral", "Floral"],
+      "brand": "perfums d'perfums",
+      "genre": "Woman",
+      "description": "Personalidad: Tiernas - Románticas; Notas de Salida son cítricos, notas verdes, mandarina, fresia y salvia. Notas de Corazón son azucena, clavel, violeta, jazmín, caléndula, lirio de los valles, rosa y narciso. Notas de Fondo son sándalo, ámbar, pachulí, almizcle y heliotropo.irginia, madera de gaiac y notas amaderadas."
+    },
+    {
+      "id": 21,
+      "name": "F21",
+      "inspiration": "Organza",
+      "highlight": "Givenchy / 1996 / Floral Esopeciado",
+      "olfactory_families": ["Floral", "Esopeciado"],
+      "brand": "perfums d'perfums",
+      "genre": "Woman",
+      "description": "Personalidad: Sensuales - Seductoras; Notas de Salida son bergamota, flor del naranjo africano, gardenia, nuez moscada y notas verdes. Notas de Corazón son madreselva, nardos, jazmín, iris , nuez y peonía. Notas de Fondo son vainilla, ámbar, cedro de Virginia, madera de gaiac y notas amaderadas."
+    },
+    {
+      "id": 22,
+      "name": "F22",
+      "inspiration": "Woman",
+      "highlight": "Ralph Lauren / 2017 / Floral Modesto",
+      "olfactory_families": ["Floral", "Modesto"],
+      "brand": "perfums d'perfums",
+      "genre": "Woman",
+      "description": "Personalidad: Activas - Modernas; Notas de Salida son yiang, cassis, pera y mandarina. Notas de Corazón son nardos, ciruela, durazno, rosa de Turquía y azahar. Notas de Fondo son ámbar, sándalo, almizcle y madera de vainilla"
+    },
+    {
+      "id": 23,
+      "name": "F23",
+      "inspiration": "My Way",
+      "highlight": "Giorgio Armani / 2020 / Floral Oriental",
+      "olfactory_families": ["Floral", "Oriental"],
+      "brand": "perfums d'perfums",
+      "genre": "Woman",
+      "description": "Personalidad: Tiernas - Románticas; Notas de Salida son ciruela, notas verdes, fresia, durazno, peonía y almizcle blanco. Notas de Corazón son hierba verde, azucena, jazmín, ylang-ylang, lirio de los valles y rosa. Notas de Fondo son cilantro, sándalo, haba tonka, vainilla, café, incienso y cedro."
+    },
+    {
+      "id": 24,
+      "name": "F24",
+      "inspiration": "Animale",
+      "highlight": "S. Lyon / 1987 / Chypre Floral",
+      "olfactory_families": ["Floral", "Chypre"],
+      "brand": "perfums d'perfums",
+      "genre": "Woman",
+      "description": "Personalidad: Sensuales - Seductoras; Notas de Salida son cilantro, notas verdes, jacinto, neroli, bergamota y palo de rosa de Brasil. Notas de Corazón son miel, clavel, raíz de lirio, jazmín, ylang-ylang, lirio de los valles y rosa. Notas de Fondo son pachulí, almizcle, coco, algalia, musgo de roble y vetiver"
+    },
+    {
+      "id": 25,
+      "name": "F25",
+      "inspiration": "Burberry Her",
+      "highlight": "Burbery / 2018 / Floral Frutal Ambarado",
+      "olfactory_families": ["Floral", "Frutal", "Ambarado"],
+      "brand": "perfums d'perfums",
+      "genre": "Woman",
+      "description": "Nota Salida: Acorde afrutado, durazno blanco, néctar de pera   Nota de Corazón: Acorde gourmand, jazmín, frambuesa silvestre.   Nota de Fondo: Musgo, ámbar amaderado, azúcar caramelizada."
+    },
+    {
+      "id": 26,
+      "name": "F26",
+      "inspiration": "Paris",
+      "highlight": "Yves Saint Laurent / 1983 / Floral Floral",
+      "olfactory_families": ["Floral", "Floral"],
+      "brand": "perfums d'perfums",
+      "genre": "Woman",
+      "description": "Personalidad: Tiernas - Románticas; Notas de Salida son mimosa, flor de azahar del naranjo, notas verdes, rosa, casia, flor del espino, jacinto, bergamota, capuchina y geranio. Notas de Corazón son azucena, violeta, raíz de lirio, jazmín, ylang-ylang, lirio de los valles, flor de azahar del limero y rosa. Notas de Fondo son iris , sándalo, ámbar, almizcle, musgo de roble, heliotropo y cedro."
+    },
+    {
+      "id": 27,
+      "name": "F27",
+      "inspiration": "Be Delicious",
+      "highlight": "Donna Karan / 2004 / Floral Frutal",
+      "olfactory_families": ["Floral", "Frutal"],
+      "brand": "perfums d'perfums",
+      "genre": "Woman",
+      "description": "Personalidad: Activas - Modernas; Notas de Salida son toronja, pepino y magnolia. Notas de Corazón son nardos, rosa, lirio de los valles, violeta y manzana verde. Notas de Fondo son notas amaderadas, ámbar y sándalo."
+    },
+    {
+      "id": 28,
+      "name": "F28",
+      "inspiration": "C.K. One",
+      "highlight": "Calvin Klein / 1994 / Citrico Maderoso",
+      "olfactory_families": ["Citrico", "Maderoso"],
+      "brand": "perfums d'perfums",
+      "genre": "Woman",
+      "description": "Personalidad: Activas - Modernas; Notas de Salida son piña, notas verdes, mandarina, papaya, bergamota, cardamomo y limón. Notas de Corazón son nuez moscada, violeta, raíz de lirio, jazmín, lirio de los valles y rosa. Notas de Fondo son sándalo, ámbar, almizcle, cedro y musgo de roble"
+    },
+    {
+      "id": 29,
+      "name": "F29",
+      "inspiration": "212 Carolina Herrera",
+      "highlight": "Carolina Herrera / 1997 / Floral Fresco",
+      "olfactory_families": ["Floral", "Fresco"],
+      "brand": "perfums d'perfums",
+      "genre": "Woman",
+      "description": "Personalidad: Clásicas - Elegantes; Notas de Salida son flor de azahar del naranjo, mandarina, flor de cactus y bergamota. Notas de Corazón son camelia blanca, azucena, gardenia, fresia, jazmín, rosa, lirio de los valles y peonía. Notas de Fondo son sándalo y almizcle."
+    },
+    {
+      "id": 30,
+      "name": "F30",
+      "inspiration": "Devotion (D&G)",
+      "highlight": "Dolce & Gabbana / 2023 / Citrico Gourmand",
+      "olfactory_families": ["Citrico", "Gourmand"],
+      "brand": "perfums d'perfums",
+      "genre": "Woman",
+      "description": "Nota Salida: Bergamota, limón, naranja   Nota de Corazón: Rosa, miel, jugo de limón   Nota de Fondo: Vainilla, almizcle, caramelo"
+    },
+    {
+      "id": 31,
+      "name": "F31",
+      "inspiration": "Eden",
+      "highlight": "Cacharel / 1994 / Floral Frutal",
+      "olfactory_families": ["Floral", "Frutal"],
+      "brand": "perfums d'perfums",
+      "genre": "Woman",
+      "description": "Personalidad: Tiernas - Románticas; Notas de Salida son mandarina, durazno, bergamota y limón Notas de Corazón son mimosa, piña, nardos, melón, jazmín, nenúfar, lirio de los valles, flor de loto y rosa. Notas de Fondo son sándalo, haba tonka, pachulí, acacia negra y cedro."
+    },
+    {
+      "id": 32,
+      "name": "F32",
+      "inspiration": "Escape",
+      "highlight": "Calvin Klein / 1991 / Floral Frutal",
+      "olfactory_families": ["Floral", "Frutal"],
+      "brand": "perfums d'perfums",
+      "genre": "Woman",
+      "description": "Personalidad: Activas - Modernas; Notas de Salida son chabacano , cilantro, grosellas negras, melón, manzanilla, cempasúchil, mandarina, musgo de roble, casia, lichi, jacinto, manzana, caléndula y ylang-ylang. Notas de Corazón son clavos de olor, clavel, durazno, jazmín, lirio de los valles y rosa. Notas de Fondo son sándalo, ámbar, almizcle, vainilla, musgo de roble, vetiver y cedro"
+    },
+    {
+      "id": 33,
+      "name": "F33",
+      "inspiration": "La Vida Es Bella Intense",
+      "highlight": "Lancôme / 2015 / Oriental Floral",
+      "olfactory_families": ["Oriental", "Floral"],
+      "brand": "perfums d'perfums",
+      "genre": "Woman",
+      "description": "Personalidad: Clásicas - Elegantes; Las Notas de Salida son pera, pimienta rosa, capullos del grosellero, naranja y bergamota; las Notas de Corazón son iris, nardos, ylang-ylang, flor de azahar del naranjo y jazmín sambac (sampaguita); las Notas de Fondo son crema batida y avellana."
+    },
+    {
+      "id": 34,
+      "name": "F34",
+      "inspiration": "Lady Millon Empire",
+      "highlight": "Paco Rabanne / 2019 / Chypre Floral",
+      "olfactory_families": ["Chypre", "Floral"],
+      "brand": "perfums d'perfums",
+      "genre": "Woman",
+      "description": "Personalidad: Tiernas - Románticas; Las Notas de Salida son grosella roja, naranja y esencia de neroli; las Notas de Corazón son ciruela Mirabel, magnolia, osmanto (olivo oloroso) y flor de azahar del naranjo; las Notas de Fondo son coñac, pachulí y almizcle blanco."
+    },
+    {
+      "id": 35,
+      "name": "F35",
+      "inspiration": "Flower By Kenzo",
+      "highlight": "Kenzo / 2000 / Floral Oriental",
+      "olfactory_families": ["Floral", "Oriental"],
+      "brand": "perfums d'perfums",
+      "genre": "Woman",
+      "description": "Personalidad: Tiernas - Románticas; Notas de Salida son grosellas negras, flor del espino, rosa de Bulgaria y mandarina. Notas de Corazón son opopónaco, jazmín, violeta de Parma y rosa. Notas de Fondo son vainilla, almizcle blanco y incienso."
+    },
+    {
+      "id": 36,
+      "name": "F36",
+      "inspiration": "Tommy Girl",
+      "highlight": "Tommy Hilfiger / 1996 / Floral Verde",
+      "olfactory_families": ["Floral", "Verde"],
+      "brand": "perfums d'perfums",
+      "genre": "Woman",
+      "description": "Personalidad: Activas - Modernas; Notas de Salida son grosellas negras, camelia, mandarina y manzano en flor. Notas de Corazón son madreselva, azucena, violeta, menta, toronja, limón y rosa. Notas de Fondo son magnolia, cuero , sándalo, jazmín y cedro"
+    },
+    {
+      "id": 37,
+      "name": "F37",
+      "inspiration": "XS Black Woman",
+      "highlight": "Paco Rabanne / 2007 / Oriental Frutal",
+      "olfactory_families": ["Oriental", "Frutal"],
+      "brand": "perfums d'perfums",
+      "genre": "Woman",
+      "description": "Personalidad: Activas - Seductoras; Notas de Salida son arándano, pimienta rosa y tamarindo. Notas de Corazón son violeta negra , cacao y rosa. Notas de Fondo son pachulí, vainilla y madera de massoia."
+    },
+    {
+      "id": 38,
+      "name": "F38",
+      "inspiration": "J'Adore",
+      "highlight": "Christian Doir / 1999 / Floral Frutal",
+      "olfactory_families": ["Floral", "Frutal"],
+      "brand": "perfums d'perfums",
+      "genre": "Woman",
+      "description": "Personalidad: Clásicas - Elegantes; Notas de Salida son son magnolia, melón, durazno, pera, bergamota y mandarina. Notas de Corazón son nardos, ciruela, violeta, orquídea, fresia, jazmín, lirio de los valles y rosa. Notas de Fondo son almizcle, vainilla, cedro y zarzamora."
+    },
+    {
+      "id": 39,
+      "name": "F39",
+      "inspiration": "Boss Woman",
+      "highlight": "Hugo Boss / 2000 / Floral Frutal",
+      "olfactory_families": ["Floral", "Frutal"],
+      "brand": "perfums d'perfums",
+      "genre": "Woman",
+      "description": "Personalidad: Activas - Modernas; Notas de Salida son grosellas negras, naranja, mandarina, casia, toronja y bergamota. Notas de Corazón son chabacano , azucena, jazmín, lirio de los valles y rosa. Notas de Fondo son ámbar, haba tonka, vainilla, cedro de Virginia y almizcle"
+    },
+    {
+      "id": 40,
+      "name": "F40",
+      "inspiration": "Amor Amor",
+      "highlight": "Cacharel / 2003 / Oriental Frutal",
+      "olfactory_families": ["Oriental", "Frutal"],
+      "brand": "perfums d'perfums",
+      "genre": "Woman",
+      "description": "Personalidad: Tiernas - Románticas; Notas de Salida son grosellas negras, naranja, mandarina, casia, toronja y bergamota. Notas de Corazón son chabacano , azucena, jazmín, lirio de los valles y rosa. Notas de Fondo son ámbar, haba tonka, vainilla, cedro de Virginia y almizcle."
+    },
+    {
+      "id": 41,
+      "name": "F41",
+      "inspiration": "Can Can",
+      "highlight": "Paris Hilton / 2007 / Oriental Frutal",
+      "olfactory_families": ["Oriental", "Frutal"],
+      "brand": "perfums d'perfums",
+      "genre": "Woman",
+      "description": "Personalidad: Tiernas - Románticas; Notas de Salida son clementina, grosellas negras y nectarina Notas de Corazón son flor de azahar del naranjo y orquídea silvestre Notas de Fondo son ámbar, almizcle y notas amaderadas."
+    },
+    {
+      "id": 42,
+      "name": "F42",
+      "inspiration": "Carolina",
+      "highlight": "Carolina Herrera / 2003 / Chypre Floral",
+      "olfactory_families": ["Chypre", "Floral"],
+      "brand": "perfums d'perfums",
+      "genre": "Woman",
+      "description": "Personalidad: Tiernas - Románticas; Notas de Salida son hojas del fresal salvaje, cardamomo y naranja amarga. Notas de Corazón son frutas del bosque, rosa y pimienta. Notas de Fondo son ámbar, almizcle, vainilla y madera de cachemira."
+    },
+    {
+      "id": 43,
+      "name": "F43",
+      "inspiration": "Good Girl",
+      "highlight": "Carolina Herrera / 2016 / Oriental Floral",
+      "olfactory_families": ["Oriental", "Floral"],
+      "brand": "perfums d'perfums",
+      "genre": "Woman",
+      "description": "Personalidad: Activas - Modernas; Notas de Salida son almendra y café. Notas de Corazón son jazmín sambac, nardos y raíz de lirio. Notas de Fondo son haba tonka, cacao, sándalo y vainilla."
+    },
+    {
+      "id": 44,
+      "name": "F44",
+      "inspiration": "Olympea",
+      "highlight": "Paco Rabanne / 2015 / Oriental Floral",
+      "olfactory_families": ["Oriental", "Floral"],
+      "brand": "perfums d'perfums",
+      "genre": "Woman",
+      "description": "Personalidad: Activas - Modernas; Notas de Salida son mandarina verde, jazmín de agua y flor de jengibre. Notas de Corazón son vainilla y sal. Notas de Fondo son ámbar gris, madera de cachemira y sándalo."
+    },
+    {
+      "id": 45,
+      "name": "F45",
+      "inspiration": "Halloween",
+      "highlight": "Jesus del Pozo / 1997 / Floral Frutal",
+      "olfactory_families": ["Floral", "Frutal"],
+      "brand": "perfums d'perfums",
+      "genre": "Woman",
+      "description": "Personalidad: Tiernas - Románticas; Notas de Salida son petit grain, violeta, hoja de plátano y notas marinas. Notas de Corazón son nardos, violeta, pimienta, magnolia y lirio de los valles. Notas de Fondo son sándalo, incienso, vainilla de Madagascar y mirra."
+    },
+    {
+      "id": 46,
+      "name": "F46",
+      "inspiration": "212 Sexy",
+      "highlight": "Carolina Herrera / 2004 / Floral Oriental",
+      "olfactory_families": ["Floral", "Oriental"],
+      "brand": "perfums d'perfums",
+      "genre": "Woman",
+      "description": "Personalidad: Sensuales - Seductoras; Notas de Salida son pimienta rosa, mandarina y bergamota. Notas de Corazón son gardenia, pelargonio, algodón de azúcar, flores y rosa. Notas de Fondo son almizcle, vainilla, sándalo, pachulí, caramelo y violeta."
+    },
+    {
+      "id": 47,
+      "name": "F47",
+      "inspiration": "La Vida Es Bella Rose",
+      "highlight": "Lancôme / 2019 / Floral Chypre",
+      "olfactory_families": ["Floral", "Chypre"],
+      "brand": "perfums d'perfums",
+      "genre": "Woman",
+      "description": "Personalidad: Activas - Modernas; Notas de Salida son bergamota, pimienta rosa, bayas rojas y frambuesa Notas de Corazón son rosa de Damasco, rosa, peonía y lirio de los valles (muguete) Notas de Fondo son iris, pachulí, sándalo y almizcle."
+    },
+    {
+      "id": 48,
+      "name": "F48",
+      "inspiration": "Duende",
+      "highlight": "Jesus del Pozo / 1996 / Floral Verde",
+      "olfactory_families": ["Floral", "Verde"],
+      "brand": "perfums d'perfums",
+      "genre": "Woman",
+      "description": "Personalidad: Activas - Modernas; Notas de Salida son flor del tilo, melón, mandarina y bergamota Notas de Corazón son mimosa, jazmín y ylang-ylang Notas de Fondo son sándalo, cedro, ajenjo (absenta) y tomillo"
+    },
+    {
+      "id": 49,
+      "name": "F49",
+      "inspiration": "Nina",
+      "highlight": "Nica Ricci / 2006 / Orinetal Frutal",
+      "olfactory_families": ["Oriental", "Frutal"],
+      "brand": "perfums d'perfums",
+      "genre": "Woman",
+      "description": "Personalidad: Sensuales - Seductoras; Notas de Salida son limón de Amalfi y lima. Notas de Corazón son manzana Granny Smith, peonía, praliné y datura. Notas de Fondo son árbol de manzano, almizcle y cedro de Virginia."
+    },
+    {
+      "id": 50,
+      "name": "F50",
+      "inspiration": "Light Blue",
+      "highlight": "Dolce & Gabbana / 2001 / Citrico Maderoso",
+      "olfactory_families": ["Citrico", "Maderoso"],
+      "brand": "perfums d'perfums",
+      "genre": "Woman",
+      "description": "Personalidad: Activas - Modernas; Notas de Salida son manzana, cedro, campanilla y limón siciliano. Notas de Corazón son rosa blanca, bambú y jazmín. Notas de Fondo son ámbar, almizcle y cedro."
+    },
+    {
+      "id": 51,
+      "name": "F51",
+      "inspiration": "Si",
+      "highlight": "Armani / 2003 / Chypre Frutal",
+      "olfactory_families": ["Chypre", "Frutal"],
+      "brand": "perfums d'perfums",
+      "genre": "Woman",
+      "description": "Personalidad: Sensuales - Seductoras; Notas de Salida es casis (grosellero negro) Notas de Corazón son fresia y rosa de mayo Notas de Fondo son vainilla, pachulí, ambroxan y notas amaderadas."
+    },
+    {
+      "id": 52,
+      "name": "F52",
+      "inspiration": "Ultravilet",
+      "highlight": "Paco Rabanne / 1999 / Floral Verde",
+      "olfactory_families": ["Floral", "Verde"],
+      "brand": "perfums d'perfums",
+      "genre": "Woman",
+      "description": "Personalidad: Sensuales - Seductoras; Notas de Salida son chabacano, cilantro, pimienta, almendras frescas, chile anaranjado, pimiento morrón y palo de rosa de Brasil. Notas de Corazón son osmanto japonés, violeta, jazmín y rosa. Notas de Fondo son ámbar, pachulí, vainilla y cedro."
+    },
+    {
+      "id": 53,
+      "name": "F53",
+      "inspiration": "Euphoria",
+      "highlight": "Calvin Klein / 2005 / Floral Frutal",
+      "olfactory_families": ["Floral", "Frutal"],
+      "brand": "perfums d'perfums",
+      "genre": "Woman",
+      "description": "Personalidad: Sensuales - Seductoras; Notas de Salida es granada. Notas de Corazón son flor de loto y orquídea. Notas de Fondo son violeta, ámbar, almizcle y caoba."
+    },
+    {
+      "id": 54,
+      "name": "F54",
+      "inspiration": "Lady Millon",
+      "highlight": "Paco Rabanne / 2010 / Floral Oriental",
+      "olfactory_families": ["Floral", "Oriental"],
+      "brand": "perfums d'perfums",
+      "genre": "Woman",
+      "description": "Personalidad: Sensuales - Seductoras; Notas de Salida son neroli, limón de Amalfi y frambuesa. Notas de Corazón son jazmín, flor del naranjo africano y gardenia. Notas de Fondo son pachulí, miel blanca y ámbar."
+    },
+    {
+      "id": 55,
+      "name": "F55",
+      "inspiration": "212 VIP",
+      "highlight": "Carolina Herrera / 2010 / Floral Frutal",
+      "olfactory_families": ["Floral", "Frutal"],
+      "brand": "perfums d'perfums",
+      "genre": "Woman",
+      "description": "Personalidad: Activas - Modernas; Notas de Salida son maracuyá y ron. Notas de Corazón son almizcle y gardenia. Notas de Fondo son haba tonka y vainilla."
+    },
+    {
+      "id": 56,
+      "name": "F56",
+      "inspiration": "Miss Dior Rose",
+      "highlight": "Christian Doir / 2020 / Chypre Floral",
+      "olfactory_families": ["Chypre", "Floral"],
+      "brand": "perfums d'perfums",
+      "genre": "Woman",
+      "description": "Personalidad: Sensuales - Seductoras; Notas de Salida son geranio, bergamota y mandarina italiana; las Notas de Corazón son rosa de Grasse y rosa de Damasco; la Nota de Fondo es almizcle blanco."
+    },
+    {
+      "id": 57,
+      "name": "F57",
+      "inspiration": "La Vida Es Bella",
+      "highlight": "Lancôme / 2012 / Chypre Frutal",
+      "olfactory_families": ["Chypre", "Frutal"],
+      "brand": "perfums d'perfums",
+      "genre": "Woman",
+      "description": "Personalidad: Activas - Modernas; Notas de Salida son grosellas negras y pera Notas de Corazón son iris, jazmín y flor de azahar del naranjo. Notas de Fondo son pachulí, haba tonka, vainilla y praliné."
+    },
+    {
+      "id": 58,
+      "name": "F58",
+      "inspiration": "Libre (Y.S.L.)",
+      "highlight": "Yves Saint Laurent / 2019 / Maderoso Citrico",
+      "olfactory_families": ["Maderoso", "Citrico"],
+      "brand": "perfums d'perfums",
+      "genre": "Woman",
+      "description": "Personalidad: Activas - Modernas; Notas de Salida son notas solares, especias y lirio de los valles (muguete); las Notas de Corazón son magnolia, jazmín y peonía; las Notas de Fondo son vainilla de Tahití, almizcle y ámbar."
+    },
+    {
+      "id": 59,
+      "name": "F59",
+      "inspiration": "Idole",
+      "highlight": "Lancôme / 2019 / Floral Chypre",
+      "olfactory_families": ["Floral", "Chypre"],
+      "brand": "perfums d'perfums",
+      "genre": "Woman",
+      "description": "Personalidad: Sensuales - Delicadas; Notas de Salida son bergamota, pera y pimienta rosa. Notas de Corazón son jazmín, rosa y peonía. Notas de Fondo son vainilla y almizcle blanco."
+    },
+    {
+      "id": 60,
+      "name": "F60",
+      "inspiration": "Acqua Di Gioia",
+      "highlight": "Armani / 2024 / Floral Frutal",
+      "olfactory_families": ["Chypre", "Frutal"],
+      "brand": "perfums d'perfums",
+      "genre": "Woman",
+      "description": "Personalidad: Sensuales - Seductoras; Notas de Salida son limón de Amalfi y menta. Notas de Corazón son jazmín, pimienta rosa y peonía. Notas de Fondo son ládano francés, cedro de Virginia y azúcar."
+    },
+    {
+      "id": 61,
+      "name": "F61",
+      "inspiration": "La Vida Es Bella L' Elixir",
+      "highlight": "Lancôme / 2024 / Floral Frutal",
+      "olfactory_families": ["Floral", "Frutal"],
+      "brand": "perfums d'perfums",
+      "genre": "Woman",
+      "description": "Nota Salida: Frambuesa, bergamota   Nota de Corazón: Hojas de Violeta, Flor de Violeta   Nota de Fondo: Gamuza, Cedro Blanco, Cacao"
+    },
+    {
+      "id": 62,
+      "name": "F62",
+      "inspiration": "Dolce",
+      "highlight": "Dolce & Gabbana / 2014 / Floral Frutal",
+      "olfactory_families": ["Floral", "Frutal"],
+      "brand": "perfums d'perfums",
+      "genre": "Woman",
+      "description": "Personalidad: Tiernas - Románticas; Notas de Salida son flor del papayo y neroli. Notas de Corazón son amarilis, narciso y nenúfar. Notas de Fondo son almizcle y cachemira."
+    },
+    {
+      "id": 63,
+      "name": "F63",
+      "inspiration": "Live Irresistible",
+      "highlight": "Givenchy / 2015 / Floral Oriental",
+      "olfactory_families": ["Floral", "Oriental"],
+      "brand": "perfums d'perfums",
+      "genre": "Woman",
+      "description": "Personalidad: Activas - Modernas; Notas de Salida son piña, pétalos de rosa, toronja y naranja tangerina. Notas de Corazón son rosa, pimienta y maracuyá. Notas de Fondo son ámbar, almizcle, raíz de lirio, pachulí, praliné y vainilla."
+    },
+    {
+      "id": 64,
+      "name": "F64",
+      "inspiration": "La Nuit Tresor",
+      "highlight": "Lancôme / 2015 / Floral Oriental",
+      "olfactory_families": ["Floral", "Oriental"],
+      "brand": "perfums d'perfums",
+      "genre": "Woman",
+      "description": "Personalidad: Activas - Modernas; Notas de Salida son frambuesa y manzana Notas de Corazón son rosa turca AE, violeta, lirio del valle. Notas de Fondo son vainilla, patchouli, madera ambarada, almizcle"
+    },
+    {
+      "id": 65,
+      "name": "F65",
+      "inspiration": "Fame",
+      "highlight": "Paco Rabanne / 2022  / Floral Maderoso",
+      "olfactory_families": ["Floral", "Maderoso"],
+      "brand": "perfums d'perfums",
+      "genre": "Woman",
+      "description": "Personalidad: Activas - Modernas; Notas de Salida son frambuesa y manzana Notas de Corazón son rosa turca AE, violeta, lirio del valle. Notas de Fondo son vainilla, patchouli, madera ambarada, almizcle"
+    },
+    {
+      "id": 66,
+      "name": "F66",
+      "inspiration": "Very Good Girl",
+      "highlight": "Carolina Herrera / 2021 / Floral Frutal",
+      "olfactory_families": ["Floral", "Frutal"],
+      "brand": "perfums d'perfums",
+      "genre": "Woman",
+      "description": "Personalidad: Activas - Modernas; Notas de Salida son frambuesa y manzana Notas de Corazón son rosa turca AE, violeta, lirio del valle. Notas de Fondo son vainilla, patchouli, madera ambarada, almizcle"
+    }
+  ],
+  "list_of_fragrances-gentlemen": [
+    {
+      "id": 1,
+      "name": "H01",
+      "inspiration": "Drakkar Noir",
+      "highlight": "Guy Laroche / 1982 / Fougère Fresco",
+      "description": "Personalidad: Seductores - Sensuales; Notas de Salida son romero, abrótano, lavanda, albahaca, cedrón (hierba luisa, verbena de olor), bergamota, limón (lima ácida) y menta Notas de Corazón son cilantro, clavel, canela, enebro de Virginia, jazmín, angélica y ajenjo (absenta) Notas de Fondo son cuero, sándalo, abeto, ámbar, pachulí, musgo de roble, vetiver, cedro, agujas de pino y resinas."
+    },
+    {
+      "id": 2,
+      "name": "H02",
+      "inspiration": "Azzaro Pour Homme",
+      "highlight": "Azzaro / 1978 / Fougère Aromático",
+      "description": "Personalidad: Clásicos - Elegantes; Notas de Salida son alcaravea, iris, lavanda, esclarea, albahaca, anís, bergamota y limón (lima ácida) Notas de Corazón son sándalo, bayas de enebro, pachulí, vetiver, cedro y cardamomo Notas de Fondo son cuero, haba tonka, ámbar, almizcle y musgo de roble."
+    },
+    {
+      "id": 3,
+      "name": "03",
+      "inspiration": "Quorum",
+      "highlight": "Puig / 1981 / Chypre Aromático",
+      "description": "Personalidad: Clásicos - Elegantes; Notas de Salida son abrótano, alcaravea, toronja (pomelo), bergamota y limón (lima ácida) Notas de Corazón son ciclamen (violeta persa), pino, clavel, sándalo, pachulí y jazmínNotas de Fondo son cuero, ámbar, musgo de roble y tabaco."
+    },
+    {
+      "id": 4,
+      "name": "H04",
+      "inspiration": "Paco Rabanne",
+      "highlight": "Paco Rabanne / 1973 / Fougère Aromático",
+      "description": "Personalidad: Clásicos - Elegantes; Notas de Salida son romero, esclarea y palo de rosa de Brasil Notas de Corazón son haba tonka, lavanda y geranio Notas de Fondo son miel, ámbar, almizcle y musgo de roble."
+    },
+    {
+      "id": 5,
+      "name": "H05",
+      "inspiration": "Invictus Platinum (P. Rabanne)",
+      "highlight": "Paco Rabanne / 2022 / Maderoso Aromático",
+      "description": "Personalidad: Clásicos - Elegantes; Notas de Salida son bayas de enebro, lavanda, albahaca, bergamota y limón (lima ácida) Notas de Corazón son clavel, esclarea, alcaravea, agujas de pino y geranio Notas de Fondo son haba tonka, ámbar, almizcle, musgo de roble y cedro."
+    },
+    {
+      "id": 6,
+      "name": "H06",
+      "inspiration": "Polo Blue",
+      "highlight": "Ralph Lauren / 2002 / Maderoso Frutal",
+      "description": "Personalidad: Activos - Dinámicos; Notas de Salida son melón, mandarina y pepino Notas de Corazón son albahaca, salvia y geranio Notas de Fondo son almizcle, notas amaderadas y gamuza."
+    },
+    {
+      "id": 7,
+      "name": "H07",
+      "inspiration": "212 Heròes Men",
+      "highlight": "Carolina Herrera / 2021 / Fougère Frutal ",
+      "description": "Personalidad: Activos - Dinámicos; Notas de Salida son limón de Amalfi (lima de Amalfi) y mandarina Notas de Corazón son cedro de Virginia, cilantro y violeta Notas de Fondo son ládano francés, ámbar, styrax, benjuí y cuero."
+    },
+    {
+      "id": 8,
+      "name": "H08",
+      "inspiration": "Armani Code Sport",
+      "highlight": "Giorgio Armani / 2004 / Maderoso Aromático",
+      "description": "Personalidad: Seductor - Moderno; Notas de Salida son mandarina y menta Notas de Corazón son flor de jengibre y limón (lima ácida) Notas de Fondo son vetiver, ámbar y notas acuáticas."
+    },
+    {
+      "id": 9,
+      "name": "H09",
+      "inspiration": "Tommy",
+      "highlight": "Tommy Hilfiger / 1995 / Maderoso Aromático",
+      "description": "Personalidad: Activos - Dinámicos; Notas de Salida son menta, lavanda, toronja (pomelo) y bergamota Notas de Corazón son arándano, rosa y manzana Granny Smith Notas de Fondo son ámbar, cactus y flor del algodonero."
+    },
+    {
+      "id": 10,
+      "name": "H10",
+      "inspiration": "Carolina Herrera",
+      "highlight": "Carolina Herrera / 1991 / Maderoso Aromático",
+      "description": "Personalidad: Clásicos - Elegantes; Notas de Salida son lavanda, salvia, bergamota, limón de Amalfi (lima de Amalfi) y enebro de Virginia Notas de Corazón son clavel, clavo de olor, tomillo, hoja de laurel y pino Notas de Fondo son vetiver, almizcle, sándalo, pachulí, musgo de roble y cuero."
+    },
+    {
+      "id": 11,
+      "name": "H11",
+      "inspiration": "Agua Brava",
+      "highlight": "Puig / 1968 / Fougère Aromático",
+      "description": "Personalidad: Clásicos - Elegantes; Notas de Salida son lavanda, salvia, bergamota, limón de Amalfi (lima de Amalfi) y enebro de Virginia Notas de Corazón son clavel, clavo de olor, tomillo, hoja de laurel y pino Notas de Fondo son vetiver, almizcle, sándalo, pachulí, musgo de roble y cuero."
+    },
+    {
+      "id": 12,
+      "name": "H12",
+      "inspiration": "Ted Lapidus Pour Homme",
+      "highlight": "Ted Lapidus / 1978 / Chypre Maderoso",
+      "description": "ersonalidad: Seductores - Sensuales; Notas de Salida son abrótano, piña, bayas de enebro, albahaca, bergamota, limón (lima ácida) y lavanda Notas de Corazón son pino, miel, raíz de lirio, jazmín, alcaravea, petit grain, lirio de los valles (muguete), rosa, palo de rosa de Brasil y incienso Notas de Fondo son sándalo, haba tonka, ámbar, pachulí, almizcle, musgo de roble, cedro y tabaco."
+    },
+    {
+      "id": 13,
+      "name": "H13",
+      "inspiration": "Polo Sport",
+      "highlight": "Ralph Lauren / 1994 / Fougère Aromático",
+      "description": "Personalidad: Activos - Dinámicos; Notas de Salida son aldehídos, abrótano, lavanda, mandarina, menta, neroli, bergamota y limón (lima ácida) Notas de Corazón son ciclamen (violeta persa), jengibre, hierba marina, jazmín, rosa, palo de rosa de Brasil y geranio Notas de Fondo son sándalo, ámbar, almizcle, madera de gaiac y cedro."
+    },
+    {
+      "id": 14,
+      "name": "H14",
+      "inspiration": "212 For Men",
+      "highlight": "Carolina Herrera / 1994 / Maderoso Verde",
+      "description": "Personalidad: Seductores - Sensuales; Notas de Salida son especias, petit grain, lavanda, notas verdes, toronja (pomelo) y bergamota Notas de Corazón son jengibre, , gardenia, violeta y salvia Notas de Fondo son ládano, sándalo, almizcle, madera de gaiac, vetiver e incienso."
+    },
+    {
+      "id": 15,
+      "name": "H15",
+      "inspiration": "Sauvage Elixir (C. Dior)",
+      "highlight": "Christian Doir / 2021 / Fougère Aromático",
+      "description": "Personalidad: Activos - Dinámicos; Notas de Salida son toronja (pomelo), naranja amarga, limón (lima ácida) y manzana Notas de Corazón son jengibre, canela, clavos de olor y geranio Notas de Fondo son vetiver y notas amaderadas."
+    },
+    {
+      "id": 16,
+      "name": "H16",
+      "inspiration": "XS",
+      "highlight": "Paco Rabanne / 1993 / Fougère Maderoso",
+      "description": "Personalidad: Seductores - Sensuales; Notas de Salida son romero, mandarina, estragón, menta, bergamota y limón (lima ácida) Notas de Corazón son cilantro, enebro de Virginia, salvia, geranio bourbon y palo de rosa de Brasil Notas de Fondo son ámbar, pachulí, sándalo, almizcle, vainilla, musgo de roble y cedro."
+    },
+    {
+      "id": 17,
+      "name": "H17",
+      "inspiration": "Burberry Hero",
+      "highlight": "Burbery / 2021 / Oriental Frutal",
+      "description": "Nota Salida: Manzana, cardamomo, acorde verde   Nota de Corazón: Canela, piña, madera de cedro   Nota de Fondo: Cypriol, ámbar amaderado, Cachemira."
+    },
+    {
+      "id": 18,
+      "name": "H18",
+      "inspiration": "Sauvage",
+      "highlight": "Christian Doir / 2021 / Fougère Maderoso",
+      "description": "Personalidad: Activos - Dinámicos; Notas de Salida son lavanda, bergamota, cedrón (hierba luisa, verbena de olor) y piña Notas de Corazón son cumarina, musgo de roble, geranio, rosa, manzana roja y frutos secos Notas de Fondo son sándalo y haba tonka."
+    },
+    {
+      "id": 19,
+      "name": "H19",
+      "inspiration": "Fahrenheit",
+      "highlight": "Christian Doir / 1988 / Maderoso Floral",
+      "description": "Personalidad: Clásicos - Elegantes; Notas de Salida son lavanda, mandarina, flor del espino, flor del moscadero, cedro, bergamota, manzanilla y limón (lima ácida) Notas de Corazón son nuez moscada, madreselva, clavel, sándalo, hojas de violeta, jazmín, lirio de los valles (muguete) y cedro Notas de Fondo son cuero, haba tonka, ámbar, pachulí, almizcle y vetiver."
+    },
+    {
+      "id": 20,
+      "name": "H20",
+      "inspiration": "Acqua D' Gio Profondo",
+      "highlight": "Giorgio Armani / 2020 / Citrico Amaderado",
+      "description": "Nota Salida: Bergamota, mandarina, melón   Nota de Corazón: Manzana, ciprés, madera seca   Nota de Fondo: Pachulí, almizcle, ámbar mineral"
+    },
+    {
+      "id": 21,
+      "name": "H21",
+      "inspiration": "Elements",
+      "highlight": "Hugo Boss / 1993 / Maderoso Aromático",
+      "description": "Personalidad: Clásicos - Elegantes; Notas de Salida son cítricas y notas acuáticas Notas de Corazón son jengibre y cilantro Notas de Fondo son almizcle y cedro de Virginia."
+    },
+    {
+      "id": 22,
+      "name": "H22",
+      "inspiration": "Acqua Di Gio Pour Homme",
+      "highlight": "Giorgio Armani / 1994 / Maderoso Citrico",
+      "description": "Personalidad: Activos - Dinámicos; Notas de Salida son naranja, lima (limón verde), mandarina, jazmín, bergamota, limón (lima ácida) y neroli Notas de Corazón son ciclamen (violeta persa), nuez moscada, reseda (miñoneta), cilantro, violeta, fresia, notas marinas, durazno (melocotón), jacinto, rosa, jazmín, romero y calone Notas de Fondo son ámbar, pachulí, musgo de roble, cedro y almizcle blanco."
+    },
+    {
+      "id": 23,
+      "name": "H23",
+      "inspiration": "Halloween Man",
+      "highlight": "Jesus del Pozo / Oriental Maderoso",
+      "description": "Personalidad: Clásicos - Elegantes; Notas de Salida son mandarina, albahaca, hojas de violeta y Martini Notas de Corazón son lavanda, flor de azahar del naranjo, flor de jengibre y canela Notas de Fondo son almizcle, ámbar, vainilla y cuero."
+    },
+    {
+      "id": 24,
+      "name": "H24",
+      "inspiration": "Boss",
+      "highlight": "Hugo Boss / 1998 / Oriental Maderoso",
+      "description": "Personalidad: Seductores - Sensuales; Notas de Salida son ciruela, musgo de roble, manzana, limón (lima ácida), bergamota y geranio Notas de Corazón son caoba, clavel y canela Notas de Fondo son sándalo, olivo, vainilla, vetiver y cedro."
+    },
+    {
+      "id": 25,
+      "name": "H25",
+      "inspiration": "212 Vip Men",
+      "highlight": "Carolina Herrera / 2011 / Oriental Maderoso",
+      "description": "Personalidad: Dimamicos - Sensuales; Notas de Salida son lima (limón verde), pimienta, jengibre y maracuyá (fruta de la pasión) Notas de Corazón son especias, vodka, ginebra y menta Notas de Fondo son ámbar, cuero y notas amaderadas."
+    },
+    {
+      "id": 26,
+      "name": "H26",
+      "inspiration": "C.K. One",
+      "highlight": "Calvin Klein / 1994 / Citrico Fresco",
+      "description": "Personalidad: Activas - Modernas; Notas de Salida son piña, notas verdes, mandarina, papaya, bergamota, cardamomo y limón. Notas de Corazón son nuez moscada, violeta, raíz de lirio, jazmín, lirio de los valles y rosa. Notas de Fondo son sándalo, ámbar, almizcle, cedro y musgo de roble"
+    },
+    {
+      "id": 27,
+      "name": "H27",
+      "inspiration": "XS Black Men",
+      "highlight": "Paco Rabanne / 2005 / Maderoso Frutal",
+      "description": "Personalidad: Activos - Dinámicos; Las Notas de Salida son limón (lima ácida), salvia, cempasúchil (tagete, clavelón) y cítricos Notas de Corazón son praliné, canela, cardamomo negro y bálsamo de Tolú Notas de Fondo son ámbar negro, pachulí, palisandro y árbol de ébano."
+    },
+    {
+      "id": 28,
+      "name": "H28",
+      "inspiration": "Eros",
+      "highlight": "Versace / 2012 / Oriental Maderoso",
+      "description": "Personalidad: Activos - Dinámicos; Las Notas de Salida son limón (lima ácida), salvia, cempasúchil (tagete, clavelón) y cítricos Notas de Corazón son praliné, canela, cardamomo negro y bálsamo de Tolú Notas de Fondo son ámbar negro, pachulí, palisandro y árbol de ébano."
+    },
+    {
+      "id": 29,
+      "name": "H29",
+      "inspiration": "One Millon Intense",
+      "highlight": "Paco Rabanne / 2013 / Oriental Frutal",
+      "description": "Personalidad: Seductores - Sensuales; Las Notas de Salida son mandarina roja, cardamomo, pimienta negra y azafrán Notas de Corazón son rosa, neroli y canela Notas de Fondo son cuero, raíz de lirio, pachulí y sándalo."
+    },
+    {
+      "id": 30,
+      "name": "H30",
+      "inspiration": "Light Blue Men",
+      "highlight": "Dolce & Gabbana / 2007 / Maderoso Aromático",
+      "description": "Personalidad: Seductores - Sensuales; Las Notas de Salida son limón italiano (lima italiana) y jengibre Notas de Corazón son lavanda y ciprés Notas de Fondo son cedro y vetiver."
+    },
+    {
+      "id": 31,
+      "name": "H31",
+      "inspiration": "Polo Black",
+      "highlight": "Ralph Lauren / 2007 / Fougère Maderoso",
+      "description": "Personalidad: Clásicos - Elegantes; Notas: Contiene sándalo, haba tonka, pachulí, mango, salvia, naranja tangerina, limón (lima ácida) y ajenjo (absenta)."
+    },
+    {
+      "id": 32,
+      "name": "H32",
+      "inspiration": "Y Edt (Y.S.L.)",
+      "highlight": "Yves Saint Laurent / 2021 / Fougère Maderoso",
+      "description": "Personalidad: Seductores - Sensuales; Un estallido de frescura es alimentado por una nota alta de naranja amarga. Al cargar el soñador interno, las notas frescas de ciprés crean una entrada a un corazón humeante de resina y salvia. Las notas a tierra de madera noble de cedro, sándalo y almizcle."
+    },
+    {
+      "id": 33,
+      "name": "H33",
+      "inspiration": "Le Beu (J.P. Gaultier)",
+      "highlight": "Jean Paul Gaultier / 2019 / Fougère Oriental",
+      "description": "Personalidad: Activos - Dinámicos; Notas de Salida son casia, bergamota, naranja tangerina y hojas de tomatera Notas de Corazón son pimienta y rosa Notas de Fondo son sándalo y pachulí."
+    },
+    {
+      "id": 34,
+      "name": "H34",
+      "inspiration": "One Millon",
+      "highlight": "Paco Rabanne / 2008 / Maderoso Frutal",
+      "description": "Personalidad: Activos - Dinámicos; Notas de Salida son toronja (pomelo), menta y mandarina roja Notas de Corazón son rosa, canela y notas especiadas Notas de Fondo son cuero, notas amaderadas, ámbar y pachulí hindú."
+    },
+    {
+      "id": 35,
+      "name": "H35",
+      "inspiration": "Myslf (Y.S.L.)",
+      "highlight": "Yves Saint Laurent / 2023 / Amaderado Frutal",
+      "description": "Nota Salida: Bergamota, pimienta negra, pimienta rosada   Nota de Corazón: Lavanda, flor de naranjo, iris polvoso   Nota de Fondo: Cedro, orcanox , maderas ambaradas."
+    },
+    {
+      "id": 36,
+      "name": "H36",
+      "inspiration": "Invictus",
+      "highlight": "Paco Rabanne / 2013 / Fougère Oriental",
+      "description": "Personalidad: Dimamicos - Seductores; Notas de Salida son toronja (pomelo), notas marinas y mandarina Notas de Corazón son hoja de laurel y jazmín Notas de Fondo son madera de gaiac, musgo de roble, pachulí y ámbar gris."
+    },
+    {
+      "id": 37,
+      "name": "H37",
+      "inspiration": "Acqua Di Gio Absolu",
+      "highlight": "Giorgio Armani / 2018 / Maderoso Citrico",
+      "description": "Personalidad: Clásicos - Elegantes; Notas de Salida son bergamota, notas marinas, toronja (pomelo), limón (lima ácida), pera y manzana Notas de Corazón son geranio, lavanda y romero Notas de Fondo son pachulí, notas amaderadas, ládano, haba tonka y Amberwood."
+    },
+    {
+      "id": 38,
+      "name": "H38",
+      "inspiration": "Polo Red",
+      "highlight": "Ralph Lauren / 2013 / Fougère Oriental",
+      "description": "Personalidad: Dimamicos - Seductores; Notas de Salida son toronja (pomelo), limón italiano (lima italiana) y arándano Notas de Corazón son azafrán y salvia Notas de Fondo son notas amaderadas, ámbar y café."
+    },
+    {
+      "id": 39,
+      "name": "H39",
+      "inspiration": "Gucci Guilty",
+      "highlight": "Gucci / 2011/ Oriental Frutal",
+      "description": "Personalidad: Activos - Dinámicos; Notas de Salida son lavanda y limón de Amalfi (lima de Amalfi) Nota de Corazón es flor del naranjo africano Notas de Fondo son pachulí, cedro de Virginia y vainilla."
+    },
+    {
+      "id": 40,
+      "name": "H40",
+      "inspiration": "212 Vip Black",
+      "highlight": "Carolina Herrera / 2017 / Fougère Oriental",
+      "description": "Personalidad: Activos - Dinámicos; Notas de Salida son absenta, anís y hinojo Nota de Corazón es lavanda Notas de Fondo son almizcle y vaina de vainilla negra."
+    },
+    {
+      "id": 41,
+      "name": "H41",
+      "inspiration": "Bleu (Chanel)",
+      "highlight": "Chanel / 2010 / Maderoso Citrico",
+      "description": "Nota Salida: Limón, naranja, pomelo   Nota de Corazón: Fresia, Ambroxan   Nota de Fondo: Madera de cedro, ámbar amaderado, vetiver, musgo"
+    },
+    {
+      "id": 42,
+      "name": "H42",
+      "inspiration": "Pure XS",
+      "highlight": "Paco Rabanne / 2017 / Fougère Especiado",
+      "description": "Personalidad: Clásicos - Elegantes; Notas de Salida son jengibre, acordes verdes, tomillo, bergamota y toronja (pomelo) Notas de Corazón son vainilla, canela, cuero, Licor y manzana Notas de Fondo son cedro, mirra, azúcar, cachemira, pachulí y notas amaderadas."
+    },
+    {
+      "id": 43,
+      "name": "H43",
+      "inspiration": "Bad Boy",
+      "highlight": "Carolina Herrera / 2018 / Oriental Especiado",
+      "description": "Personalidad: Seductores - Sensuales; Notas de Salida son bergamota, pimienta negra y pimienta blanca Notas de Corazón son cedro y salvia Notas de Fondo son haba tonka, Amberwood y cacao."
+    },
+    {
+      "id": 44,
+      "name": "H44",
+      "inspiration": "Phantom",
+      "highlight": "Paco Rabanne / 2021 / Fougère Aromático",
+      "description": "Personalidad: Seductores - Sensuales; Notas de Salida son bergamota, pimienta negra y pimienta blanca Notas de Corazón son cedro y salvia Notas de Fondo son haba tonka, Amberwood y cacao."
+    }
+  ],
+  "list_of_fragrances-niche": [
+    {
+      "id": 1,
+      "name": "Q1",
+      "inspiration": "English Pear And Freesia",
+      "type": "red",
+      "genre": "Woman",
+      "highlight": "Jo Malone"
+    },
+    {
+      "id": 2,
+      "name": "Q2",
+      "inspiration": "Black Orchid",
+      "type": "red",
+      "genre": "Woman",
+      "highlight": "Tom Ford"
+    },
+    {
+      "id": 3,
+      "name": "Q3",
+      "inspiration": "Love Don't Be Shy",
+      "type": "red",
+      "genre": "Woman",
+      "highlight": "De Kilian"
+    },
+    {
+      "id": 4,
+      "name": "Q4",
+      "inspiration": "Soleil Blanc",
+      "type": "red",
+      "genre": "Woman",
+      "highlight": "Tom Ford"
+    },
+    {
+      "id": 5,
+      "name": "Q5",
+      "inspiration": "Baccarat Rouge",
+      "type": "red",
+      "genre": "Woman",
+      "highlight": "Maison Francis Kurkdjian"
+    },
+    {
+      "id": 51,
+      "name": "Q51",
+      "inspiration": "Santal 33",
+      "type": "Black",
+      "genre": "Men",
+      "highlight": "Le Labo"
+    },
+    {
+      "id": 52,
+      "name": "Q52",
+      "inspiration": "Ombre Leather (2018)",
+      "type": "Black",
+      "genre": "Men",
+      "highlight": "Tom Ford"
+    },
+    {
+      "id": 53,
+      "name": "Q53",
+      "inspiration": "Silver Mountain Water Edp",
+      "type": "Black",
+      "genre": "Men",
+      "highlight": "Creed"
+    },
+    {
+      "id": 54,
+      "name": "Q54",
+      "inspiration": "Aventus Edp",
+      "type": "Black",
+      "genre": "Men",
+      "highlight": "Creed"
+    },
+    {
+      "id": 55,
+      "name": "Q55",
+      "inspiration": "Neroli Portofino",
+      "type": "Black",
+      "genre": "Men",
+      "highlight": "Tom Ford"
+    },
+    {
+      "id": 56,
+      "name": "Q56",
+      "inspiration": "Born In Roma Uomo",
+      "type": "Black",
+      "genre": "Men",
+      "highlight": "Valentino"
+    },
+    {
+      "id": 57,
+      "name": "Q57",
+      "inspiration": "Erba Pura",
+      "type": "Black",
+      "genre": "Men",
+      "highlight": "Xerjoff"
+    },
+    {
+      "id": 58,
+      "name": "Q58",
+      "inspiration": "L'immensite",
+      "type": "Black",
+      "genre": "Men",
+      "highlight": "Louis Vuitton"
+    }
+  ],
+  "list_of_fragrances-youthful": [
+    {
+      "id": 0,
+      "name": "J00",
+      "inspiration": "Cloud",
+      "highlight": "Ariana Grande",
+      "genre": "woman",
+      "description": "Perfume Femenino Adolescente. Notas de Salida son kiwi, lichi rojo y membrillo, Notas de Corazón son chocolate blanco, jazmín, orquídea y quequito (pastelito), Notas de Fondo son almizcle, raíz de lirio y notas amaderadas."
+    },
+    {
+      "id": 1,
+      "name": "J01",
+      "inspiration": "Fantasy",
+      "highlight": "Britney Spears",
+      "genre": "woman",
+      "description": "Perfume Femenino Adolescente. Notas de Salida son kiwi, lichi rojo y membrillo, Notas de Corazón son chocolate blanco, jazmín, orquídea y quequito (pastelito), Notas de Fondo son almizcle, raíz de lirio y notas amaderadas."
+    },
+    {
+      "id": 2,
+      "name": "J02",
+      "inspiration": "Selena",
+      "highlight": "Selena Gomez",
+      "genre": "woman",
+      "description": "Perfume Femenino Adolescente. Notas de Salida son naranja, durazno (melocotón), piña y frambuesa, Notas de Corazón son almizcle, fresia y zarzamora (frambuesa negra), Notas de Fondo son ámbar, vainilla, chocolate oscuro y coco."
+    },
+    {
+      "id": 3,
+      "name": "J03",
+      "inspiration": "Bombshell",
+      "highlight": "Victoria's Secret",
+      "genre": "woman",
+      "description": "Perfume Femenino Adolescente. Las Notas de Salida son mandarina, toronja, pera y mora; las Notas de Corazón son durazno, peonia, fresia, magnolia y mugane; las Notas de Fondo son pachuli, sándalo, vainilla, almizcles y madera."
+    },
+    {
+      "id": 4,
+      "name": "J04",
+      "inspiration": "Thank You Next",
+      "highlight": "Ariana Grande",
+      "genre": "woman",
+      "description": "Perfume Femenino Adolescente. Las Notas de Salida son frambuesa y pera; las Notas de Corazón son coco y rosa rosada; las Notas de Fondo son macarrones dulces y almizcle."
+    },
+    {
+      "id": 5,
+      "name": "J05",
+      "inspiration": "Meow",
+      "highlight": "Katty Perry",
+      "genre": "woman",
+      "description": "Perfume Femenino Adolescente. Notas de Salida son jazmín, gardenia, naranja tangerina y pera, Notas de Corazón son flor del naranjo africano, madreselva y lirio de los valles (muguete), Notas de Fondo son almizcle, sándalo, ámbar y vainilla."
+    },
+    {
+      "id": 6,
+      "name": "J06",
+      "inspiration": "Sweet Like Candy",
+      "highlight": "Ariana Grande",
+      "genre": "woman",
+      "description": "Perfume Femenino Adolescente. Notas de Salida son zarzamora (frambuesa negra), bergamota y pera, Notas de Corazón son grosellas negras, crema batida, malvavisco (bombón), jazmín, frangipani (plumeria, plumaria, atapaima) y madreselva, Notas de Fondo son vainilla y madera de cachemira."
+    },
+    {
+      "id": 7,
+      "name": "J07",
+      "inspiration": "Legacy",
+      "highlight": "Cristiano Ronaldo",
+      "genre": "Men",
+      "description": "Perfume Masculino Adolescente. Las Notas de Salida son manzana verde, bergamota, lavanda y canela Las Notas de Corazón son cedro, violeta, peonía, romero, salvia y raíz de lirio Las Notas de Fondo son ámbar gris, pachulí y vetiver."
+    },
+    {
+      "id": 8,
+      "name": "J08",
+      "inspiration": "Spirit Of The Brave",
+      "highlight": "Neymar Diesel",
+      "genre": "Men",
+      "description": "Perfume Masculino Adolescente. Las Notas de Salida son bergamota y gálbano. Las Notas de Corazón son abeto y ciprés. Las Notas de Fondo son haba tonka y ládano."
+    },
+    {
+      "id": 9,
+      "name": "J09",
+      "inspiration": "Invictus Aqua",
+      "highlight": "Paco Rabanne",
+      "genre": "Men",
+      "description": "Perfume Masculino Adolescente. Las Notas de Salida son yuzu, toronja (pomelo) y pimienta rosa. Las Notas de Corazón son agua de mar y hojas de violeta. Las Notas de Fondo son ámbar gris, Amberwood y madera de gaiac."
+    }
+  ]
+}

@@ -18,5 +18,30 @@
       "label": "Colonias",
       "url": "/colonies"
     }
+  },
+
+  "perfums_img": {
+    "ladies": {
+      "box": "/public/perfums/perfumes/F/F-box.webp",
+      "100ml": "/public/perfums/perfumes/F/F-100ml.webp",
+      "50ml": "/public/perfums/perfumes/F/F-50ml.webp",
+      "20ml": "/public/perfums/perfumes/F/F-20ml.webp"
+    },
+    "gentlemen": {
+      "box": "/public/perfums/perfumes/H/H-box.webp",
+      "100ml": "/public/perfums/perfumes/H/H-100ml.webp",
+      "50ml": "/public/perfums/perfumes/H/H-50ml.webp",
+      "20ml": "/public/perfums/perfumes/H/H-20ml.webp"
+    },
+    "niche": {
+      "red": {
+        "box": "/public/perfums/perfumes/Q/Q-red-box.webp",
+        "100ml": "/public/perfums/perfumes/Q/Q-red.webp"
+      },
+      "black": {
+        "box": "/public/perfums/perfumes/Q/Q-black-box.webp",
+        "100ml": "/public/perfums/perfumes/Q/Q-black.webp"
+      }
+    }
   }
 }
