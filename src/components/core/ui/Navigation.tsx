@@ -10,8 +10,6 @@ const Navigation = () => {
     { id: 4, name: navigation.creams.label, href: navigation.creams.url },
   ]
 
-  console.log(general.perfumes.ladies.box)
-
   return (
     <nav className='w-full flex items-center justify-between p-4'>
       <a href={navigation.home.url}>{general.logo}</a>
@@ -19,7 +17,6 @@ const Navigation = () => {
         {list.map((item) => (
           <a key={item.id} href={item.href} className='hover:text-primary'>
             {item.name}
-            <img src={general.perfumes.ladies.box} alt='s' />
           </a>
         ))}
       </section>
