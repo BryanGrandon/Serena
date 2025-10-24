@@ -1,0 +1,32 @@
+---
+import Layout from '../layouts/Layout.astro'
+import { DYNAMIC_PAGE } from '../utilities/constants/dynamic-pages'
+export const getStaticPaths = () => {
+  return DYNAMIC_PAGE.map(({ linkName, data }) => {
+    return {
+      params: { linkName },
+      props: { data },
+    }
+  })
+}
+
+const { data } = Astro.props
+---
+
+<Layout>
+  <header class='test h-20'></header>
+  <main>
+    <aside class='test' style={{ gridArea: 'aside' }}></aside>
+    <article style={{ gridArea: 'content' }} class=''></article>
+  </main>
+</Layout>
+
+<style>
+  main {
+    display: grid;
+    grid-template-areas:
+      'aside content content content'
+      'aside content content content'
+      'aside content content content';
+  }
+</style>
