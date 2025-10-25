@@ -1,89 +1,86 @@
 {
-  "list_of_fragrances": [
+  "title": "Perfumes Hombre - Parfums d' Parfums",
+  "paragraph": "Perfumes para hombre de Parfums d' Parfums: fragancias elegantes y duraderas para quienes valoran el estilo y la distinción.",
+  "items": [
     {
-      "brand": "perfums d'perfums",
-      "data": [
-        {
-          "id": 0,
-          "name": "J00",
-          "inspiration": "Cloud",
-          "highlight": "Ariana Grande",
-          "genre": "woman",
-          "description": "Perfume Femenino Adolescente. Notas de Salida son kiwi, lichi rojo y membrillo, Notas de Corazón son chocolate blanco, jazmín, orquídea y quequito (pastelito), Notas de Fondo son almizcle, raíz de lirio y notas amaderadas."
-        },
-        {
-          "id": 1,
-          "name": "J01",
-          "inspiration": "Fantasy",
-          "highlight": "Britney Spears",
-          "genre": "woman",
-          "description": "Perfume Femenino Adolescente. Notas de Salida son kiwi, lichi rojo y membrillo, Notas de Corazón son chocolate blanco, jazmín, orquídea y quequito (pastelito), Notas de Fondo son almizcle, raíz de lirio y notas amaderadas."
-        },
-        {
-          "id": 2,
-          "name": "J02",
-          "inspiration": "Selena",
-          "highlight": "Selena Gomez",
-          "genre": "woman",
-          "description": "Perfume Femenino Adolescente. Notas de Salida son naranja, durazno (melocotón), piña y frambuesa, Notas de Corazón son almizcle, fresia y zarzamora (frambuesa negra), Notas de Fondo son ámbar, vainilla, chocolate oscuro y coco."
-        },
-        {
-          "id": 3,
-          "name": "J03",
-          "inspiration": "Bombshell",
-          "highlight": "Victoria's Secret",
-          "genre": "woman",
-          "description": "Perfume Femenino Adolescente. Las Notas de Salida son mandarina, toronja, pera y mora; las Notas de Corazón son durazno, peonia, fresia, magnolia y mugane; las Notas de Fondo son pachuli, sándalo, vainilla, almizcles y madera."
-        },
-        {
-          "id": 4,
-          "name": "J04",
-          "inspiration": "Thank You Next",
-          "highlight": "Ariana Grande",
-          "genre": "woman",
-          "description": "Perfume Femenino Adolescente. Las Notas de Salida son frambuesa y pera; las Notas de Corazón son coco y rosa rosada; las Notas de Fondo son macarrones dulces y almizcle."
-        },
-        {
-          "id": 5,
-          "name": "J05",
-          "inspiration": "Meow",
-          "highlight": "Katty Perry",
-          "genre": "woman",
-          "description": "Perfume Femenino Adolescente. Notas de Salida son jazmín, gardenia, naranja tangerina y pera, Notas de Corazón son flor del naranjo africano, madreselva y lirio de los valles (muguete), Notas de Fondo son almizcle, sándalo, ámbar y vainilla."
-        },
-        {
-          "id": 6,
-          "name": "J06",
-          "inspiration": "Sweet Like Candy",
-          "highlight": "Ariana Grande",
-          "genre": "woman",
-          "description": "Perfume Femenino Adolescente. Notas de Salida son zarzamora (frambuesa negra), bergamota y pera, Notas de Corazón son grosellas negras, crema batida, malvavisco (bombón), jazmín, frangipani (plumeria, plumaria, atapaima) y madreselva, Notas de Fondo son vainilla y madera de cachemira."
-        },
-        {
-          "id": 7,
-          "name": "J07",
-          "inspiration": "Legacy",
-          "highlight": "Cristiano Ronaldo",
-          "genre": "Men",
-          "description": "Perfume Masculino Adolescente. Las Notas de Salida son manzana verde, bergamota, lavanda y canela Las Notas de Corazón son cedro, violeta, peonía, romero, salvia y raíz de lirio Las Notas de Fondo son ámbar gris, pachulí y vetiver."
-        },
-        {
-          "id": 8,
-          "name": "J08",
-          "inspiration": "Spirit Of The Brave",
-          "highlight": "Neymar Diesel",
-          "genre": "Men",
-          "description": "Perfume Masculino Adolescente. Las Notas de Salida son bergamota y gálbano. Las Notas de Corazón son abeto y ciprés. Las Notas de Fondo son haba tonka y ládano."
-        },
-        {
-          "id": 9,
-          "name": "J09",
-          "inspiration": "Invictus Aqua",
-          "highlight": "Paco Rabanne",
-          "genre": "Men",
-          "description": "Perfume Masculino Adolescente. Las Notas de Salida son yuzu, toronja (pomelo) y pimienta rosa. Las Notas de Corazón son agua de mar y hojas de violeta. Las Notas de Fondo son ámbar gris, Amberwood y madera de gaiac."
-        }
-      ]
+      "id": 0,
+      "name": "J00",
+      "inspiration": "Cloud",
+      "highlight": "Ariana Grande",
+      "genre": "woman",
+      "description": "Perfume Femenino Adolescente. Notas de Salida son kiwi, lichi rojo y membrillo, Notas de Corazón son chocolate blanco, jazmín, orquídea y quequito (pastelito), Notas de Fondo son almizcle, raíz de lirio y notas amaderadas."
+    },
+    {
+      "id": 1,
+      "name": "J01",
+      "inspiration": "Fantasy",
+      "highlight": "Britney Spears",
+      "genre": "woman",
+      "description": "Perfume Femenino Adolescente. Notas de Salida son kiwi, lichi rojo y membrillo, Notas de Corazón son chocolate blanco, jazmín, orquídea y quequito (pastelito), Notas de Fondo son almizcle, raíz de lirio y notas amaderadas."
+    },
+    {
+      "id": 2,
+      "name": "J02",
+      "inspiration": "Selena",
+      "highlight": "Selena Gomez",
+      "genre": "woman",
+      "description": "Perfume Femenino Adolescente. Notas de Salida son naranja, durazno (melocotón), piña y frambuesa, Notas de Corazón son almizcle, fresia y zarzamora (frambuesa negra), Notas de Fondo son ámbar, vainilla, chocolate oscuro y coco."
+    },
+    {
+      "id": 3,
+      "name": "J03",
+      "inspiration": "Bombshell",
+      "highlight": "Victoria's Secret",
+      "genre": "woman",
+      "description": "Perfume Femenino Adolescente. Las Notas de Salida son mandarina, toronja, pera y mora; las Notas de Corazón son durazno, peonia, fresia, magnolia y mugane; las Notas de Fondo son pachuli, sándalo, vainilla, almizcles y madera."
+    },
+    {
+      "id": 4,
+      "name": "J04",
+      "inspiration": "Thank You Next",
+      "highlight": "Ariana Grande",
+      "genre": "woman",
+      "description": "Perfume Femenino Adolescente. Las Notas de Salida son frambuesa y pera; las Notas de Corazón son coco y rosa rosada; las Notas de Fondo son macarrones dulces y almizcle."
+    },
+    {
+      "id": 5,
+      "name": "J05",
+      "inspiration": "Meow",
+      "highlight": "Katty Perry",
+      "genre": "woman",
+      "description": "Perfume Femenino Adolescente. Notas de Salida son jazmín, gardenia, naranja tangerina y pera, Notas de Corazón son flor del naranjo africano, madreselva y lirio de los valles (muguete), Notas de Fondo son almizcle, sándalo, ámbar y vainilla."
+    },
+    {
+      "id": 6,
+      "name": "J06",
+      "inspiration": "Sweet Like Candy",
+      "highlight": "Ariana Grande",
+      "genre": "woman",
+      "description": "Perfume Femenino Adolescente. Notas de Salida son zarzamora (frambuesa negra), bergamota y pera, Notas de Corazón son grosellas negras, crema batida, malvavisco (bombón), jazmín, frangipani (plumeria, plumaria, atapaima) y madreselva, Notas de Fondo son vainilla y madera de cachemira."
+    },
+    {
+      "id": 7,
+      "name": "J07",
+      "inspiration": "Legacy",
+      "highlight": "Cristiano Ronaldo",
+      "genre": "Men",
+      "description": "Perfume Masculino Adolescente. Las Notas de Salida son manzana verde, bergamota, lavanda y canela Las Notas de Corazón son cedro, violeta, peonía, romero, salvia y raíz de lirio Las Notas de Fondo son ámbar gris, pachulí y vetiver."
+    },
+    {
+      "id": 8,
+      "name": "J08",
+      "inspiration": "Spirit Of The Brave",
+      "highlight": "Neymar Diesel",
+      "genre": "Men",
+      "description": "Perfume Masculino Adolescente. Las Notas de Salida son bergamota y gálbano. Las Notas de Corazón son abeto y ciprés. Las Notas de Fondo son haba tonka y ládano."
+    },
+    {
+      "id": 9,
+      "name": "J09",
+      "inspiration": "Invictus Aqua",
+      "highlight": "Paco Rabanne",
+      "genre": "Men",
+      "description": "Perfume Masculino Adolescente. Las Notas de Salida son yuzu, toronja (pomelo) y pimienta rosa. Las Notas de Corazón son agua de mar y hojas de violeta. Las Notas de Fondo son ámbar gris, Amberwood y madera de gaiac."
     }
   ]
 }

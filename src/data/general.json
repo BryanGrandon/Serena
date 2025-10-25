@@ -22,16 +22,16 @@
 
   "perfums_img": {
     "ladies": {
-      "box": "/public/perfums/perfumes/F/F-box.webp",
-      "100ml": "/public/perfums/perfumes/F/F-100ml.webp",
-      "50ml": "/public/perfums/perfumes/F/F-50ml.webp",
-      "20ml": "/public/perfums/perfumes/F/F-20ml.webp"
+      "box": "/perfums/perfumes/F/F-box.webp",
+      "100ml": "/perfums/perfumes/F/F-100ml.webp",
+      "50ml": "/perfums/perfumes/F/F-50ml.webp",
+      "20ml": "/perfums/perfumes/F/F-20ml.webp"
     },
     "gentlemen": {
-      "box": "/public/perfums/perfumes/H/H-box.webp",
-      "100ml": "/public/perfums/perfumes/H/H-100ml.webp",
-      "50ml": "/public/perfums/perfumes/H/H-50ml.webp",
-      "20ml": "/public/perfums/perfumes/H/H-20ml.webp"
+      "box": "/perfums/perfumes/H/H-box.webp",
+      "100ml": "/perfums/perfumes/H/H-100ml.webp",
+      "50ml": "/perfums/perfumes/H/H-50ml.webp",
+      "20ml": "/perfums/perfumes/H/H-20ml.webp"
     },
     "niche": {
       "red": {

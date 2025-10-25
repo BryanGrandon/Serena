@@ -3,22 +3,31 @@ import perfumesForMen from '../../content/perfumes/perfumes-for-men.json'
 import perfumesForWomen from '../../content/perfumes/perfumes-for-women.json'
 import perfumesForYoungPeople from '../../content/perfumes/perfumes-for-young-people.json'
 
+const createObject = (info: any) => {
+  const data = {
+    title: info.title,
+    paragraph: info.paragraph,
+    items: info.items,
+  }
+  return data
+}
+
 const DYNAMIC_PAGE = [
   {
     linkName: 'perfumes-for-women',
-    data: perfumesForWomen,
+    data: createObject(perfumesForWomen),
   },
   {
     linkName: 'perfumes-for-men',
-    data: perfumesForMen,
+    data: createObject(perfumesForMen),
   },
   {
     linkName: 'perfumes-for-young-people',
-    data: perfumesForYoungPeople,
+    data: createObject(perfumesForYoungPeople),
   },
   {
     linkName: 'niche-perfumes',
-    data: nichePerfumes,
+    data: createObject(nichePerfumes),
   },
 ]
 

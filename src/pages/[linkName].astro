@@ -1,30 +1,38 @@
 ---
 import Layout from '../layouts/Layout.astro'
 import { DYNAMIC_PAGE } from '../utilities/constants/dynamic-pages'
+import DynamicContent from '../components/core/layout/DynamicContent'
+
 export const getStaticPaths = () => {
   return DYNAMIC_PAGE.map(({ linkName, data }) => {
     return {
       params: { linkName },
-      props: { data },
+      props: { data, linkName },
     }
   })
 }
-
-const { data } = Astro.props
+const { data, linkName } = Astro.props
+const { title, paragraph, items } = data
 ---
 
 <Layout>
   <header class='test h-20'></header>
   <main>
-    <aside class='test' style={{ gridArea: 'aside' }}></aside>
-    <article style={{ gridArea: 'content' }} class=''></article>
+    <article style={{ gridArea: 'info' }}>
+      <h2>{title}</h2>
+      <p>{paragraph}</p>
+    </article>
+    <aside class='test min-w-60' style={{ gridArea: 'aside' }}>Filter</aside>
+    <DynamicContent data={items} type={linkName} />
   </main>
 </Layout>
 
 <style>
   main {
     display: grid;
+    grid-template-columns: 300px 1fr 1fr 1fr;
     grid-template-areas:
+      'info info info info'
       'aside content content content'
       'aside content content content'
       'aside content content content';
