@@ -18,11 +18,11 @@ const { title, paragraph, items } = data
 <Layout>
   <header class='test h-20'></header>
   <main>
-    <article style={{ gridArea: 'info' }}>
-      <h2>{title}</h2>
-      <p>{paragraph}</p>
+    <article style={{ gridArea: 'info' }} class='p-4 flex flex-col items-center'>
+      <h2 class='font-basicaline text-3xl'>{title}</h2>
+      <p class='text-gray-400'>{paragraph}</p>
     </article>
-    <aside class='test min-w-60' style={{ gridArea: 'aside' }}>Filter</aside>
+
     <DynamicContent data={items} type={linkName} />
   </main>
 </Layout>
