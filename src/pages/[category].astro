@@ -4,14 +4,14 @@ import { DYNAMIC_PAGE } from '../utilities/constants/dynamic-pages'
 import DynamicContent from '../components/core/layout/DynamicContent'
 
 export const getStaticPaths = () => {
-  return DYNAMIC_PAGE.map(({ linkName, data }) => {
+  return DYNAMIC_PAGE.map(({ category, data }) => {
     return {
-      params: { linkName },
-      props: { data, linkName },
+      params: { category },
+      props: { data, category },
     }
   })
 }
-const { data, linkName } = Astro.props
+const { data, category } = Astro.props
 const { title, paragraph, items } = data
 ---
 
@@ -19,11 +19,11 @@ const { title, paragraph, items } = data
   <header class='test h-20'></header>
   <main>
     <article style={{ gridArea: 'info' }} class='p-4 flex flex-col items-center'>
-      <h2 class='font-basicaline text-3xl'>{title}</h2>
-      <p class='text-gray-400'>{paragraph}</p>
+      <h2 class='font-basicaline text-3xl text-black font-bold'>{title}</h2>
+      <p class='text-gray-600'>{paragraph}</p>
     </article>
 
-    <DynamicContent data={items} type={linkName} />
+    <DynamicContent data={items} type={category} />
   </main>
 </Layout>
 

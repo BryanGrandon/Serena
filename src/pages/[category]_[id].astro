@@ -1,0 +1,45 @@
+---
+import Layout from '../layouts/Layout.astro'
+import { DYNAMIC_ID } from '../utilities/constants/dynamic-pages'
+
+export const getStaticPaths = () => {
+  return DYNAMIC_ID.map(({ category, data, id }) => {
+    return {
+      params: { category, id },
+      props: { data, category },
+    }
+  })
+}
+const { data, category } = Astro.props
+---
+
+<Layout>
+  <header class='h-30 test'></header>
+  <main class='text-black'>
+    <article>IMG</article>
+    <article>
+      <h2>{data.name}</h2>
+      <p>Inspiration:{data.inspiration}</p>
+      <p>Price - $5000</p>
+      <section>
+        <!-- Select -->
+        <p>100ml</p>
+        <p>50ml</p>
+        <p>20ml</p>
+      </section>
+      <p></p>
+      <section class='test'>
+        <article>
+          <h2>Description</h2>
+          <p></p>
+        </article>
+        <article>
+          <h2>Data</h2>
+          <p>brand:</p>
+          <p>Genre: {data.genre}</p>
+          <p>Olfactory Families:</p>
+        </article>
+      </section>
+    </article>
+  </main>
+</Layout>

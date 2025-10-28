@@ -14,21 +14,68 @@ const createObject = (info: any) => {
 
 const DYNAMIC_PAGE = [
   {
-    linkName: 'perfumes-for-women',
+    category: 'perfumes-for-women',
     data: createObject(perfumesForWomen),
   },
   {
-    linkName: 'perfumes-for-men',
+    category: 'perfumes-for-men',
     data: createObject(perfumesForMen),
   },
   {
-    linkName: 'perfumes-for-young-people',
+    category: 'perfumes-for-young-people',
     data: createObject(perfumesForYoungPeople),
   },
   {
-    linkName: 'niche-perfumes',
+    category: 'niche-perfumes',
     data: createObject(nichePerfumes),
   },
 ]
 
-export { DYNAMIC_PAGE }
+const createDynamicId = () => {
+  let data = []
+  const idMen = perfumesForMen.items.map((el) => el.name.toLowerCase().split(' ').join('-'))
+  const idWomen = perfumesForWomen.items.map((el) => el.name.toLowerCase().split(' ').join('-'))
+  const idNiche = nichePerfumes.items.map((el) => el.name.toLowerCase().split(' ').join('-'))
+  const idYoung = perfumesForYoungPeople.items.map((el) => el.name.toLowerCase().split(' ').join('-'))
+
+  for (let i = 0; i < idMen.length; i++) {
+    const newData = {
+      category: 'perfumes-for-men',
+      id: idMen[i],
+      data: perfumesForMen.items[i],
+    }
+    data.push(newData)
+  }
+
+  for (let i = 0; i < idWomen.length; i++) {
+    const newData = {
+      category: 'perfumes-for-women',
+      id: idWomen[i],
+      data: perfumesForMen.items[i],
+    }
+    data.push(newData)
+  }
+
+  for (let i = 0; i < idNiche.length; i++) {
+    const newData = {
+      category: 'niche-perfumes',
+      id: idNiche[i],
+      data: nichePerfumes.items[i],
+    }
+    data.push(newData)
+  }
+
+  for (let i = 0; i < idYoung.length; i++) {
+    const newData = {
+      category: 'perfumes-for-young-people',
+      id: idYoung[i],
+      data: perfumesForYoungPeople.items[i],
+    }
+    data.push(newData)
+  }
+  return data
+}
+
+const DYNAMIC_ID = createDynamicId()
+
+export { DYNAMIC_PAGE, DYNAMIC_ID }

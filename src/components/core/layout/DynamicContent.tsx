@@ -32,12 +32,15 @@ const DynamicContent = ({ data, type }: Props) => {
       <article style={{ gridArea: 'content' }} className='p-4 '>
         <article className='grid grid-cols-[repeat(auto-fill,_minmax(20rem,_1fr))] gap-4'>
           {data.map((el) => (
-            <section className='flex flex-row items-center rounded-xl overflow-hidden bg-white/45 shadow-lg shadow-black/20 text-black'>
-              <img src={img} className='h-20' alt='' />
+            <section
+              key={el.name}
+              className='flex flex-row items-center rounded-xl overflow-hidden bg-white/45 shadow-lg shadow-black/20 text-black hover:scale-[1.02] transition-transform duration-150 ease-in-out cursor-pointer'
+            >
+              <img src={img} className='h-20' alt={`img-${el.name}`} />
               <section className='relative overflow-hidden px-4'>
                 <p className='flex flex-col text-xl'>{el.name}</p>
                 <abbr title={el.inspiration} className='no-underline'>
-                  <sub className='text-gray-500'>inspiration</sub>
+                  <sub className='text-gray-600'>inspiration</sub>
                   <h3 className='overflow-hidden text-ellipsis whitespace-nowrap cursor-pointer '>{el.inspiration}</h3>
                 </abbr>
               </section>
