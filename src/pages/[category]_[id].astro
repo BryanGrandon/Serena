@@ -18,8 +18,8 @@ const { data, category } = Astro.props
   <main class='text-black'>
     <article>IMG</article>
     <article>
-      <h2>{data.name}</h2>
-      <p>Inspiration:{data.inspiration}</p>
+      <h2>{data?.name}</h2>
+      <p>Inspiration:{data?.inspiration}</p>
       <p>Price - $5000</p>
       <section>
         <!-- Select -->
@@ -36,7 +36,7 @@ const { data, category } = Astro.props
         <article>
           <h2>Data</h2>
           <p>brand:</p>
-          <p>Genre: {data.genre}</p>
+          <p>Genre: {data?.genre}</p>
           <p>Olfactory Families:</p>
         </article>
       </section>
