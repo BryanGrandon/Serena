@@ -10,7 +10,7 @@
       "olfactory_families": ["Fougère", "Fresco"],
       "brand": "perfums d'perfums",
       "genre": "Men",
-      "description": "Personalidad: Seductores - Sensuales; Notas de Salida son romero, abrótano, lavanda, albahaca, cedrón (hierba luisa, verbena de olor), bergamota, limón (lima ácida) y menta Notas de Corazón son cilantro, clavel, canela, enebro de Virginia, jazmín, angélica y ajenjo (absenta) Notas de Fondo son cuero, sándalo, abeto, ámbar, pachulí, musgo de roble, vetiver, cedro, agujas de pino y resinas."
+      "description": "Parfums H01 es una fragancia Aromática Fougère, clásica y seductora, inspirada en Drakkar Noir, ideal para uso diario y climas fríos."
     },
     {
       "id": 2,
@@ -20,7 +20,7 @@
       "olfactory_families": ["Fougère", "Aromático"],
       "brand": "perfums d'perfums",
       "genre": "Men",
-      "description": "Personalidad: Clásicos - Elegantes; Notas de Salida son alcaravea, iris, lavanda, esclarea, albahaca, anís, bergamota y limón (lima ácida) Notas de Corazón son sándalo, bayas de enebro, pachulí, vetiver, cedro y cardamomo Notas de Fondo son cuero, haba tonka, ámbar, almizcle y musgo de roble."
+      "description": "Parfums H02 es una fragancia Aromática Fougère, elegante y atemporal, inspirada en Azzaro Pour Homme, ideal para uso diario y climas cálidos."
     },
     {
       "id": 3,
@@ -30,7 +30,7 @@
       "olfactory_families": ["Chypre", "Aromático"],
       "brand": "perfums d'perfums",
       "genre": "Men",
-      "description": "Personalidad: Clásicos - Elegantes; Notas de Salida son abrótano, alcaravea, toronja (pomelo), bergamota y limón (lima ácida) Notas de Corazón son ciclamen (violeta persa), pino, clavel, sándalo, pachulí y jazmínNotas de Fondo son cuero, ámbar, musgo de roble y tabaco."
+      "description": "Parfums H03 es una fragancia Amaderada Aromática, intensa y clásica, inspirada en Quorum de Antonio Puig, ideal para uso diario y climas frescos."
     },
     {
       "id": 4,
@@ -40,7 +40,7 @@
       "olfactory_families": ["Fougère", "Aromático"],
       "brand": "perfums d'perfums",
       "genre": "Men",
-      "description": "Personalidad: Clásicos - Elegantes; Notas de Salida son romero, esclarea y palo de rosa de Brasil Notas de Corazón son haba tonka, lavanda y geranio Notas de Fondo son miel, ámbar, almizcle y musgo de roble."
+      "description": "Parfums H04 es una fragancia Aromática Fougère, refinada y clásica, inspirada en Paco Rabanne Pour Homme, ideal para uso diario y climas cálidos."
     },
     {
       "id": 5,
@@ -50,7 +50,7 @@
       "olfactory_families": ["Maderoso", "Aromático"],
       "brand": "perfums d'perfums",
       "genre": "Men",
-      "description": "Personalidad: Clásicos - Elegantes; Notas de Salida son bayas de enebro, lavanda, albahaca, bergamota y limón (lima ácida) Notas de Corazón son clavel, esclarea, alcaravea, agujas de pino y geranio Notas de Fondo son haba tonka, ámbar, almizcle, musgo de roble y cedro."
+      "description": "Parfums H05 es una fragancia Amaderada Aromática, moderna y energizante, inspirada en Invictus Platinum, ideal para uso diario y climas cálidos."
     },
     {
       "id": 6,
@@ -60,7 +60,7 @@
       "olfactory_families": ["Maderoso", "Frutal"],
       "brand": "perfums d'perfums",
       "genre": "Men",
-      "description": "Personalidad: Activos - Dinámicos; Notas de Salida son melón, mandarina y pepino Notas de Corazón son albahaca, salvia y geranio Notas de Fondo son almizcle, notas amaderadas y gamuza."
+      "description": "Parfums H06 es una fragancia Aromática Fougère, fresca y moderna, inspirada en Polo Blue de Ralph Lauren, ideal para uso diario y climas cálidos."
     },
     {
       "id": 7,
@@ -70,7 +70,7 @@
       "olfactory_families": ["Fougère", "Frutal"],
       "brand": "perfums d'perfums",
       "genre": "Men",
-      "description": "Personalidad: Activos - Dinámicos; Notas de Salida son limón de Amalfi (lima de Amalfi) y mandarina Notas de Corazón son cedro de Virginia, cilantro y violeta Notas de Fondo son ládano francés, ámbar, styrax, benjuí y cuero."
+      "description": "Parfums H07 es una fragancia Aromática Frutal, audaz y vibrante, inspirada en 212 Heroes de Carolina Herrera, ideal para uso diario y climas cálidos."
     },
     {
       "id": 8,
@@ -80,7 +80,7 @@
       "olfactory_families": ["Maderoso", "Aromático"],
       "brand": "perfums d'perfums",
       "genre": "Men",
-      "description": "Personalidad: Seductor - Moderno; Notas de Salida son mandarina y menta Notas de Corazón son flor de jengibre y limón (lima ácida) Notas de Fondo son vetiver, ámbar y notas acuáticas."
+      "description": "Parfums H08 es una fragancia Cítrica Aromática, refrescante y enérgica, inspirada en Armani Code Sport, ideal para uso diario y climas cálidos."
     },
     {
       "id": 9,
@@ -90,7 +90,7 @@
       "olfactory_families": ["Maderoso", "Aromático"],
       "brand": "perfums d'perfums",
       "genre": "Men",
-      "description": "Personalidad: Activos - Dinámicos; Notas de Salida son menta, lavanda, toronja (pomelo) y bergamota Notas de Corazón son arándano, rosa y manzana Granny Smith Notas de Fondo son ámbar, cactus y flor del algodonero."
+      "description": "Parfums H09 es una fragancia Cítrica Aromática, fresca y vibrante, inspirada en Tommy de Tommy Hilfiger, ideal para uso diario y climas cálidos."
     },
     {
       "id": 10,
@@ -100,7 +100,7 @@
       "olfactory_families": ["Maderoso", "Aromático"],
       "brand": "perfums d'perfums",
       "genre": "Men",
-      "description": "Personalidad: Clásicos - Elegantes; Notas de Salida son lavanda, salvia, bergamota, limón de Amalfi (lima de Amalfi) y enebro de Virginia Notas de Corazón son clavel, clavo de olor, tomillo, hoja de laurel y pino Notas de Fondo son vetiver, almizcle, sándalo, pachulí, musgo de roble y cuero."
+      "description": "Parfums H10 es una fragancia Almizcle Amaderado Floral, elegante y clásica, inspirada en Carolina Herrera For Men, ideal para uso nocturno y climas fríos."
     },
     {
       "id": 11,
@@ -110,7 +110,7 @@
       "olfactory_families": ["Fougère", "Aromático"],
       "brand": "perfums d'perfums",
       "genre": "Men",
-      "description": "Personalidad: Clásicos - Elegantes; Notas de Salida son lavanda, salvia, bergamota, limón de Amalfi (lima de Amalfi) y enebro de Virginia Notas de Corazón son clavel, clavo de olor, tomillo, hoja de laurel y pino Notas de Fondo son vetiver, almizcle, sándalo, pachulí, musgo de roble y cuero."
+      "description": "Parfums H11 es una fragancia Amaderada Chipre, fresca y elegante, inspirada en Agua Brava, ideal para uso diario y climas cálidos."
     },
     {
       "id": 12,
@@ -120,7 +120,7 @@
       "olfactory_families": ["Chypre", "Maderoso"],
       "brand": "perfums d'perfums",
       "genre": "Men",
-      "description": "ersonalidad: Seductores - Sensuales; Notas de Salida son abrótano, piña, bayas de enebro, albahaca, bergamota, limón (lima ácida) y lavanda Notas de Corazón son pino, miel, raíz de lirio, jazmín, alcaravea, petit grain, lirio de los valles (muguete), rosa, palo de rosa de Brasil y incienso Notas de Fondo son sándalo, haba tonka, ámbar, pachulí, almizcle, musgo de roble, cedro y tabaco."
+      "description": "Parfums H12 es una fragancia Oriental, intensa y elegante, inspirada en Lapidus Pour Homme, ideal para ocasiones especiales y climas fríos."
     },
     {
       "id": 13,
@@ -130,7 +130,7 @@
       "olfactory_families": ["Fougère", "Aromático"],
       "brand": "perfums d'perfums",
       "genre": "Men",
-      "description": "Personalidad: Activos - Dinámicos; Notas de Salida son aldehídos, abrótano, lavanda, mandarina, menta, neroli, bergamota y limón (lima ácida) Notas de Corazón son ciclamen (violeta persa), jengibre, hierba marina, jazmín, rosa, palo de rosa de Brasil y geranio Notas de Fondo son sándalo, ámbar, almizcle, madera de gaiac y cedro."
+      "description": "Parfums H13 es una fragancia Aromática Verde, energética y fresca, inspirada en Polo Sport de Ralph Lauren, ideal para uso diario y climas cálidos."
     },
     {
       "id": 14,
@@ -140,7 +140,7 @@
       "olfactory_families": ["Maderoso", "Verde"],
       "brand": "perfums d'perfums",
       "genre": "Men",
-      "description": "Personalidad: Seductores - Sensuales; Notas de Salida son especias, petit grain, lavanda, notas verdes, toronja (pomelo) y bergamota Notas de Corazón son jengibre, , gardenia, violeta y salvia Notas de Fondo son ládano, sándalo, almizcle, madera de gaiac, vetiver e incienso."
+      "description": "Parfums H14 es una fragancia Almizcle Amaderado Floral, moderna y vibrante, inspirada en 212 Men de Carolina Herrera, ideal para uso diario y climas cálidos."
     },
     {
       "id": 15,
@@ -150,7 +150,7 @@
       "olfactory_families": ["Fougère", "Aromático"],
       "brand": "perfums d'perfums",
       "genre": "Men",
-      "description": "Personalidad: Activos - Dinámicos; Notas de Salida son toronja (pomelo), naranja amarga, limón (lima ácida) y manzana Notas de Corazón son jengibre, canela, clavos de olor y geranio Notas de Fondo son vetiver y notas amaderadas."
+      "description": "Parfums H15 es una fragancia Aromática, intensa y sofisticada, inspirada en Sauvage Elixir de Dior, ideal para uso nocturno y climas fríos."
     },
     {
       "id": 16,
@@ -160,7 +160,7 @@
       "olfactory_families": ["Fougère", "Maderoso"],
       "brand": "perfums d'perfums",
       "genre": "Men",
-      "description": "Personalidad: Seductores - Sensuales; Notas de Salida son romero, mandarina, estragón, menta, bergamota y limón (lima ácida) Notas de Corazón son cilantro, enebro de Virginia, salvia, geranio bourbon y palo de rosa de Brasil Notas de Fondo son ámbar, pachulí, sándalo, almizcle, vainilla, musgo de roble y cedro."
+      "description": "Parfums H16 es una fragancia Amaderada Aromática, fresca y energética, inspirada en XS de Paco Rabanne, ideal para uso diario y climas cálidos."
     },
     {
       "id": 17,
@@ -170,7 +170,7 @@
       "olfactory_families": ["Oriental", "Frutal"],
       "brand": "perfums d'perfums",
       "genre": "Men",
-      "description": "Nota Salida: Manzana, cardamomo, acorde verde   Nota de Corazón: Canela, piña, madera de cedro   Nota de Fondo: Cypriol, ámbar amaderado, Cachemira."
+      "description": "Parfums H17 es una fragancia Amaderada Especiada, audaz y vibrante, inspirada en Burberry Hero, ideal para uso diario y climas cálidos."
     },
     {
       "id": 18,
@@ -180,7 +180,7 @@
       "olfactory_families": ["Fougère", "Maderoso"],
       "brand": "perfums d'perfums",
       "genre": "Men",
-      "description": "Personalidad: Activos - Dinámicos; Notas de Salida son lavanda, bergamota, cedrón (hierba luisa, verbena de olor) y piña Notas de Corazón son cumarina, musgo de roble, geranio, rosa, manzana roja y frutos secos Notas de Fondo son sándalo y haba tonka."
+      "description": "Parfums H18 es una fragancia Aromática Fougère, fresca y versátil, inspirada en Sauvage de Dior, ideal para uso diario y climas cálidos."
     },
     {
       "id": 19,
@@ -190,7 +190,7 @@
       "olfactory_families": ["Maderoso", "Floral"],
       "brand": "perfums d'perfums",
       "genre": "Men",
-      "description": "Personalidad: Clásicos - Elegantes; Notas de Salida son lavanda, mandarina, flor del espino, flor del moscadero, cedro, bergamota, manzanilla y limón (lima ácida) Notas de Corazón son nuez moscada, madreselva, clavel, sándalo, hojas de violeta, jazmín, lirio de los valles (muguete) y cedro Notas de Fondo son cuero, haba tonka, ámbar, pachulí, almizcle y vetiver."
+      "description": "Parfums H19 es una fragancia Aromática Fougère, intensa y distintiva, inspirada en Fahrenheit de Dior, ideal para uso nocturno y climas fríos."
     },
     {
       "id": 20,
@@ -200,7 +200,7 @@
       "olfactory_families": ["Citrico", "Amaderado"],
       "brand": "perfums d'perfums",
       "genre": "Men",
-      "description": "Nota Salida: Bergamota, mandarina, melón   Nota de Corazón: Manzana, ciprés, madera seca   Nota de Fondo: Pachulí, almizcle, ámbar mineral"
+      "description": "Parfums H20 es una fragancia Aromática Fougère, fresca y audaz, inspirada en Acqua di Giò Profondo, ideal para uso diario y climas cálidos."
     },
     {
       "id": 21,
@@ -210,7 +210,7 @@
       "olfactory_families": ["Maderoso", "Aromático"],
       "brand": "perfums d'perfums",
       "genre": "Men",
-      "description": "Personalidad: Clásicos - Elegantes; Notas de Salida son cítricas y notas acuáticas Notas de Corazón son jengibre y cilantro Notas de Fondo son almizcle y cedro de Virginia."
+      "description": "Parfums H21 es una fragancia Aromática Especiada, elegante y sofisticada, inspirada en Hugo Boss Elements, ideal para uso diario y climas cálidos."
     },
     {
       "id": 22,
@@ -220,7 +220,7 @@
       "olfactory_families": ["Maderoso", "Citrico"],
       "brand": "perfums d'perfums",
       "genre": "Men",
-      "description": "Personalidad: Activos - Dinámicos; Notas de Salida son naranja, lima (limón verde), mandarina, jazmín, bergamota, limón (lima ácida) y neroli Notas de Corazón son ciclamen (violeta persa), nuez moscada, reseda (miñoneta), cilantro, violeta, fresia, notas marinas, durazno (melocotón), jacinto, rosa, jazmín, romero y calone Notas de Fondo son ámbar, pachulí, musgo de roble, cedro y almizcle blanco."
+      "description": "Parfums H22 es una fragancia Aromática Acuática, fresca y versátil, inspirada en Acqua di Giò, ideal para uso diario y climas cálidos."
     },
     {
       "id": 23,
@@ -230,7 +230,7 @@
       "olfactory_families": ["Oriental", "Maderoso"],
       "brand": "perfums d'perfums",
       "genre": "Men",
-      "description": "Personalidad: Clásicos - Elegantes; Notas de Salida son mandarina, albahaca, hojas de violeta y Martini Notas de Corazón son lavanda, flor de azahar del naranjo, flor de jengibre y canela Notas de Fondo son almizcle, ámbar, vainilla y cuero."
+      "description": "Parfums H23 es una fragancia Oriental Amaderada, atractiva y moderna, inspirada en Halloween Man, ideal para uso nocturno y climas fríos."
     },
     {
       "id": 24,
@@ -240,7 +240,7 @@
       "olfactory_families": ["Oriental", "Maderoso"],
       "brand": "perfums d'perfums",
       "genre": "Men",
-      "description": "Personalidad: Seductores - Sensuales; Notas de Salida son ciruela, musgo de roble, manzana, limón (lima ácida), bergamota y geranio Notas de Corazón son caoba, clavel y canela Notas de Fondo son sándalo, olivo, vainilla, vetiver y cedro."
+      "description": "Parfums H24 es una fragancia Amaderada Especiada, sofisticada y cálida, inspirada en Boss Bottled, ideal para uso diario y climas fríos."
     },
     {
       "id": 25,
@@ -250,7 +250,7 @@
       "olfactory_families": ["Oriental", "Maderoso"],
       "brand": "perfums d'perfums",
       "genre": "Men",
-      "description": "Personalidad: Dimamicos - Sensuales; Notas de Salida son lima (limón verde), pimienta, jengibre y maracuyá (fruta de la pasión) Notas de Corazón son especias, vodka, ginebra y menta Notas de Fondo son ámbar, cuero y notas amaderadas."
+      "description": "Parfums H25 es una fragancia Oriental Amaderada, moderna y vibrante, inspirada en 212 VIP Men, ideal para uso nocturno y climas cálidos."
     },
     {
       "id": 26,
@@ -260,7 +260,7 @@
       "olfactory_families": ["Citrico", "Fresco"],
       "brand": "perfums d'perfums",
       "genre": "Men",
-      "description": "Personalidad: Activas - Modernas; Notas de Salida son piña, notas verdes, mandarina, papaya, bergamota, cardamomo y limón. Notas de Corazón son nuez moscada, violeta, raíz de lirio, jazmín, lirio de los valles y rosa. Notas de Fondo son sándalo, ámbar, almizcle, cedro y musgo de roble"
+      "description": "Parfums H26 es una fragancia Cítrica Aromática, fresca y versátil, inspirada en CK One, ideal para uso diario y climas cálidos."
     },
     {
       "id": 27,
@@ -270,7 +270,7 @@
       "olfactory_families": ["Maderoso", "Frutal"],
       "brand": "perfums d'perfums",
       "genre": "Men",
-      "description": "Personalidad: Activos - Dinámicos; Las Notas de Salida son limón (lima ácida), salvia, cempasúchil (tagete, clavelón) y cítricos Notas de Corazón son praliné, canela, cardamomo negro y bálsamo de Tolú Notas de Fondo son ámbar negro, pachulí, palisandro y árbol de ébano."
+      "description": "Parfums H27 es una fragancia Amaderada Especiada, activa y dinámica, inspirada en XS Black Men, con un corazón cálido y un fondo intenso de maderas y ámbar."
     },
     {
       "id": 28,
@@ -280,7 +280,7 @@
       "olfactory_families": ["Oriental", "Maderoso"],
       "brand": "perfums d'perfums",
       "genre": "Men",
-      "description": "Personalidad: Activos - Dinámicos; Las Notas de Salida son limón (lima ácida), salvia, cempasúchil (tagete, clavelón) y cítricos Notas de Corazón son praliné, canela, cardamomo negro y bálsamo de Tolú Notas de Fondo son ámbar negro, pachulí, palisandro y árbol de ébano."
+      "description": "Parfums H28 es una fragancia Aromática Fougère, fresca y vibrante, inspirada en Eros de Versace, ideal para uso nocturno y climas cálidos."
     },
     {
       "id": 29,
@@ -290,7 +290,7 @@
       "olfactory_families": ["Oriental", "Frutal"],
       "brand": "perfums d'perfums",
       "genre": "Men",
-      "description": "Personalidad: Seductores - Sensuales; Las Notas de Salida son mandarina roja, cardamomo, pimienta negra y azafrán Notas de Corazón son rosa, neroli y canela Notas de Fondo son cuero, raíz de lirio, pachulí y sándalo."
+      "description": "Parfums H29 es una fragancia Oriental Amaderada, seductora y sensual, inspirada en One Million Intense, con un fondo cálido de cuero y maderas."
     },
     {
       "id": 30,
@@ -300,7 +300,7 @@
       "olfactory_families": ["Maderoso", "Aromático"],
       "brand": "perfums d'perfums",
       "genre": "Men",
-      "description": "Personalidad: Seductores - Sensuales; Las Notas de Salida son limón italiano (lima italiana) y jengibre Notas de Corazón son lavanda y ciprés Notas de Fondo son cedro y vetiver."
+      "description": "Parfums H30 es una fragancia Cítrica Aromática, fresca y energizante, inspirada en Light Blue, ideal para uso diario y climas cálidos."
     },
     {
       "id": 31,
@@ -310,7 +310,7 @@
       "olfactory_families": ["Fougère", "Maderoso"],
       "brand": "perfums d'perfums",
       "genre": "Men",
-      "description": "Personalidad: Clásicos - Elegantes; Notas: Contiene sándalo, haba tonka, pachulí, mango, salvia, naranja tangerina, limón (lima ácida) y ajenjo (absenta)."
+      "description": "Parfums H31 es una fragancia Amaderada Aromática, sofisticada y moderna, inspirada en Polo Black, ideal para uso nocturno y climas fríos."
     },
     {
       "id": 32,
@@ -320,7 +320,7 @@
       "olfactory_families": ["Fougère", "Maderoso"],
       "brand": "perfums d'perfums",
       "genre": "Men",
-      "description": "Personalidad: Seductores - Sensuales; Un estallido de frescura es alimentado por una nota alta de naranja amarga. Al cargar el soñador interno, las notas frescas de ciprés crean una entrada a un corazón humeante de resina y salvia. Las notas a tierra de madera noble de cedro, sándalo y almizcle."
+      "description": "Parfums H32 es una fragancia Aromática Fougère, fresca y moderna, inspirada en Y de Yves Saint Laurent, ideal para uso diario y climas cálidos."
     },
     {
       "id": 33,
@@ -330,7 +330,7 @@
       "olfactory_families": ["Fougère", "Oriental"],
       "brand": "perfums d'perfums",
       "genre": "Men",
-      "description": "Personalidad: Activos - Dinámicos; Notas de Salida son casia, bergamota, naranja tangerina y hojas de tomatera Notas de Corazón son pimienta y rosa Notas de Fondo son sándalo y pachulí."
+      "description": "Parfums H33 es una fragancia Amaderada Aromática, fresca y seductora, inspirada en Le Beau de Jean Paul Gaultier, ideal para uso diario y climas cálidos."
     },
     {
       "id": 34,
@@ -340,7 +340,7 @@
       "olfactory_families": ["Maderoso", "Frutal"],
       "brand": "perfums d'perfums",
       "genre": "Men",
-      "description": "Personalidad: Activos - Dinámicos; Notas de Salida son toronja (pomelo), menta y mandarina roja Notas de Corazón son rosa, canela y notas especiadas Notas de Fondo son cuero, notas amaderadas, ámbar y pachulí hindú."
+      "description": "Parfums H34 es una fragancia Oriental Amaderada, activa y dinámica, inspirada en One Million, con un corazón especiado y un fondo cálido de cuero, maderas y ámbar."
     },
     {
       "id": 35,
@@ -350,7 +350,7 @@
       "olfactory_families": ["Amaderado", "Frutal"],
       "brand": "perfums d'perfums",
       "genre": "Men",
-      "description": "Nota Salida: Bergamota, pimienta negra, pimienta rosada   Nota de Corazón: Lavanda, flor de naranjo, iris polvoso   Nota de Fondo: Cedro, orcanox , maderas ambaradas."
+      "description": "Parfums H35 es una fragancia Aromática, fresca y versátil, inspirada en MYSLF de Yves Saint Laurent, ideal para uso diario y climas cálidos."
     },
     {
       "id": 36,
@@ -360,7 +360,7 @@
       "olfactory_families": ["Fougère", "Oriental"],
       "brand": "perfums d'perfums",
       "genre": "Men",
-      "description": "Personalidad: Dimamicos - Seductores; Notas de Salida son toronja (pomelo), notas marinas y mandarina Notas de Corazón son hoja de laurel y jazmín Notas de Fondo son madera de gaiac, musgo de roble, pachulí y ámbar gris."
+      "description": "Parfums H36 es una fragancia Amaderada Acuática, fresca y energizante, inspirada en Invictus de Paco Rabanne, ideal para uso diario y climas cálidos."
     },
     {
       "id": 37,
@@ -370,7 +370,7 @@
       "olfactory_families": ["Maderoso", "Citrico"],
       "brand": "perfums d'perfums",
       "genre": "Men",
-      "description": "Personalidad: Clásicos - Elegantes; Notas de Salida son bergamota, notas marinas, toronja (pomelo), limón (lima ácida), pera y manzana Notas de Corazón son geranio, lavanda y romero Notas de Fondo son pachulí, notas amaderadas, ládano, haba tonka y Amberwood."
+      "description": "Parfums H37 es una fragancia Amaderada Aromática, fresca y sofisticada, inspirada en Acqua di Giò Absolu, ideal para uso diario y climas cálidos."
     },
     {
       "id": 38,
@@ -380,7 +380,7 @@
       "olfactory_families": ["Fougère", "Oriental"],
       "brand": "perfums d'perfums",
       "genre": "Men",
-      "description": "Personalidad: Dimamicos - Seductores; Notas de Salida son toronja (pomelo), limón italiano (lima italiana) y arándano Notas de Corazón son azafrán y salvia Notas de Fondo son notas amaderadas, ámbar y café."
+      "description": "Parfums H38 es una fragancia Amaderada Especiada, vibrante y enérgica, inspirada en Polo Red de Ralph Lauren, ideal para uso diario y climas cálidos."
     },
     {
       "id": 39,
@@ -390,7 +390,7 @@
       "olfactory_families": ["Oriental", "Frutal"],
       "brand": "perfums d'perfums",
       "genre": "Men",
-      "description": "Personalidad: Activos - Dinámicos; Notas de Salida son lavanda y limón de Amalfi (lima de Amalfi) Nota de Corazón es flor del naranjo africano Notas de Fondo son pachulí, cedro de Virginia y vainilla."
+      "description": "Parfums H39 es una fragancia Amaderada Aromática, fresca y sofisticada, inspirada en Gucci Guilty, ideal para uso nocturno y climas cálidos."
     },
     {
       "id": 40,
@@ -400,7 +400,7 @@
       "olfactory_families": ["Fougère", "Oriental"],
       "brand": "perfums d'perfums",
       "genre": "Men",
-      "description": "Personalidad: Activos - Dinámicos; Notas de Salida son absenta, anís y hinojo Nota de Corazón es lavanda Notas de Fondo son almizcle y vaina de vainilla negra."
+      "description": "Parfums H40 es una fragancia Aromática Fougère, intensa y sofisticada, inspirada en 212 VIP Black, ideal para uso nocturno y climas fríos."
     },
     {
       "id": 41,
@@ -410,7 +410,7 @@
       "olfactory_families": ["Maderoso", "Citrico"],
       "brand": "perfums d'perfums",
       "genre": "Men",
-      "description": "Nota Salida: Limón, naranja, pomelo   Nota de Corazón: Fresia, Ambroxan   Nota de Fondo: Madera de cedro, ámbar amaderado, vetiver, musgo"
+      "description": "Parfums H41 es una fragancia Amaderada Aromática, sofisticada y versátil, inspirada en Bleu de Chanel, ideal para uso diario y climas cálidos."
     },
     {
       "id": 42,
@@ -420,7 +420,7 @@
       "olfactory_families": ["Fougère", "Especiado"],
       "brand": "perfums d'perfums",
       "genre": "Men",
-      "description": "Personalidad: Clásicos - Elegantes; Notas de Salida son jengibre, acordes verdes, tomillo, bergamota y toronja (pomelo) Notas de Corazón son vainilla, canela, cuero, Licor y manzana Notas de Fondo son cedro, mirra, azúcar, cachemira, pachulí y notas amaderadas."
+      "description": "Parfums H42 es una fragancia Aromática Especiada, intensa y seductora, inspirada en Pure XS de Paco Rabanne, ideal para uso nocturno y climas fríos."
     },
     {
       "id": 43,
@@ -430,7 +430,7 @@
       "olfactory_families": ["Oriental", "Especiado"],
       "brand": "perfums d'perfums",
       "genre": "Men",
-      "description": "Personalidad: Seductores - Sensuales; Notas de Salida son bergamota, pimienta negra y pimienta blanca Notas de Corazón son cedro y salvia Notas de Fondo son haba tonka, Amberwood y cacao."
+      "description": "Parfums H43 es una fragancia Oriental Especiada, audaz y sofisticada, inspirada en Bad Boy de Carolina Herrera, ideal para uso nocturno y climas fríos."
     },
     {
       "id": 44,
@@ -440,7 +440,7 @@
       "olfactory_families": ["Fougère", "Aromático"],
       "brand": "perfums d'perfums",
       "genre": "Men",
-      "description": "Personalidad: Seductores - Sensuales; Notas de Salida son bergamota, pimienta negra y pimienta blanca Notas de Corazón son cedro y salvia Notas de Fondo son haba tonka, Amberwood y cacao."
+      "description": "Parfums H44 es una fragancia Amaderada Aromática, fresca y moderna, inspirada en Phantom de Paco Rabanne, ideal para uso diario y climas cálidos."
     }
   ]
 }

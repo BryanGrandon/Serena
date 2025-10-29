@@ -4,107 +4,146 @@
   "items": [
     {
       "id": 1,
-      "name": "Q1",
+      "name": "Q01",
       "inspiration": "English Pear And Freesia",
       "type": "red",
       "genre": "Woman",
-      "highlight": "Jo Malone"
+      "olfactory_families": ["Chypre", "Frutal"],
+      "brand": "perfums d'perfums",
+      "highlight": "Jo Malone",
+      "description": "Parfums Nicho Q01 es una fragancia Chipre Frutal, delicada y elegante, inspirada en English Pear & Freesia, con notas de pera y fresia que crean un aroma ligero y sofisticado, ideal para cualquier momento del día."
     },
     {
       "id": 2,
-      "name": "Q2",
+      "name": "Q02",
       "inspiration": "Black Orchid",
       "type": "red",
       "genre": "Woman",
-      "highlight": "Tom Ford"
+      "olfactory_families": ["Oriental", "Floral"],
+      "brand": "perfums d'perfums",
+      "highlight": "Tom Ford",
+      "description": "Parfums Nicho Q02 es una fragancia Oriental Floral, intensa y seductora, inspirada en Black Orchid, con un aroma oscuro y elegante que proyecta lujo y magnetismo desde el primer instante."
     },
     {
       "id": 3,
-      "name": "Q3",
+      "name": "Q03",
       "inspiration": "Love Don't Be Shy",
       "type": "red",
       "genre": "Woman",
-      "highlight": "De Kilian"
+      "olfactory_families": ["Oriental"],
+      "brand": "perfums d'perfums",
+      "highlight": "De Kilian",
+      "description": "Parfums Nicho Q03 es una fragancia Oriental Dulce, adictiva y romántica, inspirada en Love Don't Be Shy, con notas cítricas y florales mezcladas con caramelo y malvavisco, creando un aroma irresistible desde el primer instante."
     },
     {
       "id": 4,
-      "name": "Q4",
+      "name": "Q04",
       "inspiration": "Soleil Blanc",
       "type": "red",
       "genre": "Woman",
-      "highlight": "Tom Ford"
+      "olfactory_families": ["Oriental", "Floral"],
+      "brand": "perfums d'perfums",
+      "highlight": "Tom Ford",
+      "description": "Parfums Nicho Q04 es una fragancia Oriental Floral, unisex, radiante y exótica, inspirada en Soleil Blanc, con notas de coco y ámbar que crean un aroma sofisticado y cálido, ideal para cualquier ocasión."
     },
     {
       "id": 5,
-      "name": "Q5",
+      "name": "Q05",
       "inspiration": "Baccarat Rouge",
       "type": "red",
       "genre": "Woman",
-      "highlight": "Maison Francis Kurkdjian"
+      "olfactory_families": ["Oriental", "Floral"],
+      "brand": "perfums d'perfums",
+      "highlight": "Maison Francis Kurkdjian",
+      "description": "Parfums Nicho Q05 es una fragancia Oriental Floral, unisex y cautivadora, inspirada en Baccarat Rouge, con un aroma elegante y memorable."
     },
     {
       "id": 51,
       "name": "Q51",
       "inspiration": "Santal 33",
-      "type": "Black",
+      "type": "black",
       "genre": "Men",
-      "highlight": "Le Labo"
+      "olfactory_families": ["Amaderada", "Aromática"],
+      "brand": "perfums d'perfums",
+      "highlight": "Le Labo",
+      "description": "Parfums Nicho Q51 es una fragancia Amaderada Aromática, unisex e icónica, inspirada en Santal 33, con notas especiadas y ahumadas que reflejan carácter, estilo atemporal y magnetismo."
     },
     {
       "id": 52,
       "name": "Q52",
-      "inspiration": "Ombre Leather (2018)",
-      "type": "Black",
+      "inspiration": "Ombré Leather (2018)",
+      "type": "black",
       "genre": "Men",
-      "highlight": "Tom Ford"
+      "olfactory_families": ["Cuero"],
+      "brand": "perfums d'perfums",
+      "highlight": "Tom Ford",
+      "description": "Parfums Nicho Q52 es una fragancia Cuero, unisex, intensa y sofisticada, inspirada en Ombré Leather, que combina notas de cuero y especias, reflejando fuerza, libertad y un estilo inolvidable."
     },
     {
       "id": 53,
       "name": "Q53",
       "inspiration": "Silver Mountain Water Edp",
-      "type": "Black",
+      "type": "black",
       "genre": "Men",
-      "highlight": "Creed"
+      "olfactory_families": [" Aromática", "Cítrico"],
+      "brand": "perfums d'perfums",
+      "highlight": "Creed",
+      "description": "Parfums Nicho Q53 es una fragancia Aromática Cítrica, unisex, fresca y vibrante, inspirada en Silver Mountain, con notas verdes, frutales y almizcladas que crean un aroma limpio y sofisticado."
     },
     {
       "id": 54,
       "name": "Q54",
       "inspiration": "Aventus Edp",
-      "type": "Black",
+      "type": "black",
       "genre": "Men",
-      "highlight": "Creed"
+      "olfactory_families": ["Chypre", "Frutal"],
+      "brand": "perfums d'perfums",
+      "highlight": "Creed",
+      "description": "Parfums Nicho Q54 es una fragancia Chypre Frutal, icónica y sofisticada, inspirada en Aventus, con notas afrutadas, amaderadas y un fondo ahumado que proyecta fuerza y distinción."
     },
     {
       "id": 55,
       "name": "Q55",
       "inspiration": "Neroli Portofino",
-      "type": "Black",
+      "type": "black",
       "genre": "Men",
-      "highlight": "Tom Ford"
+      "olfactory_families": ["Cítrica", "Aromática"],
+      "brand": "perfums d'perfums",
+      "highlight": "Tom Ford",
+      "description": "Parfums Nicho Q55 es una fragancia Cítrica Aromática, unisex, luminosa y revitalizante, inspirada en Neroli Portofino, con notas frescas y florales que crean un aroma elegante y lleno de vida."
     },
     {
       "id": 56,
       "name": "Q56",
       "inspiration": "Born In Roma Uomo",
-      "type": "Black",
+      "type": "black",
       "genre": "Men",
-      "highlight": "Valentino"
+      "olfactory_families": ["Amaderada", "Aromática"],
+      "brand": "perfums d'perfums",
+      "highlight": "Valentino",
+      "description": "Parfums Nicho Q56 es una fragancia Amaderada Aromática, masculina y sofisticada, inspirada en Born In Roma Uomo, con un aroma moderno y elegante que refleja confianza y estilo distintivo."
     },
     {
       "id": 57,
       "name": "Q57",
       "inspiration": "Erba Pura",
-      "type": "Black",
+      "type": "black",
       "genre": "Men",
-      "highlight": "Xerjoff"
+      "olfactory_families": ["Oriental", "Frutal"],
+      "brand": "perfums d'perfums",
+      "highlight": "Xerjoff",
+      "description": "Parfums Nicho Q57 es una fragancia Oriental Frutal, unisex, vibrante y moderna, inspirada en Erba Pura, con notas cítricas y dulces que crean un aroma fresco, sensual y sofisticado."
     },
     {
       "id": 58,
       "name": "Q58",
-      "inspiration": "L'immensite",
-      "type": "Black",
+      "inspiration": " L’Immensité",
+      "type": "black",
       "genre": "Men",
-      "highlight": "Louis Vuitton"
+      "olfactory_families": ["Oriental", "Especiada"],
+      "brand": "perfums d'perfums",
+      "highlight": "Louis Vuitton",
+      "description": "Parfums Nicho Q58 es una fragancia Oriental Especiada, fresca y elegante, inspirada en L’Immensité, con notas cítricas y acuáticas que crean un aroma dinámico y lleno de libertad."
     }
   ]
 }

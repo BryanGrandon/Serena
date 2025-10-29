@@ -4,93 +4,113 @@
   "items": [
     {
       "id": 0,
-      "name": "J00",
+      "name": "Perfums J00",
       "inspiration": "Cloud",
       "highlight": "Ariana Grande",
+      "olfactory_families": ["Floral", "Frutal", "Gourmand"],
+      "brand": "perfums d'perfums",
       "genre": "women",
-      "description": "Perfume Femenino Adolescente. Notas de Salida son kiwi, lichi rojo y membrillo, Notas de Corazón son chocolate blanco, jazmín, orquídea y quequito (pastelito), Notas de Fondo son almizcle, raíz de lirio y notas amaderadas.",
-      "img": ""
+      "description": "Parfums J00 es una fragancia Floral Frutal Gourmand, cálida y dulce, inspirada en Cloud de Ariana Grande, ideal para mujeres que buscan un aroma tierno y acogedor.",
+      "img": "/perfums/perfumes/J/J00.webp"
     },
     {
       "id": 1,
-      "name": "J01",
+      "name": "Perfums J01",
       "inspiration": "Fantasy",
       "highlight": "Britney Spears",
+      "olfactory_families": ["Floral", "Frutal", "Gourmand"],
+      "brand": "perfums d'perfums",
       "genre": "women",
-      "description": "Perfume Femenino Adolescente. Notas de Salida son kiwi, lichi rojo y membrillo, Notas de Corazón son chocolate blanco, jazmín, orquídea y quequito (pastelito), Notas de Fondo son almizcle, raíz de lirio y notas amaderadas.",
-      "img": ""
+      "description": "Parfums J01 es una fragancia Floral Frutal Gourmand, dulce y encantadora, inspirada en Fantasy de Britney Spears, ideal para mujeres que buscan un aroma seductor y alegre.",
+      "img": "/perfums/perfumes/J/J01.webp"
     },
     {
       "id": 2,
-      "name": "J02",
+      "name": "Perfums J02",
       "inspiration": "Selena",
       "highlight": "Selena Gomez",
+      "olfactory_families": ["Floral", "Frutal", "Gourmand"],
+      "brand": "perfums d'perfums",
       "genre": "women",
-      "description": "Perfume Femenino Adolescente. Notas de Salida son naranja, durazno (melocotón), piña y frambuesa, Notas de Corazón son almizcle, fresia y zarzamora (frambuesa negra), Notas de Fondo son ámbar, vainilla, chocolate oscuro y coco.",
-      "img": ""
+      "description": "Parfums J02 es una fragancia Floral Frutal Gourmand, dulce y juvenil, inspirada en Selena Gomez de Selena Gomez, ideal para mujeres alegres y modernas.",
+      "img": "/perfums/perfumes/J/J02.webp"
     },
     {
       "id": 3,
-      "name": "J03",
+      "name": "Perfums J03",
       "inspiration": "Bombshell",
       "highlight": "Victoria's Secret",
+      "olfactory_families": ["Floral", "Frutal"],
+      "brand": "perfums d'perfums",
       "genre": "women",
-      "description": "Perfume Femenino Adolescente. Las Notas de Salida son mandarina, toronja, pera y mora; las Notas de Corazón son durazno, peonia, fresia, magnolia y mugane; las Notas de Fondo son pachuli, sándalo, vainilla, almizcles y madera.",
-      "img": ""
+      "description": "Parfums J03 es una fragancia Floral Frutal, vibrante y femenina, inspirada en Bombshell de Victoria’s Secret, ideal para mujeres jóvenes y seguras.",
+      "img": "/perfums/perfumes/J/J03.webp"
     },
     {
       "id": 4,
-      "name": "J04",
+      "name": "Perfums J04",
       "inspiration": "Thank You Next",
       "highlight": "Ariana Grande",
+      "olfactory_families": ["Floral", "Frutal", "Gourmand"],
+      "brand": "perfums d'perfums",
       "genre": "women",
-      "description": "Perfume Femenino Adolescente. Las Notas de Salida son frambuesa y pera; las Notas de Corazón son coco y rosa rosada; las Notas de Fondo son macarrones dulces y almizcle.",
-      "img": ""
+      "description": "Parfums J04 es una fragancia Floral Frutal Gourmand, dulce y juguetona, inspirada en Thank U, Next de Ariana Grande, ideal para mujeres alegres y seguras.",
+      "img": "/perfums/perfumes/J/J04.webp"
     },
     {
       "id": 5,
-      "name": "J05",
+      "name": "Perfums J05",
       "inspiration": "Meow",
       "highlight": "Katty Perry",
+      "olfactory_families": ["Floral", "Frutal"],
+      "brand": "perfums d'perfums",
       "genre": "women",
-      "description": "Perfume Femenino Adolescente. Notas de Salida son jazmín, gardenia, naranja tangerina y pera, Notas de Corazón son flor del naranjo africano, madreselva y lirio de los valles (muguete), Notas de Fondo son almizcle, sándalo, ámbar y vainilla.",
-      "img": ""
+      "description": "Parfums J05 es una fragancia Floral Frutal, dulce y encantadora, inspirada en Meow de Katy Perry, ideal para mujeres femeninas y alegres.",
+      "img": "/perfums/perfumes/J/J05.webp"
     },
     {
       "id": 6,
-      "name": "J06",
+      "name": "Perfums J06",
       "inspiration": "Sweet Like Candy",
       "highlight": "Ariana Grande",
+      "olfactory_families": ["Floral", "Frutal", "Gourmand"],
+      "brand": "perfums d'perfums",
       "genre": "women",
-      "description": "Perfume Femenino Adolescente. Notas de Salida son zarzamora (frambuesa negra), bergamota y pera, Notas de Corazón son grosellas negras, crema batida, malvavisco (bombón), jazmín, frangipani (plumeria, plumaria, atapaima) y madreselva, Notas de Fondo son vainilla y madera de cachemira.",
-      "img": ""
+      "description": "Parfums J06 es una fragancia Floral Frutal Gourmand, dulce y juguetona, inspirada en Sweet Like Candy de Ariana Grande, perfecta para mujeres jóvenes y alegres.",
+      "img": "/perfums/perfumes/J/J06.webp"
     },
     {
       "id": 7,
-      "name": "J07",
+      "name": "Perfums J07",
       "inspiration": "Legacy",
       "highlight": "Cristiano Ronaldo",
+      "olfactory_families": ["Amaderada", "Aromática"],
+      "brand": "perfums d'perfums",
       "genre": "Men",
-      "description": "Perfume Masculino Adolescente. Las Notas de Salida son manzana verde, bergamota, lavanda y canela Las Notas de Corazón son cedro, violeta, peonía, romero, salvia y raíz de lirio Las Notas de Fondo son ámbar gris, pachulí y vetiver.",
-      "img": ""
+      "description": "Parfums J07 es una fragancia Amaderada Aromática, sofisticada y moderna, inspirada en Legacy de Cristiano Ronaldo, ideal para hombres elegantes y seguros.",
+      "img": "/perfums/perfumes/J/J07-09.webp"
     },
     {
       "id": 8,
       "name": "J08",
       "inspiration": "Spirit Of The Brave",
       "highlight": "Neymar Diesel",
+      "olfactory_families": ["Oriental", "Amaderada"],
+      "brand": "perfums d'perfums",
       "genre": "Men",
-      "description": "Perfume Masculino Adolescente. Las Notas de Salida son bergamota y gálbano. Las Notas de Corazón son abeto y ciprés. Las Notas de Fondo son haba tonka y ládano.",
-      "img": ""
+      "description": "Parfums J08 es una fragancia Oriental Amaderada, intensa y audaz, inspirada en Spirit Of The Brave de Diesel, ideal para hombres con carácter fuerte y decidido.",
+      "img": "/perfums/perfumes/J/J07-09.webp"
     },
     {
       "id": 9,
       "name": "J09",
       "inspiration": "Invictus Aqua",
       "highlight": "Paco Rabanne",
+      "olfactory_families": ["Amaderada", "Acuática"],
+      "brand": "perfums d'perfums",
       "genre": "Men",
-      "description": "Perfume Masculino Adolescente. Las Notas de Salida son yuzu, toronja (pomelo) y pimienta rosa. Las Notas de Corazón son agua de mar y hojas de violeta. Las Notas de Fondo son ámbar gris, Amberwood y madera de gaiac.",
-      "img": ""
+      "description": "Parfums J09 es una fragancia Amaderada Acuática, fresca y enérgica, inspirada en Invictus Aqua de Paco Rabanne, ideal para hombres que transmiten vitalidad y dinamismo.",
+      "img": "/perfums/perfumes/J/J07-09.webp"
     }
   ]
 }
