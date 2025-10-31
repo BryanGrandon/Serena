@@ -15,29 +15,33 @@ const { data, category } = Astro.props
 
 <Layout>
   <header class='h-30 test'></header>
-  <main class='text-black'>
-    <article>IMG</article>
+  <main class='text-black grid grid-cols-1 md:grid-cols-2 gap-8 max-w-[1300px] mx-auto p-8'>
     <article>
-      <h2>{data?.name}</h2>
-      <p>Inspiration:{data?.inspiration}</p>
-      <p>Price - $5000</p>
-      <section>
-        <!-- Select -->
-        <p>100ml</p>
-        <p>50ml</p>
-        <p>20ml</p>
+      <img src={data?.img} alt='' class='h-100 rounded-2xl shadow-lg shadow-black/40' />
+    </article>
+    <article>
+      <h2 class='text-3xl font-basicaline font-semibold'>{data?.name} - Inspirado en {data?.inspiration}</h2>
+      <p class='text-gray-600'>{data?.highlight}</p>
+      <p class='font-basicaline font-bold text-2xl my-2'>$5000</p>
+      <section class='flex gap-2 my-4'>
+        <!-- select -->
+        <p class='border border-black/40 shadow shadow-gray-400 rounded-lg w-20 text-center cursor-pointer'>100ml</p>
+        <p class='border border-black/40 shadow shadow-gray-400 rounded-lg w-20 text-center bg-[#f5e1af] cursor-pointer'>50ml</p>
+        <p class='border border-black/40 shadow shadow-gray-400 rounded-lg w-20 text-center cursor-pointer'>20ml</p>
       </section>
       <p></p>
-      <section class='test'>
-        <article>
-          <h2>Description</h2>
-          <p></p>
+      <section class='rounded-lg overflow-hidden border border-black/40 shadow-md shadow-gray-400'>
+        <article class='grid grid-cols-2 border-b border-black/40'>
+          <button class='bg-[#f5e1af] border-r border-black p-1'>Description</button>
+          <button class='p-1'>Información</button>
         </article>
-        <article>
-          <h2>Data</h2>
-          <p>brand:</p>
-          <p>Genre: {data?.genre}</p>
-          <p>Olfactory Families:</p>
+        <article class='p-2'>
+          <p class='prose text-g'>{data?.description}</p>
+        </article>
+        <article class='p-2'>
+          <p>brand: {data?.brand}</p>
+          <p>Genro: {data?.genre == 'women' ? 'Mujer' : 'Hombre'}</p>
+          <p>Olfactory Families: {data.olfactory_families.join(', ')}</p>
         </article>
       </section>
     </article>
