@@ -9,10 +9,6 @@ type Props = {
 const { title, description } = Astro.props
 ---
 
-<header class=''>
+<header class='bg-white/60'>
   <Navigation />
-  <article class='flex flex-col items-center justify-center gap-4 p-4 min-h-[40vh]'>
-    <h1 class='font-basicaline text-5xl font-bold text-center'>{title}</h1>
-    <p class='prose prose-lg dark:prose-invert'>{description}</p>
-  </article>
 </header>

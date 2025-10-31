@@ -40,7 +40,8 @@ const { data, category } = Astro.props
         </article>
         <article class='p-2'>
           <p>brand: {data?.brand}</p>
-          <p>Genro: {data?.genre == 'women' ? 'Mujer' : 'Hombre'}</p>
+          <p>{data.genre}</p>
+          <p>Genro: {data?.genre == 'Woman' ? 'Mujer' : 'Hombre'}</p>
           <p>Olfactory Families: {data.olfactory_families.join(', ')}</p>
         </article>
       </section>

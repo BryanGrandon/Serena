@@ -9,7 +9,33 @@
       "description": "Descubre perfumes inspirados en las fragancias más emblemáticas del mundo. Aromas únicos, elegantes y duraderos, creados para acompañarte en cada momento con distinción.",
       "link": { "href": "/perfumes", "text": "Ver Perfumes" },
       "imgSrc": "https://www.krasotkapro.ru/upload/medialibrary/90e/xshhi58fuux58n211quoettfpjrmkvas/5197477789501089524.jpg",
-      "background": true
+      "background": true,
+      "articles": [
+        {
+          "id": 1,
+          "title": "Perfumes de mujer.",
+          "img": "https://essenciel.cl/cdn/shop/collections/todomujerpdp_790x790.jpg?v=1756863048",
+          "link": { "href": "/perfumes-for-women", "text": "Ver Perfumes" }
+        },
+        {
+          "id": 2,
+          "title": "Perfumes de hombre.",
+          "img": "https://essenciel.cl/cdn/shop/collections/3hombrepdp_693x693.jpg?v=1756862676",
+          "link": { "href": "/perfumes-for-men", "text": "Ver Perfumes" }
+        },
+        {
+          "id": 3,
+          "title": "Perfumes Nichos.",
+          "img": "https://sociosparfums.cl/wp-content/uploads/2025/03/WhatsApp-Image-2025-03-27-at-12.27.06-AM-1.jpeg",
+          "link": { "href": "/niche-perfumes", "text": "Ver Perfumes" }
+        },
+        {
+          "id": 4,
+          "title": "Perfumes Juveniles.",
+          "img": "https://scontent.cdninstagram.com/v/t39.30808-6/565139062_1228448969317406_5404491619972582451_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=111&ig_cache_key=Mzc0NTYzODEwNTc2MTI1NTI2Nw%3D%3D.3-ccb1-7&ccb=1-7&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6InhwaWRzLjEzMjB4MTMyMC5zZHIuQzMifQ%3D%3D&_nc_ohc=DvKGgR23AckQ7kNvwGutmku&_nc_oc=AdmZeYJ7UbW_DGnubKRLjogR1ZHFNgl3Es_AqJpEgQyoUGbGMOfhtC-KeOMbnAC86wM&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=zBJkyB5qJv8VSLJa5NvGCQ&oh=00_AffhLXDr_-2FygVVA3jk3J2Ffj9qAKhBmQhizcYzXur8Og&oe=68F9C147",
+          "link": { "href": "/perfumes-for-young-people", "text": "Ver Perfumes" }
+        }
+      ]
     },
     {
       "title": "Cremas",
