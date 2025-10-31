@@ -4,7 +4,7 @@
   "items": [
     {
       "id": 1,
-      "name": "Q01",
+      "name": "Perfums Q01",
       "inspiration": "English Pear And Freesia",
       "type": "red",
       "genre": "Woman",
@@ -15,7 +15,7 @@
     },
     {
       "id": 2,
-      "name": "Q02",
+      "name": "Perfums Q02",
       "inspiration": "Black Orchid",
       "type": "red",
       "genre": "Woman",
@@ -26,7 +26,7 @@
     },
     {
       "id": 3,
-      "name": "Q03",
+      "name": "Perfums Q03",
       "inspiration": "Love Don't Be Shy",
       "type": "red",
       "genre": "Woman",
@@ -37,7 +37,7 @@
     },
     {
       "id": 4,
-      "name": "Q04",
+      "name": "Perfums Q04",
       "inspiration": "Soleil Blanc",
       "type": "red",
       "genre": "Woman",
@@ -48,7 +48,7 @@
     },
     {
       "id": 5,
-      "name": "Q05",
+      "name": "Perfums Q05",
       "inspiration": "Baccarat Rouge",
       "type": "red",
       "genre": "Woman",
@@ -59,7 +59,7 @@
     },
     {
       "id": 51,
-      "name": "Q51",
+      "name": "Perfums Q51",
       "inspiration": "Santal 33",
       "type": "black",
       "genre": "Men",
@@ -70,7 +70,7 @@
     },
     {
       "id": 52,
-      "name": "Q52",
+      "name": "Perfums Q52",
       "inspiration": "Ombré Leather (2018)",
       "type": "black",
       "genre": "Men",
@@ -81,7 +81,7 @@
     },
     {
       "id": 53,
-      "name": "Q53",
+      "name": "Perfums Q53",
       "inspiration": "Silver Mountain Water Edp",
       "type": "black",
       "genre": "Men",
@@ -92,7 +92,7 @@
     },
     {
       "id": 54,
-      "name": "Q54",
+      "name": "Perfums Q54",
       "inspiration": "Aventus Edp",
       "type": "black",
       "genre": "Men",
@@ -103,7 +103,7 @@
     },
     {
       "id": 55,
-      "name": "Q55",
+      "name": "Perfums Q55",
       "inspiration": "Neroli Portofino",
       "type": "black",
       "genre": "Men",
@@ -114,7 +114,7 @@
     },
     {
       "id": 56,
-      "name": "Q56",
+      "name": "Perfums Q56",
       "inspiration": "Born In Roma Uomo",
       "type": "black",
       "genre": "Men",
@@ -125,7 +125,7 @@
     },
     {
       "id": 57,
-      "name": "Q57",
+      "name": "Perfums Q57",
       "inspiration": "Erba Pura",
       "type": "black",
       "genre": "Men",
@@ -136,7 +136,7 @@
     },
     {
       "id": 58,
-      "name": "Q58",
+      "name": "Perfums Q58",
       "inspiration": " L’Immensité",
       "type": "black",
       "genre": "Men",
