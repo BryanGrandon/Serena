@@ -1,4 +1,5 @@
 ---
+import Navbar from '../components/core/layout/Navbar'
 import Layout from '../layouts/Layout.astro'
 import { DYNAMIC_ID } from '../utilities/constants/dynamic-pages'
 
@@ -14,7 +15,7 @@ const { data, category } = Astro.props
 ---
 
 <Layout>
-  <header class='h-30 test'></header>
+  <Navbar />
   <main class='text-black grid grid-cols-1 md:grid-cols-2 gap-8 max-w-[1300px] mx-auto p-8'>
     <article>
       <img src={data?.img} alt='' class='h-100 rounded-2xl shadow-lg shadow-black/40' />

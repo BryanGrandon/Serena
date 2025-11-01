@@ -6,9 +6,6 @@
   "catalogs": [
     {
       "title": "Perfumes",
-      "description": "Descubre perfumes inspirados en las fragancias más emblemáticas del mundo. Aromas únicos, elegantes y duraderos, creados para acompañarte en cada momento con distinción.",
-      "link": { "href": "/perfumes", "text": "Ver Perfumes" },
-      "imgSrc": "https://www.krasotkapro.ru/upload/medialibrary/90e/xshhi58fuux58n211quoettfpjrmkvas/5197477789501089524.jpg",
       "background": true,
       "articles": [
         {
