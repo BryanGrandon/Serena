@@ -1,0 +1,27 @@
+---
+type catalog_item = {
+  title: string
+  description: string
+  link: { href: string; text: string }
+  imgSrc: string
+  background?: boolean
+}
+const { title, description, link, imgSrc, background } = Astro.props as catalog_item
+---
+
+<article class={`p-8  ${background ? 'bg-bg-secondary' : ''}`}>
+  <article class={`flex items-center gap-8 p-8 flex-col justify-between max-w-[1300px] mx-auto ${background ? 'md:flex-row' : 'md:flex-row-reverse '}  `}>
+    <section class='flex flex-col gap-4'>
+      <div>
+        <h2 class='text-3xl font-bold font-basicaline text-black'>{title}</h2>
+        <span class='block h-0.5 w-20 bg-secondary rounded-2xl'></span>
+      </div>
+
+      <p class='prose'>{description}</p>
+      <a href={link.href} class='border border-primary bg-blue-600 text-white py-1 px-4 rounded-lg max-w-fit hover:scale-105 active:scale-95'>
+        {link.text}
+      </a>
+    </section>
+    <img src={imgSrc} alt={`${title}-img`} class='object-cover h-50 min-w-80 rounded-lg' />
+  </article>
+</article>
