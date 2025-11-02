@@ -1,41 +1,30 @@
-import { addImageInContent } from './add-image-in-content'
+import { addImageDefault, addPriceSizeImg } from './add-content'
 
 type add_more_info = {
   items: any[]
   type?: string
 }
 
-const defaultData = ({ items, type }: add_more_info) => {
+const addMoreInfo = ({ items, type }: add_more_info) => {
   items.map((el) => {
     switch (type) {
       case 'F':
-        el.genre = 'Woman'
+        el.img = addImageDefault('F')
+        el.allImages = addPriceSizeImg('F')
         break
       case 'H':
+        el.img = addImageDefault('H')
+        el.allImages = addPriceSizeImg('H')
         break
       case 'Q':
+        const isRed = el.type == 'red'
+        el.img = isRed ? addImageDefault('QR') : addImageDefault('QB')
+        el.img = isRed ? addPriceSizeImg('QR') : addPriceSizeImg('QB')
         break
       case 'J':
         break
     }
   })
-}
-
-const addMoreInfo = ({ items, type }: add_more_info) => {
-  switch (type) {
-    case 'F':
-      defaultData({ items, type: 'F' })
-      addImageInContent({ items, type: 'F' })
-      break
-    case 'H':
-      addImageInContent({ items, type: 'H' })
-      break
-    case 'Q':
-      addImageInContent({ items, type: 'Q' })
-      break
-    case 'J':
-      break
-  }
   return items
 }
 
