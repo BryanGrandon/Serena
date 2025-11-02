@@ -11,7 +11,17 @@
       "brand": "perfums d'perfums",
       "genre": "Woman",
       "description": "Parfums J00 es una fragancia Floral Frutal Gourmand, cálida y dulce, inspirada en Cloud de Ariana Grande, ideal para mujeres que buscan un aroma tierno y acogedor.",
-      "img": "/perfums/perfumes/J/J00.webp"
+      "img": "/perfums/perfumes/J/J00-box.webp",
+      "allImages": [
+        {
+          "url": "/perfums/perfumes/J/J00-box.webp",
+          "size": "100ml"
+        },
+        {
+          "url": "/perfums/perfumes/J/J00.webp",
+          "size": "50ml"
+        }
+      ]
     },
     {
       "id": 1,
@@ -22,7 +32,17 @@
       "brand": "perfums d'perfums",
       "genre": "Woman",
       "description": "Parfums J01 es una fragancia Floral Frutal Gourmand, dulce y encantadora, inspirada en Fantasy de Britney Spears, ideal para mujeres que buscan un aroma seductor y alegre.",
-      "img": "/perfums/perfumes/J/J01.webp"
+      "img": "/perfums/perfumes/J/J01-box.webp",
+      "allImages": [
+        {
+          "url": "/perfums/perfumes/J/J01-box.webp",
+          "size": "100ml"
+        },
+        {
+          "url": "/perfums/perfumes/J/J01.webp",
+          "size": "50ml"
+        }
+      ]
     },
     {
       "id": 2,
@@ -33,7 +53,17 @@
       "brand": "perfums d'perfums",
       "genre": "Woman",
       "description": "Parfums J02 es una fragancia Floral Frutal Gourmand, dulce y juvenil, inspirada en Selena Gomez de Selena Gomez, ideal para mujeres alegres y modernas.",
-      "img": "/perfums/perfumes/J/J02.webp"
+      "img": "/perfums/perfumes/J/J02-box.webp",
+      "allImages": [
+        {
+          "url": "/perfums/perfumes/J/J02-box.webp",
+          "size": "100ml"
+        },
+        {
+          "url": "/perfums/perfumes/J/J02.webp",
+          "size": "50ml"
+        }
+      ]
     },
     {
       "id": 3,
@@ -44,7 +74,17 @@
       "brand": "perfums d'perfums",
       "genre": "Woman",
       "description": "Parfums J03 es una fragancia Floral Frutal, vibrante y femenina, inspirada en Bombshell de Victoria’s Secret, ideal para mujeres jóvenes y seguras.",
-      "img": "/perfums/perfumes/J/J03.webp"
+      "img": "/perfums/perfumes/J/J03-box.webp",
+      "allImages": [
+        {
+          "url": "/perfums/perfumes/J/J03-box.webp",
+          "size": "100ml"
+        },
+        {
+          "url": "/perfums/perfumes/J/J03.webp",
+          "size": "50ml"
+        }
+      ]
     },
     {
       "id": 4,
@@ -55,7 +95,17 @@
       "brand": "perfums d'perfums",
       "genre": "Woman",
       "description": "Parfums J04 es una fragancia Floral Frutal Gourmand, dulce y juguetona, inspirada en Thank U, Next de Ariana Grande, ideal para mujeres alegres y seguras.",
-      "img": "/perfums/perfumes/J/J04.webp"
+      "img": "/perfums/perfumes/J/J04-box.webp",
+      "allImages": [
+        {
+          "url": "/perfums/perfumes/J/J04-box.webp",
+          "size": "100ml"
+        },
+        {
+          "url": "/perfums/perfumes/J/J04.webp",
+          "size": "50ml"
+        }
+      ]
     },
     {
       "id": 5,
@@ -66,7 +116,17 @@
       "brand": "perfums d'perfums",
       "genre": "Woman",
       "description": "Parfums J05 es una fragancia Floral Frutal, dulce y encantadora, inspirada en Meow de Katy Perry, ideal para mujeres femeninas y alegres.",
-      "img": "/perfums/perfumes/J/J05.webp"
+      "img": "/perfums/perfumes/J/J05-box.webp",
+      "allImages": [
+        {
+          "url": "/perfums/perfumes/J/J05-box.webp",
+          "size": "100ml"
+        },
+        {
+          "url": "/perfums/perfumes/J/J05.webp",
+          "size": "50ml"
+        }
+      ]
     },
     {
       "id": 6,
@@ -77,7 +137,17 @@
       "brand": "perfums d'perfums",
       "genre": "Woman",
       "description": "Parfums J06 es una fragancia Floral Frutal Gourmand, dulce y juguetona, inspirada en Sweet Like Candy de Ariana Grande, perfecta para mujeres jóvenes y alegres.",
-      "img": "/perfums/perfumes/J/J06-box.webp"
+      "img": "/perfums/perfumes/J/J06-box.webp",
+      "allImages": [
+        {
+          "url": "/perfums/perfumes/J/J06-box.webp",
+          "size": "100ml"
+        },
+        {
+          "url": "/perfums/perfumes/J/J06.webp",
+          "size": "50ml"
+        }
+      ]
     },
     {
       "id": 7,
@@ -88,7 +158,17 @@
       "brand": "perfums d'perfums",
       "genre": "Men",
       "description": "Parfums J07 es una fragancia Amaderada Aromática, sofisticada y moderna, inspirada en Legacy de Cristiano Ronaldo, ideal para hombres elegantes y seguros.",
-      "img": "/perfums/perfumes/J/J07-09-box.webp"
+      "img": "/perfums/perfumes/J/J07-09-box.webp",
+      "allImages": [
+        {
+          "url": "/perfums/perfumes/J/J07-09-box.webp",
+          "size": "100ml"
+        },
+        {
+          "url": "/perfums/perfumes/J/J07-09.webp",
+          "size": "50ml"
+        }
+      ]
     },
     {
       "id": 8,
@@ -99,7 +179,17 @@
       "brand": "perfums d'perfums",
       "genre": "Men",
       "description": "Parfums J08 es una fragancia Oriental Amaderada, intensa y audaz, inspirada en Spirit Of The Brave de Diesel, ideal para hombres con carácter fuerte y decidido.",
-      "img": "/perfums/perfumes/J/J07-09-box.webp"
+      "img": "/perfums/perfumes/J/J07-09-box.webp",
+      "allImages": [
+        {
+          "url": "/perfums/perfumes/J/J07-09-box.webp",
+          "size": "100ml"
+        },
+        {
+          "url": "/perfums/perfumes/J/J07-09.webp",
+          "size": "50ml"
+        }
+      ]
     },
     {
       "id": 9,
@@ -110,7 +200,17 @@
       "brand": "perfums d'perfums",
       "genre": "Men",
       "description": "Parfums J09 es una fragancia Amaderada Acuática, fresca y enérgica, inspirada en Invictus Aqua de Paco Rabanne, ideal para hombres que transmiten vitalidad y dinamismo.",
-      "img": "/perfums/perfumes/J/J07-09-box.webp"
+      "img": "/perfums/perfumes/J/J07-09-box.webp",
+      "allImages": [
+        {
+          "url": "/perfums/perfumes/J/J07-09-box.webp",
+          "size": "100ml"
+        },
+        {
+          "url": "/perfums/perfumes/J/J07-09.webp",
+          "size": "50ml"
+        }
+      ]
     }
   ]
 }

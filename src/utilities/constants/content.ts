@@ -2,28 +2,28 @@ import nichePerfumes from '../../content/perfumes/niche-perfumes.json'
 import perfumesForMen from '../../content/perfumes/perfumes-for-men.json'
 import perfumesForWomen from '../../content/perfumes/perfumes-for-women.json'
 import perfumesForYoungPeople from '../../content/perfumes/perfumes-for-young-people.json'
-import { addImageInContent } from '../scripts/add-image-in-content'
+import { addMoreInfo } from '../scripts/add-more-info'
 
 const PERFUMES = {
   men: {
     title: perfumesForMen.title,
     paragraph: perfumesForMen.paragraph,
-    items: addImageInContent({ items: perfumesForMen.items, type: 'H' }),
+    items: addMoreInfo({ items: perfumesForMen.items, type: 'H' }),
   },
   women: {
     title: perfumesForWomen.title,
     paragraph: perfumesForWomen.paragraph,
-    items: addImageInContent({ items: perfumesForWomen.items, type: 'F' }),
+    items: addMoreInfo({ items: perfumesForWomen.items, type: 'F' }),
   },
   niche: {
     title: nichePerfumes.title,
     paragraph: nichePerfumes.paragraph,
-    items: addImageInContent({ items: nichePerfumes.items, type: 'Q' }),
+    items: addMoreInfo({ items: nichePerfumes.items, type: 'Q' }),
   },
   youngPeople: {
     title: perfumesForYoungPeople.title,
     paragraph: perfumesForYoungPeople.paragraph,
-    items: perfumesForYoungPeople.items,
+    items: addMoreInfo({ items: perfumesForYoungPeople.items, type: 'J' }),
   },
 }
 
