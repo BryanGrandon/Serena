@@ -1,4 +1,4 @@
-import { addImageDefault, addPriceSizeImg } from './add-content'
+import { addImageDefault, addPriceSizeImg, addPriceSizeJ } from './add-content'
 
 type add_more_info = {
   items: any[]
@@ -19,9 +19,10 @@ const addMoreInfo = ({ items, type }: add_more_info) => {
       case 'Q':
         const isRed = el.type == 'red'
         el.img = isRed ? addImageDefault('QR') : addImageDefault('QB')
-        el.img = isRed ? addPriceSizeImg('QR') : addPriceSizeImg('QB')
+        el.allImages = isRed ? addPriceSizeImg('QR') : addPriceSizeImg('QB')
         break
       case 'J':
+        el.allImages = addPriceSizeJ(el.allImages)
         break
     }
   })
