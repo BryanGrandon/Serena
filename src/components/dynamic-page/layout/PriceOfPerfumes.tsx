@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react'
-import { selectImage } from '../../../utilities/stores/dynamic-page'
+import { selectImage } from '../../../utilities/storage/dynamic-page'
 
 type Props = {
   prices: { size: string; price: string }[]

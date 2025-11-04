@@ -1,5 +1,5 @@
 import { useStore } from '@nanostores/react'
-import { selectImage } from '../../../utilities/stores/dynamic-page'
+import { selectImage } from '../../../utilities/storage/dynamic-page'
 import { useEffect, useState } from 'react'
 
 type Props = {
@@ -18,7 +18,6 @@ const Gallery = ({ imgDefault, images }: Props) => {
 
   const applyImage = () => {
     if (type == '') return
-
     for (let i = 0; i < images.length; i++) {
       if (type == images[i].size) setImg(images[i].url)
     }

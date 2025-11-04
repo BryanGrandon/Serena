@@ -1,29 +1,28 @@
+import Filter from '../../dynamic-page/layout/Filter'
+import { useEffect, useState } from 'react'
+import useFilter from '../../../utilities/hooks/useFilter'
+import { useStore } from '@nanostores/react'
+import { dataFilter, dataSelected } from '../../../utilities/storage/storage-filter'
+
 type Props = {
-  data: any[]
+  info: any[]
   type?: string
 }
 
-const DynamicContent = ({ data, type }: Props) => {
+const DynamicContent = ({ info, type }: Props) => {
+  const [data, setData] = useState<any[]>([])
+  const newData = useStore(dataFilter)
+
+  useEffect(() => {
+    setData(newData)
+  }, [newData])
+
   return (
     <>
-      <aside style={{ gridArea: 'aside' }} className='text-black min-w-60 p-4 bg-[#f5e1af] rounded-r-3xl shadow-lg shadow-black/20'>
-        Filter
-        <details>
-          <summary className='cursor-pointer'>Genero</summary>
-          <article className='flex flex-col'>
-            <label className='flex items-center gap-2'>
-              <input type='checkbox' />
-              Femenino
-            </label>
-            <label>
-              <input type='checkbox' />
-              Masculino
-            </label>
-          </article>
-        </details>
-      </aside>
+      <Filter data={info} />
 
       <article style={{ gridArea: 'content' }} className='p-4 '>
+        <p className='text-black'>{newData[0]?.name}</p>
         <article className='grid grid-cols-[repeat(auto-fill,_minmax(20rem,_1fr))] gap-4'>
           {data.map((el) => (
             <a

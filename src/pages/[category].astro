@@ -24,7 +24,7 @@ const { title, paragraph, items } = data
       <p class='text-gray-600'>{paragraph}</p>
     </article>
 
-    <DynamicContent data={items} type={category} />
+    <DynamicContent info={items} type={category} client:only />
   </main>
 </Layout>
 
