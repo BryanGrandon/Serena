@@ -33,7 +33,7 @@ const descriptionPerfumes = [
 ---
 
 <Layout>
-  <Navbar />
+  <Navbar client:load />
   <main class='text-black grid grid-cols-1 lg:grid-cols-2 gap-8 p-8 test justify-center'>
     <Gallery client:load imgDefault={data.img} images={data.allImages} />
 

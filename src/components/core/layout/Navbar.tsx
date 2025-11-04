@@ -1,6 +1,12 @@
 import { NAVBAR } from '../../../utilities/constants/navigation'
 
 const Navbar = () => {
+  const openMenu = (id: number) => {
+    const $menu = document.getElementById(`menu-${id}`)
+    $menu?.classList.toggle('opacity-100')
+    $menu?.classList.toggle('visible')
+  }
+
   return (
     <header className='text-black bg-white/70 '>
       <nav className='p-4 flex flex-col gap-4'>
@@ -21,7 +27,7 @@ const Navbar = () => {
         {NAVBAR.map((el) => (
           <section key={el.id} className='inline-block relative group mx-4'>
             {el.catalogs && el.catalogs.length > 0 ? (
-              <p className='cursor-pointer duration-150 ease-in-out flex items-center gap-1 w-50 p-2'>
+              <p className={`cursor-pointer duration-150 ease-in-out flex items-center gap-1 w-50 p-2 mobile-${el.id}`} onClick={() => openMenu(el.id)}>
                 <span>{el.nav}</span>
                 <span>^</span>
               </p>
@@ -32,7 +38,10 @@ const Navbar = () => {
             )}
 
             {el.catalogs && el.catalogs.length > 0 ? (
-              <article className='flex flex-col absolute top-full left-0 bg-white shadow-lg shadow-black/20 rounded-b-lg opacity-0 group-hover:opacity-100 invisible group-hover:visible transition-opacity duration-150 ease-in-out z-10'>
+              <article
+                id={`menu-${el.id}`}
+                className='flex flex-col absolute top-full left-0 bg-white shadow-lg shadow-black/20 rounded-b-lg opacity-0 group-hover:opacity-100 invisible group-hover:visible transition-opacity duration-150 ease-in-out z-10'
+              >
                 {el.catalogs.map((catalog, index) => (
                   <a href={catalog.url} key={index} className='block py-2 px-4 min-w-fit'>
                     {catalog.name}

@@ -17,7 +17,7 @@ const { title, paragraph, items } = data
 ---
 
 <Layout>
-  <Navbar />
+  <Navbar client:load />
   <main>
     <article style={{ gridArea: 'info' }} class='p-4 flex flex-col items-center'>
       <h2 class='font-basicaline text-3xl text-black font-bold'>{title}</h2>
@@ -31,11 +31,21 @@ const { title, paragraph, items } = data
 <style>
   main {
     display: grid;
-    grid-template-columns: 300px 1fr 1fr 1fr;
+    grid-template-columns: 250px 1fr 1fr 1fr;
     grid-template-areas:
       'info info info info'
       'aside content content content'
       'aside content content content'
       'aside content content content';
+  }
+  @media screen and (max-width: 700px) {
+    main {
+      /* grid-template-columns: 1fr 1fr 1fr 1fr; */
+      grid-template-areas:
+        'info info info info'
+        'aside aside aside aside'
+        'content content content content'
+        'content content content content';
+    }
   }
 </style>

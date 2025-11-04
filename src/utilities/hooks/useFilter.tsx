@@ -18,6 +18,10 @@ const useFilter = () => {
   }
 
   const getNewData = (type: string, option: string) => {
+    if (option == 'todos') {
+      dataFilter.set(main)
+      return
+    }
     if (type == 'genero') {
       const genre = option == 'femenino' ? 'Woman' : 'Men'
       const newData = main.filter((el) => el.genre == genre)

@@ -17,13 +17,14 @@ const Filter = ({ data }: Props) => {
     data.map((el) => {
       el.olfactory_families.map((item: string) => newSet.add(item))
     })
+    newSet.add('todos')
     return [...newSet]
   }
 
   const content = [
     {
       type: 'genero',
-      data: ['femenino', 'masculino'],
+      data: ['femenino', 'masculino', 'todos'],
     },
     {
       type: 'familias olfativas',
@@ -40,7 +41,7 @@ const Filter = ({ data }: Props) => {
           <article>
             {el.data.map((item) => (
               <label className='flex gap-2'>
-                <input type='radio' name={`filter-${el.type}`} id='' className='cursor-pointer flex items-center gap-2 capitalize' onClick={() => filter.setOption(el.type, item)} />
+                <input type='radio' name='filter' className='cursor-pointer flex items-center gap-2 capitalize' onClick={() => filter.setOption(el.type, item)} />
                 {item}
               </label>
             ))}
