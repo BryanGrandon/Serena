@@ -21,8 +21,7 @@ const DynamicContent = ({ info, type }: Props) => {
     <>
       <Filter data={info} />
 
-      <article style={{ gridArea: 'content' }} className='p-4 '>
-        <p className='text-black'>{newData[0]?.name}</p>
+      <article style={{ gridArea: 'content' }} className='p-4 min-h-[70vh]'>
         <article className='grid grid-cols-[repeat(auto-fill,_minmax(20rem,_1fr))] gap-4'>
           {data.map((el) => (
             <a

@@ -8,17 +8,19 @@ const { catalogs } = home
 ---
 
 <Layout>
-  <Navbar />
-  {
-    catalogs.map((items) => (
-      <>
-        {items.articles && items.articles.length > 0 ? (
-          <CatalogItems title={items.title} background={items.background} articles={items.articles} />
-        ) : (
-          <CatalogItem title={items.title} description={items.description} link={items.link} imgSrc={items.imgSrc} background={items.background} />
-        )}
-      </>
-    ))
-  }
-  <footer></footer>
+  <article class=''>
+    <Navbar />
+    {
+      catalogs.map((items) => (
+        <>
+          {items.articles && items.articles.length > 0 ? (
+            <CatalogItems title={items.title} background={items.background} articles={items.articles} />
+          ) : (
+            <CatalogItem title={items.title} description={items.description} link={items.link} imgSrc={items.imgSrc} background={items.background} />
+          )}
+        </>
+      ))
+    }
+    <footer></footer>
+  </article>
 </Layout>

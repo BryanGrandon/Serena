@@ -51,9 +51,9 @@ body {
 }
 
 /* We adapt them to the dark mode.  */
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
   body {
     color: var(--light);
     background-color: var(--dark);
   }
-}
+} */

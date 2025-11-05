@@ -7,7 +7,7 @@ type catalog_items = {
 const { title, background, articles } = Astro.props as catalog_items
 ---
 
-<article class={`p-4  ${background ? 'bg-bg-secondary' : ''}`}>
+<article class={`p-4  relative ${background ? '' : ''}`}>
   <article class={`flex items-center gap-8 p-4 flex-col justify-between max-w-[1300px] mx-auto ${background ? 'md:flex-row' : 'md:flex-row-reverse '}  `}>
     <section class='w-full flex flex-col items-center'>
       <h2 class='text-4xl font-bold font-basicaline text-black text-center w-full'>{title}</h2>

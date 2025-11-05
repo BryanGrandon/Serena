@@ -8,7 +8,7 @@ const Navbar = () => {
   }
 
   return (
-    <header className='text-black bg-white/70 '>
+    <header className='text-black bg-white/70 relative'>
       <nav className='p-4 flex flex-col gap-4'>
         <article className='flex w-full items-center justify-between gap-8'>
           <a href='#' className='min-w-fit font-bold'>

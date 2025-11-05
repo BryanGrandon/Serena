@@ -33,12 +33,12 @@ const Filter = ({ data }: Props) => {
   ]
 
   return (
-    <aside style={{ gridArea: 'aside' }} className='text-black min-w-60 p-4 bg-[#f5e1af] rounded-r-3xl shadow-lg shadow-black/20'>
-      Filter
+    <aside style={{ gridArea: 'aside' }} className='text-black min-w-60 p-4 bg-white/40 border border-gray-400 rounded-r-3xl shadow-lg shadow-black/20 flex flex-col gap-2'>
+      <h2 className='font-basicaline text-2xl tracking-wider'>Filter</h2>
       {content.map((el) => (
-        <details key={el.type} className=''>
-          <summary className='cursor-pointer'>{el.type}</summary>
-          <article>
+        <fieldset key={el.type} className='border test'>
+          <legend className='cursor-pointer font-basicaline text-xl px-0.5 capitalize'>{el.type}</legend>
+          <article className='px-2'>
             {el.data.map((item) => (
               <label className='flex gap-2'>
                 <input type='radio' name='filter' className='cursor-pointer flex items-center gap-2 capitalize' onClick={() => filter.setOption(el.type, item)} />
@@ -46,7 +46,7 @@ const Filter = ({ data }: Props) => {
               </label>
             ))}
           </article>
-        </details>
+        </fieldset>
       ))}
     </aside>
   )
