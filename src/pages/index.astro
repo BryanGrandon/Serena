@@ -1,26 +1,13 @@
 ---
-import home from '../data/home.json'
 import Layout from '../layouts/Layout.astro'
-import CatalogItems from '../components/home/layout/CatalogItems.astro'
-import CatalogItem from '../components/home/layout/CatalogItem.astro'
+import Catalogs from '../components/home/layout/Catalogs.astro'
 import Navbar from '../components/core/layout/Navbar.tsx'
-const { catalogs } = home
 ---
 
 <Layout>
   <article class=''>
     <Navbar />
-    {
-      catalogs.map((items) => (
-        <>
-          {items.articles && items.articles.length > 0 ? (
-            <CatalogItems title={items.title} background={items.background} articles={items.articles} />
-          ) : (
-            <CatalogItem title={items.title} description={items.description} link={items.link} imgSrc={items.imgSrc} background={items.background} />
-          )}
-        </>
-      ))
-    }
+    <Catalogs />
     <footer></footer>
   </article>
 </Layout>
