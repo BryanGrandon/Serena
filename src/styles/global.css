@@ -10,10 +10,8 @@
 }
 
 @theme {
-  --color-primary: #ff0;
-  --color-bg-primary: #f5e1af;
+  --color-primary: #155dfc;
   --color-secondary: #ff411d;
-  --color-bg-secondary: #f4d890;
   --color-background-dark: #15181e;
   --color-background-light: #e5e7eb;
   --font-basicaline: 'Basicaline', sans-serif;
