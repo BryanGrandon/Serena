@@ -1,0 +1,57 @@
+{
+  "title": "Cremas",
+  "paragraph": "Cremas de la cream.",
+  "items": [
+    {
+      "id": 1,
+      "name": "Tropical Caribbean",
+      "inspiration": "Coconut Passion",
+      "highlight": "Victoria Secret",
+      "brand": "Lavit",
+      "area": ["Manos"],
+      "description": "",
+      "img": "",
+      "productData": [
+        {
+          "size": "50g",
+          "url": "https://unimarc.vtexassets.com/arquivos/ids/213861/000000000000052524-UN-01.jpg?v=637554101359770000",
+          "price": "1"
+        }
+      ],
+      "extra": [
+        {
+          "title": "Aceite de Lanoalina",
+          "description": ""
+        },
+        {
+          "title": "Manteca de Karite",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Sweet Romance",
+      "inspiration": "Sheer Love Body Mist",
+      "highlight": "Victoria Secret",
+      "brand": "Lavit",
+      "area": ["Manos"],
+      "description": "",
+      "img": "https://unimarc.vtexassets.com/arquivos/ids/213861/000000000000052524-UN-01.jpg?v=637554101359770000",
+      "productData": [{ "size": "50g", "price": "1", "url": "https://unimarc.vtexassets.com/arquivos/ids/213861/000000000000052524-UN-01.jpg?v=637554101359770000" }],
+      "extra": []
+    },
+    {
+      "id": 3,
+      "name": "Fantasy Of Love",
+      "inspiration": "Pint Chiffon",
+      "highlight": "BBW",
+      "brand": "Lavit",
+      "area": ["Manos"],
+      "description": "",
+      "img": "https://unimarc.vtexassets.com/arquivos/ids/213861/000000000000052524-UN-01.jpg?v=637554101359770000",
+      "productData": [{ "size": "50g", "price": "1", "url": "https://unimarc.vtexassets.com/arquivos/ids/213861/000000000000052524-UN-01.jpg?v=637554101359770000" }],
+      "extra": []
+    }
+  ]
+}

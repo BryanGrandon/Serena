@@ -2,6 +2,7 @@ import nichePerfumes from '../../content/perfumes/niche-perfumes.json'
 import perfumesForMen from '../../content/perfumes/perfumes-for-men.json'
 import perfumesForWomen from '../../content/perfumes/perfumes-for-women.json'
 import perfumesForYoungPeople from '../../content/perfumes/perfumes-for-young-people.json'
+import creams from '../../content/creams.json'
 import { addMoreInfo } from '../scripts/add-more-info'
 
 const PERFUMES = {
@@ -26,7 +27,12 @@ const PERFUMES = {
     items: addMoreInfo({ items: perfumesForYoungPeople.items, type: 'J' }),
   },
 }
-
 const ALL_PERFUMES = [...PERFUMES.men.items, ...PERFUMES.women.items, ...PERFUMES.niche.items, ...perfumesForYoungPeople.items]
 
-export { PERFUMES, ALL_PERFUMES }
+const CREAMS = {
+  title: creams.title,
+  paragraph: creams.paragraph,
+  items: creams.items,
+}
+
+export { PERFUMES, ALL_PERFUMES, CREAMS }

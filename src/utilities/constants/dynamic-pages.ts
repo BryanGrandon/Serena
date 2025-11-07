@@ -1,4 +1,4 @@
-import { ALL_PERFUMES, PERFUMES } from './content'
+import { ALL_PERFUMES, CREAMS, PERFUMES } from './content'
 
 const DYNAMIC_PAGE = [
   {
@@ -16,6 +16,10 @@ const DYNAMIC_PAGE = [
   {
     category: 'niche-perfumes',
     data: PERFUMES.niche,
+  },
+  {
+    category: 'creams',
+    data: CREAMS,
   },
 ]
 
@@ -36,6 +40,23 @@ const createDynamicIdPerfumes = () => {
   return data
 }
 
-const DYNAMIC_ID = createDynamicIdPerfumes()
+const createDynamicIdCreams = () => {
+  let data = []
+  const ids = CREAMS.items.map((el) => el?.name.toLowerCase().split(' ').join('-'))
+
+  for (let i = 0; i < ids.length; i++) {
+    const newData = {
+      category: 'creams',
+      id: ids[i],
+      data: CREAMS.items[i],
+    }
+    data.push(newData)
+  }
+  return data
+}
+
+const IDS_PERFUMES = createDynamicIdPerfumes()
+const IDS_CREAMS = createDynamicIdCreams()
+const DYNAMIC_ID = [...IDS_PERFUMES, ...IDS_CREAMS]
 
 export { DYNAMIC_PAGE, DYNAMIC_ID }
