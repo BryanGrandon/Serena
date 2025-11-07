@@ -26,7 +26,7 @@ const { title, description, link, img } = Astro.props as catalog_card
   </picture>
 
   <div style={{ gridArea: 'button' }} class=''>
-    <ButtonLink link={link.href} text={link.text} moreClass='w-full' />
+    <ButtonLink link={link.href} text={link.text} moreClass='w-full' client:load />
   </div>
 </article>
 

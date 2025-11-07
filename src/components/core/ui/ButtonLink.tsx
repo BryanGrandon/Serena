@@ -5,7 +5,11 @@ type button_link = {
 }
 
 const ButtonLink = ({ link, text, moreClass = '' }: button_link) => {
-  const clickButton = () => (window.location.href = link)
+  const clickButton = () => {
+    window.location.href = link
+
+    console.log(link)
+  }
 
   return (
     <button className={`block bg-blue-600 text-white py-1 px-4 rounded-lg  hover:scale-105 active:scale-95 ${moreClass}`} onClick={clickButton}>

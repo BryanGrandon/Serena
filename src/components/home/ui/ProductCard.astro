@@ -14,7 +14,7 @@ const { title, link, img } = Astro.props as product_card
   <article class='w-40 lg:w-auto xl:h-50 overflow-hidden rounded-lg'>
     <img src={img} alt='' class='object-contain object-center w-full h-full rounded-lg' />
   </article>
-  <ButtonLink link={link} text='Ver Listado de fragancias' />
+  <ButtonLink link={link} text='Ver Listado de fragancias' client:load />
 </a>
 
 <style>

@@ -23,10 +23,11 @@ const Gallery = ({ imgDefault, images }: Props) => {
     }
   }
   useEffect(() => {
+    if (img == '') setImg(allImages[0].url)
     applyImage()
   }, [type])
 
-  const allImages = [{ url: imgDefault, size: 'box' }, ...images]
+  const allImages = imgDefault == '' ? [...images] : [{ url: imgDefault, size: 'box' }, ...images]
 
   return (
     <article className='flex flex-col-reverse sm:flex-row justify-center'>

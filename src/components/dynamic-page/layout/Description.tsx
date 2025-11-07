@@ -29,7 +29,7 @@ const Description = ({ description, info }: Props) => {
 
         <article className={`flex flex-col gap-2  ${type == 'info' ? '' : 'hidden'}`}>
           {info.map((el) => (
-            <p>
+            <p key={el.name}>
               <span className='font-semibold'>{el.name}:</span> <span>{el.value}</span>
             </p>
           ))}
