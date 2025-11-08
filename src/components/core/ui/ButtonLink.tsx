@@ -7,7 +7,6 @@ type button_link = {
 const ButtonLink = ({ link, text, moreClass = '' }: button_link) => {
   const clickButton = () => {
     window.location.href = link
-
     console.log(link)
   }
 

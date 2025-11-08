@@ -1,6 +1,7 @@
 import { useStore } from '@nanostores/react'
 import { dataFilter, dataSelected } from '../storage/storage-filter'
 import { useState } from 'react'
+import { getArea, getBrands, getFamily, getGenres } from '../scripts/get-filter-option'
 
 const useFilter = () => {
   const [newData, setNewData] = useState<any[]>([])
@@ -33,7 +34,21 @@ const useFilter = () => {
     }
   }
 
-  return { newData, filter }
+  const getContentFilter = (data: any[], type: string) => {
+    if (type == 'creams') {
+      return [
+        { type: 'Marca', data: getBrands(data) },
+        { type: 'Area', data: getArea(data) },
+      ]
+    } else {
+      return [
+        { type: 'genero', data: getGenres(data) },
+        { type: 'familias olfativas', data: getFamily(data) },
+      ]
+    }
+  }
+
+  return { newData, filter, getContentFilter }
 }
 
 export default useFilter

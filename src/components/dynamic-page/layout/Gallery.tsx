@@ -2,7 +2,7 @@ import { useStore } from '@nanostores/react'
 import { selectImage } from '../../../utilities/storage/dynamic-page'
 import { useEffect, useState } from 'react'
 
-type Props = {
+type gallery = {
   imgDefault: ''
   images: {
     url: string
@@ -10,8 +10,8 @@ type Props = {
   }[]
 }
 
-const Gallery = ({ imgDefault, images }: Props) => {
-  const [img, setImg] = useState<string>(imgDefault)
+const Gallery = ({ imgDefault, images }: gallery) => {
+  const [img, setImg] = useState<string>(imgDefault == '' ? images[0].url : imgDefault)
   const selectImg = (url: string) => setImg(url)
 
   const type = useStore(selectImage)
@@ -23,7 +23,6 @@ const Gallery = ({ imgDefault, images }: Props) => {
     }
   }
   useEffect(() => {
-    if (img == '') setImg(allImages[0].url)
     applyImage()
   }, [type])
 

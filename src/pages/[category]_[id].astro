@@ -8,40 +8,52 @@ import PriceOfPerfumes from '../components/dynamic-page/layout/PriceOfPerfumes'
 
 export const getStaticPaths = () => {
   return DYNAMIC_ID.map(({ category, data, id }) => {
-    return {
-      params: { category, id },
-      props: { data, category },
-    }
+    return { params: { category, id }, props: { data, category } }
   })
 }
 const { data, category } = Astro.props
 
-const descriptionPerfumes = [
-  {
-    name: 'Genero',
-    value: data?.genre == 'Woman' ? 'Mujer' : 'Hombre',
-  },
-  {
-    name: 'Marca',
-    value: data?.brand,
-  },
-  {
-    name: 'Familias Olfativas',
-    value: data.olfactory_families.join(', '),
-  },
-]
+const infoPerfumes = () => {
+  return [
+    { name: 'Genero', value: data?.genre == 'Woman' ? 'Mujer' : 'Hombre' },
+    { name: 'Marca', value: data?.brand },
+    { name: 'Familias Olfativas', value: data.olfactory_families.join(', ') },
+  ]
+}
+
+const infoCreams = () => {
+  return [
+    { name: 'Marca', value: data?.brand },
+    { name: 'Area', value: data.area.join(', ') },
+  ]
+}
+
+const info = category == 'creams' ? infoCreams() : infoPerfumes()
 ---
 
 <Layout>
   <Navbar client:load />
   <main class='text-black grid grid-cols-1 lg:grid-cols-2 gap-8 p-8 test justify-center'>
-    <Gallery client:load imgDefault={data.img} images={data.allImages} />
+    <Gallery client:load imgDefault={data.img} images={data.productData} />
 
     <article class=''>
       <h2 class='text-3xl font-basicaline font-semibold'>{data?.name} - Inspirado en {data?.inspiration}</h2>
       <p class='text-gray-600'>{data?.highlight}</p>
-      <PriceOfPerfumes prices={data.allImages} client:load />
-      <Description description={data.description} info={descriptionPerfumes} client:load />
+      <PriceOfPerfumes prices={data.productData} client:load />
+      <Description description={data.description} info={info} client:load />
     </article>
+
+    {
+      category == 'creams' ? (
+        <>
+          {data.extra.map((el: any) => (
+            <section>
+              <h3>{el.title}</h3>
+              <p>{el.description}</p>
+            </section>
+          ))}
+        </>
+      ) : null
+    }
   </main>
 </Layout>

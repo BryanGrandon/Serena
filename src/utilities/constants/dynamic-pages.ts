@@ -43,6 +43,7 @@ const createDynamicIdPerfumes = () => {
 const createDynamicIdCreams = () => {
   let data = []
   const ids = CREAMS.items.map((el) => el?.name.toLowerCase().split(' ').join('-'))
+  console.log(CREAMS)
 
   for (let i = 0; i < ids.length; i++) {
     const newData = {
