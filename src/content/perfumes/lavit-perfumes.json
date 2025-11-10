@@ -1,0 +1,96 @@
+{
+  "title": "Lavit",
+  "paragraph": "",
+  "items": [
+    {
+      "id": 1,
+      "name": "Fruits of summer",
+      "inspiration": "Escada",
+      "genre": "Woman",
+      "olfactory_families": ["", ""],
+      "brand": "Lavit",
+      "highlight": "",
+      "description": "",
+      "productData": [
+        {
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Tropical Caribbean Coconut Passion",
+      "inspiration": "Victoria Secret",
+      "genre": "Woman",
+      "olfactory_families": ["", ""],
+      "brand": "Lavit",
+      "highlight": "",
+      "description": "",
+      "productData": [
+        {
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Forever Young Black Raspberry",
+      "inspiration": "BBW",
+      "genre": "Woman",
+      "olfactory_families": ["", ""],
+      "brand": "Lavit",
+      "highlight": "",
+      "description": "",
+      "productData": [
+        {
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Fresh Garden Rock in Rio",
+      "inspiration": "Victoria Secret",
+      "genre": "Woman",
+      "olfactory_families": ["", ""],
+      "brand": "Lavit",
+      "highlight": "",
+      "description": "",
+      "productData": [
+        {
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Fantasy of Love Pink Chiffon",
+      "inspiration": "BBW",
+      "genre": "Woman",
+      "olfactory_families": ["", ""],
+      "brand": "Lavit",
+      "highlight": "",
+      "description": "",
+      "productData": [
+        {
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Sweet Romance Sheer Love",
+      "inspiration": "Victoria Secret",
+      "genre": "Woman",
+      "olfactory_families": ["", ""],
+      "brand": "Lavit",
+      "highlight": "",
+      "description": "",
+      "productData": [
+        {
+          "url": ""
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "title": "",
+  "paragraph": "",
+  "items": [
+    {
+      "title": "Jabon",
+      "paragraph": "",
+      "items": [
+        {
+          "id": 0,
+          "title": "Jabon Glicerina Hombre",
+          "productData": { "price": "3800", "size": "250ml", "url": "" },
+          "list": [
+            {
+              "id": 0,
+              "name": "W422",
+              "highlight": "Acqua Di Gio"
+            },
+            {
+              "id": 1,
+              "name": "W425",
+              "highlight": "212 Vip Men"
+            },
+            {
+              "id": 2,
+              "name": "W434",
+              "highlight": "One Million"
+            },
+            {
+              "id": 3,
+              "name": "W436",
+              "highlight": "Invictus"
+            }
+          ]
+        },
+        {
+          "id": 1,
+          "title": "Jabon Glicerina Mujer",
+          "productData": { "price": "3800", "size": "250ml", "url": "" },
+          "list": [
+            {
+              "id": 0,
+              "name": "W305",
+              "highlight": "Chanel N5"
+            },
+            {
+              "id": 1,
+              "name": "W307",
+              "highlight": "Ralph"
+            },
+            {
+              "id": 2,
+              "name": "W309",
+              "highlight": "Tresor"
+            },
+            {
+              "id": 3,
+              "name": "W318",
+              "highlight": "Carolina Herrera"
+            },
+            {
+              "id": 4,
+              "name": "W328",
+              "highlight": "C.K. One"
+            },
+            {
+              "id": 5,
+              "name": "W336",
+              "highlight": "Tommy Girl"
+            },
+            {
+              "id": 6,
+              "name": "W340",
+              "highlight": "Amor Amor"
+            },
+            {
+              "id": 7,
+              "name": "W343",
+              "highlight": "Good Girl"
+            },
+            {
+              "id": 8,
+              "name": "W345",
+              "highlight": "Halloween"
+            },
+            {
+              "id": 9,
+              "name": "W346",
+              "highlight": "212 Sexy"
+            },
+            {
+              "id": 10,
+              "name": "W357",
+              "highlight": "La vida es bella"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Shampoo Acondicionador",
+      "paragraph": ""
+    },
+    {
+      "title": "Mascara de tratamiento cuidado intensivo",
+      "paragraph": ""
+    },
+
+    {
+      "title": "Aceite nutritivo",
+      "paragraph": ""
+    }
+  ]
+}
