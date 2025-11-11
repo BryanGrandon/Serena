@@ -1,114 +1,127 @@
 {
-  "title": "",
-  "paragraph": "",
+  "title": "Cuidado Personal",
+  "paragraph": "Descubre nuestra línea de productos pensados para el bienestar y el cuidado diario de tu piel y cabello.",
   "items": [
     {
-      "title": "Jabon",
+      "id": 0,
+      "title": "Jabon Glicerina Hombre",
       "paragraph": "",
-      "items": [
+      "productData": { "price": "3800", "size": "250ml", "url": "" },
+      "list": [
         {
           "id": 0,
-          "title": "Jabon Glicerina Hombre",
-          "productData": { "price": "3800", "size": "250ml", "url": "" },
-          "list": [
-            {
-              "id": 0,
-              "name": "W422",
-              "highlight": "Acqua Di Gio"
-            },
-            {
-              "id": 1,
-              "name": "W425",
-              "highlight": "212 Vip Men"
-            },
-            {
-              "id": 2,
-              "name": "W434",
-              "highlight": "One Million"
-            },
-            {
-              "id": 3,
-              "name": "W436",
-              "highlight": "Invictus"
-            }
-          ]
+          "name": "W422",
+          "highlight": "Acqua Di Gio"
         },
         {
           "id": 1,
-          "title": "Jabon Glicerina Mujer",
-          "productData": { "price": "3800", "size": "250ml", "url": "" },
-          "list": [
-            {
-              "id": 0,
-              "name": "W305",
-              "highlight": "Chanel N5"
-            },
-            {
-              "id": 1,
-              "name": "W307",
-              "highlight": "Ralph"
-            },
-            {
-              "id": 2,
-              "name": "W309",
-              "highlight": "Tresor"
-            },
-            {
-              "id": 3,
-              "name": "W318",
-              "highlight": "Carolina Herrera"
-            },
-            {
-              "id": 4,
-              "name": "W328",
-              "highlight": "C.K. One"
-            },
-            {
-              "id": 5,
-              "name": "W336",
-              "highlight": "Tommy Girl"
-            },
-            {
-              "id": 6,
-              "name": "W340",
-              "highlight": "Amor Amor"
-            },
-            {
-              "id": 7,
-              "name": "W343",
-              "highlight": "Good Girl"
-            },
-            {
-              "id": 8,
-              "name": "W345",
-              "highlight": "Halloween"
-            },
-            {
-              "id": 9,
-              "name": "W346",
-              "highlight": "212 Sexy"
-            },
-            {
-              "id": 10,
-              "name": "W357",
-              "highlight": "La vida es bella"
-            }
-          ]
+          "name": "W425",
+          "highlight": "212 Vip Men"
+        },
+        {
+          "id": 2,
+          "name": "W434",
+          "highlight": "One Million"
+        },
+        {
+          "id": 3,
+          "name": "W436",
+          "highlight": "Invictus"
         }
       ]
     },
     {
-      "title": "Shampoo Acondicionador",
-      "paragraph": ""
+      "id": 1,
+      "title": "Jabon Glicerina Mujer",
+      "paragraph": "",
+      "productData": { "price": "3800", "size": "250ml", "url": "" },
+      "list": [
+        {
+          "id": 0,
+          "name": "W305",
+          "highlight": "Chanel N5"
+        },
+        {
+          "id": 1,
+          "name": "W307",
+          "highlight": "Ralph"
+        },
+        {
+          "id": 2,
+          "name": "W309",
+          "highlight": "Tresor"
+        },
+        {
+          "id": 3,
+          "name": "W318",
+          "highlight": "Carolina Herrera"
+        },
+        {
+          "id": 4,
+          "name": "W328",
+          "highlight": "C.K. One"
+        },
+        {
+          "id": 5,
+          "name": "W336",
+          "highlight": "Tommy Girl"
+        },
+        {
+          "id": 6,
+          "name": "W340",
+          "highlight": "Amor Amor"
+        },
+        {
+          "id": 7,
+          "name": "W343",
+          "highlight": "Good Girl"
+        },
+        {
+          "id": 8,
+          "name": "W345",
+          "highlight": "Halloween"
+        },
+        {
+          "id": 9,
+          "name": "W346",
+          "highlight": "212 Sexy"
+        },
+        {
+          "id": 10,
+          "name": "W357",
+          "highlight": "La vida es bella"
+        }
+      ]
     },
     {
+      "id": 2,
+      "title": "Shampoo",
+      "paragraph": "",
+      "productData": { "price": "6000", "size": "500ml", "url": "" }
+    },
+    {
+      "id": 3,
+      "title": "Acondicionador",
+      "paragraph": "",
+      "productData": { "price": "6000", "size": "500ml", "url": "" }
+    },
+    {
+      "id": 4,
       "title": "Mascara de tratamiento cuidado intensivo",
-      "paragraph": ""
+      "paragraph": "",
+      "productData": { "price": "5000", "size": "250ml", "url": "" }
     },
-
     {
+      "id": 5,
       "title": "Aceite nutritivo",
-      "paragraph": ""
+      "paragraph": "",
+      "productData": { "price": "7000", "size": "100ml", "url": "" }
+    },
+    {
+      "id": 6,
+      "title": "After Shave Hombre",
+      "paragraph": "",
+      "productData": { "price": "4000", "size": "100ml", "url": "" }
     }
   ]
 }

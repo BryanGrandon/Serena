@@ -1,0 +1,47 @@
+---
+import Layout from '../layouts/Layout.astro'
+import { DYNAMIC_LIST } from '../utilities/constants/dynamic-pages'
+import Navbar from '../components/core/layout/Navbar'
+
+export const getStaticPaths = () => {
+  return DYNAMIC_LIST.map(({ list, data }) => {
+    return {
+      params: { list },
+      props: { data, list },
+    }
+  })
+}
+const { data, list } = Astro.props
+const { title, paragraph, items } = data
+---
+
+<Layout>
+  <Navbar client:load />
+  <main>
+    <h2>{title}</h2>
+    <p>{paragraph}</p>
+    <article>
+      {
+        items.map((el) => (
+          <section>
+            <h3>{el.title}</h3>
+            <p>{el.paragraph}</p>
+            <img src='#' alt='' />
+            <section>
+              {el.list ? (
+                <>
+                  {el.list.map((el) => (
+                    <div>
+                      <h3>{el.name}</h3>
+                      <p>{el.highlight}</p>
+                    </div>
+                  ))}
+                </>
+              ) : null}
+            </section>
+          </section>
+        ))
+      }
+    </article>
+  </main>
+</Layout>

@@ -3,6 +3,9 @@ import perfumesForMen from '../../content/perfumes/perfumes-for-men.json'
 import perfumesForWomen from '../../content/perfumes/perfumes-for-women.json'
 import perfumesForYoungPeople from '../../content/perfumes/perfumes-for-young-people.json'
 import creams from '../../content/creams.json'
+import cologne from '../../content/cologne.json'
+import personalCare from '../../content/personal-care.json'
+
 import { addMoreInfo } from '../scripts/add-more-info'
 
 const PERFUMES = {
@@ -35,4 +38,16 @@ const CREAMS = {
   items: addMoreInfo({ items: creams.items, type: 'creams', option: '' }),
 }
 
-export { PERFUMES, ALL_PERFUMES, CREAMS }
+const COLOGNE = {
+  title: cologne.title,
+  paragraph: cologne.paragraph,
+  items: cologne.items,
+}
+
+const PERSONAL_CARE = {
+  title: personalCare.title,
+  paragraph: personalCare.paragraph,
+  items: personalCare.items,
+}
+
+export { PERFUMES, ALL_PERFUMES, CREAMS, COLOGNE, PERSONAL_CARE }

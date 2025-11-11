@@ -49,7 +49,7 @@
         {
           "title": "Colonias",
           "description": "Explora nuestra selección de colonias frescas y revitalizantes. Perfectas para el uso diario, nuestras colonias ofrecen una explosión de frescura que te acompañará en cada paso, dejando una impresión duradera.",
-          "link": { "href": "/colonies", "text": "Ver Colonias" },
+          "link": { "href": "/cologne", "text": "Ver Colonias" },
           "img": "https://polinka.top/uploads/posts/2023-06/1686266578_polinka-top-p-krasivie-kartinki-parfyuma-krasivo-29.jpg",
           "background": true
         },

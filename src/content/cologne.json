@@ -4,253 +4,255 @@
   "items": [
     {
       "title": "Fragancias Mujer",
+      "paragraph": "",
       "productData": { "price": "5800", "size": "400ml", "url": "" },
       "list": [
         {
           "id": 0,
           "name": "S01",
-          "inspiration": "Woman"
+          "highlight": "Woman"
         },
         {
           "id": 1,
           "name": "S02",
-          "inspiration": "Oscar de la reina"
+          "highlight": "Oscar de la reina"
         },
         {
           "id": 2,
           "name": "S03",
-          "inspiration": "Chanel Nº5"
+          "highlight": "Chanel Nº5"
         },
         {
           "id": 3,
           "name": "S04",
-          "inspiration": "Tresor"
+          "highlight": "Tresor"
         },
         {
           "id": 4,
           "name": "S05",
-          "inspiration": "Carolina Herrera"
+          "highlight": "Carolina Herrera"
         },
         {
           "id": 5,
           "name": "S06",
-          "inspiration": "212 Heroes Woman"
+          "highlight": "212 Heroes Woman"
         },
         {
           "id": 6,
           "name": "S07",
-          "inspiration": "Anais Anais"
+          "highlight": "Anais Anais"
         },
         {
           "id": 7,
           "name": "S08",
-          "inspiration": "O de Lancome"
+          "highlight": "O de Lancome"
         },
         {
           "id": 8,
           "name": "S09",
-          "inspiration": "212 Carolina Herrera"
+          "highlight": "212 Carolina Herrera"
         },
         {
           "id": 9,
           "name": "S10",
-          "inspiration": "Eden"
+          "highlight": "Eden"
         },
         {
           "id": 10,
           "name": "S11",
-          "inspiration": "Can Can"
+          "highlight": "Can Can"
         },
         {
           "id": 11,
           "name": "S12",
-          "inspiration": "Olympea"
+          "highlight": "Olympea"
         },
         {
           "id": 12,
           "name": "S13",
-          "inspiration": "C.K. One"
+          "highlight": "C.K. One"
         },
         {
           "id": 13,
           "name": "S14",
-          "inspiration": "Jadore"
+          "highlight": "Jadore"
         },
         {
           "id": 14,
           "name": "S15",
-          "inspiration": "Nina"
+          "highlight": "Nina"
         },
         {
           "id": 15,
           "name": "S16",
-          "inspiration": "Ralph"
+          "highlight": "Ralph"
         },
         {
           "id": 16,
           "name": "S17",
-          "inspiration": "Be Delicious"
+          "highlight": "Be Delicious"
         },
         {
           "id": 17,
           "name": "S18",
-          "inspiration": "Lolita Lempicka"
+          "highlight": "Lolita Lempicka"
         },
         {
           "id": 18,
           "name": "S19",
-          "inspiration": "La Nuit Tresor"
+          "highlight": "La Nuit Tresor"
         },
         {
           "id": 19,
           "name": "S20",
-          "inspiration": "Tommy Girl"
+          "highlight": "Tommy Girl"
         },
         {
           "id": 20,
           "name": "S21",
-          "inspiration": "212 Vip"
+          "highlight": "212 Vip"
         },
         {
           "id": 21,
           "name": "S22",
-          "inspiration": "Amor Amor"
+          "highlight": "Amor Amor"
         },
         {
           "id": 22,
           "name": "S23",
-          "inspiration": "Halloween"
+          "highlight": "Halloween"
         },
         {
           "id": 23,
           "name": "S24",
-          "inspiration": "212 Sexy"
+          "highlight": "212 Sexy"
         },
         {
           "id": 24,
           "name": "S25",
-          "inspiration": "Light Blue Woman"
+          "highlight": "Light Blue Woman"
         },
         {
           "id": 25,
           "name": "S26",
-          "inspiration": "Acqua di Gioia"
+          "highlight": "Acqua di Gioia"
         },
         {
           "id": 26,
           "name": "S27",
-          "inspiration": "La vida en bella"
+          "highlight": "La vida en bella"
         },
         {
           "id": 27,
           "name": "S28",
-          "inspiration": "Good Girl"
+          "highlight": "Good Girl"
         },
         {
           "id": 28,
           "name": "S29",
-          "inspiration": "My way (G. Armani)"
+          "highlight": "My way (G. Armani)"
         },
         {
           "id": 29,
           "name": "S30",
-          "inspiration": "212 Vip Rose"
+          "highlight": "212 Vip Rose"
         }
       ]
     },
     {
       "title": "Fragancias Hombre",
+      "paragraph": "",
       "productData": { "price": "5800", "size": "400ml", "url": "" },
       "list": [
         {
           "id": 0,
           "name": "S100",
-          "inspiration": "Phantom"
+          "highlight": "Phantom"
         },
         {
           "id": 1,
           "name": "S101",
-          "inspiration": "Azzaro"
+          "highlight": "Azzaro"
         },
         {
           "id": 2,
           "name": "S102",
-          "inspiration": "Sauvage"
+          "highlight": "Sauvage"
         },
         {
           "id": 3,
           "name": "S103",
-          "inspiration": "Tommy"
+          "highlight": "Tommy"
         },
         {
           "id": 4,
           "name": "S104",
-          "inspiration": "Paco Rabannie"
+          "highlight": "Paco Rabannie"
         },
         {
           "id": 5,
           "name": "S105",
-          "inspiration": "Carolina Herrera"
+          "highlight": "Carolina Herrera"
         },
         {
           "id": 6,
           "name": "S106",
-          "inspiration": "Agua Brava"
+          "highlight": "Agua Brava"
         },
         {
           "id": 7,
           "name": "S107",
-          "inspiration": "One Million"
+          "highlight": "One Million"
         },
         {
           "id": 8,
           "name": "S108",
-          "inspiration": "Hugo Boss Men"
+          "highlight": "Hugo Boss Men"
         },
         {
           "id": 9,
           "name": "S109",
-          "inspiration": "Polo Sport"
+          "highlight": "Polo Sport"
         },
         {
           "id": 10,
           "name": "S110",
-          "inspiration": "212 Vip Men"
+          "highlight": "212 Vip Men"
         },
         {
           "id": 11,
           "name": "S111",
-          "inspiration": "XS Black Men"
+          "highlight": "XS Black Men"
         },
         {
           "id": 12,
           "name": "S112",
-          "inspiration": "Acqua di Gio"
+          "highlight": "Acqua di Gio"
         },
         {
           "id": 13,
           "name": "S113",
-          "inspiration": "212 For men"
+          "highlight": "212 For men"
         },
         {
           "id": 14,
           "name": "S114",
-          "inspiration": "Invictus"
+          "highlight": "Invictus"
         },
         {
           "id": 15,
           "name": "S115",
-          "inspiration": "Polo Blue Men"
+          "highlight": "Polo Blue Men"
         },
         {
           "id": 16,
           "name": "S116",
-          "inspiration": "Polo Red"
+          "highlight": "Polo Red"
         },
         {
           "id": 17,
           "name": "S117",
-          "inspiration": "Bad Boy"
+          "highlight": "Bad Boy"
         }
       ]
     }

@@ -1,4 +1,4 @@
-import { ALL_PERFUMES, CREAMS, PERFUMES } from './content'
+import { ALL_PERFUMES, COLOGNE, CREAMS, PERFUMES, PERSONAL_CARE } from './content'
 
 const DYNAMIC_PAGE = [
   {
@@ -60,4 +60,15 @@ const IDS_PERFUMES = createDynamicIdPerfumes()
 const IDS_CREAMS = createDynamicIdCreams()
 const DYNAMIC_ID = [...IDS_PERFUMES, ...IDS_CREAMS]
 
-export { DYNAMIC_PAGE, DYNAMIC_ID }
+const DYNAMIC_LIST = [
+  {
+    list: 'personal-care',
+    data: PERSONAL_CARE,
+  },
+  {
+    list: 'cologne',
+    data: COLOGNE,
+  },
+]
+
+export { DYNAMIC_PAGE, DYNAMIC_ID, DYNAMIC_LIST }
