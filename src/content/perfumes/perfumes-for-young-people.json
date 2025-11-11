@@ -5,11 +5,10 @@
     {
       "id": 0,
       "name": "Perfums J00",
-      "inspiration": "Cloud",
-      "highlight": "Ariana Grande",
-      "olfactory_families": ["Floral", "Frutal", "Gourmand"],
+      "genre": "Mujer",
       "brand": "perfums d'perfums",
-      "genre": "Woman",
+      "olfactory_families": ["Floral", "Frutal", "Gourmand"],
+      "context": { "highlight": "Cloud", "brand": "Ariana Grande", "type": "Inspiracion" },
       "description": "Parfums J00 es una fragancia Floral Frutal Gourmand, cálida y dulce, inspirada en Cloud de Ariana Grande, ideal para mujeres que buscan un aroma tierno y acogedor.",
       "img": "/perfums/perfumes/J/J00-box.webp",
       "productData": [
@@ -21,11 +20,10 @@
     {
       "id": 1,
       "name": "Perfums J01",
-      "inspiration": "Fantasy",
-      "highlight": "Britney Spears",
-      "olfactory_families": ["Floral", "Frutal", "Gourmand"],
+      "genre": "Mujer",
       "brand": "perfums d'perfums",
-      "genre": "Woman",
+      "olfactory_families": ["Floral", "Frutal", "Gourmand"],
+      "context": { "highlight": "Fantasy", "brand": "Britney Spears", "type": "Inspiracion" },
       "description": "Parfums J01 es una fragancia Floral Frutal Gourmand, dulce y encantadora, inspirada en Fantasy de Britney Spears, ideal para mujeres que buscan un aroma seductor y alegre.",
       "img": "/perfums/perfumes/J/J01-box.webp",
       "productData": [
@@ -37,11 +35,10 @@
     {
       "id": 2,
       "name": "Perfums J02",
-      "inspiration": "Selena",
-      "highlight": "Selena Gomez",
-      "olfactory_families": ["Floral", "Frutal", "Gourmand"],
+      "genre": "Mujer",
       "brand": "perfums d'perfums",
-      "genre": "Woman",
+      "olfactory_families": ["Floral", "Frutal", "Gourmand"],
+      "context": { "highlight": "Selena", "brand": "Selena Gomez", "type": "Inspiracion" },
       "description": "Parfums J02 es una fragancia Floral Frutal Gourmand, dulce y juvenil, inspirada en Selena Gomez de Selena Gomez, ideal para mujeres alegres y modernas.",
       "img": "/perfums/perfumes/J/J02-box.webp",
       "productData": [
@@ -53,11 +50,10 @@
     {
       "id": 3,
       "name": "Perfums J03",
-      "inspiration": "Bombshell",
-      "highlight": "Victoria's Secret",
-      "olfactory_families": ["Floral", "Frutal"],
+      "genre": "Mujer",
       "brand": "perfums d'perfums",
-      "genre": "Woman",
+      "olfactory_families": ["Floral", "Frutal"],
+      "context": { "highlight": "Bombshell", "brand": "Victoria's Secret", "type": "Inspiracion" },
       "description": "Parfums J03 es una fragancia Floral Frutal, vibrante y femenina, inspirada en Bombshell de Victoria’s Secret, ideal para mujeres jóvenes y seguras.",
       "img": "/perfums/perfumes/J/J03-box.webp",
       "productData": [
@@ -69,11 +65,10 @@
     {
       "id": 4,
       "name": "Perfums J04",
-      "inspiration": "Thank You Next",
-      "highlight": "Ariana Grande",
-      "olfactory_families": ["Floral", "Frutal", "Gourmand"],
+      "genre": "Mujer",
       "brand": "perfums d'perfums",
-      "genre": "Woman",
+      "olfactory_families": ["Floral", "Frutal", "Gourmand"],
+      "context": { "highlight": "Thank You Next", "brand": "Ariana Grande", "type": "Inspiracion" },
       "description": "Parfums J04 es una fragancia Floral Frutal Gourmand, dulce y juguetona, inspirada en Thank U, Next de Ariana Grande, ideal para mujeres alegres y seguras.",
       "img": "/perfums/perfumes/J/J04-box.webp",
       "productData": [
@@ -85,11 +80,10 @@
     {
       "id": 5,
       "name": "Perfums J05",
-      "inspiration": "Meow",
-      "highlight": "Katty Perry",
-      "olfactory_families": ["Floral", "Frutal"],
+      "genre": "Mujer",
       "brand": "perfums d'perfums",
-      "genre": "Woman",
+      "olfactory_families": ["Floral", "Frutal"],
+      "context": { "highlight": "Meow", "brand": "Katty Perry", "type": "Inspiracion" },
       "description": "Parfums J05 es una fragancia Floral Frutal, dulce y encantadora, inspirada en Meow de Katy Perry, ideal para mujeres femeninas y alegres.",
       "img": "/perfums/perfumes/J/J05-box.webp",
       "productData": [
@@ -101,11 +95,10 @@
     {
       "id": 6,
       "name": "Perfums J06",
-      "inspiration": "Sweet Like Candy",
-      "highlight": "Ariana Grande",
-      "olfactory_families": ["Floral", "Frutal", "Gourmand"],
+      "genre": "Mujer",
       "brand": "perfums d'perfums",
-      "genre": "Woman",
+      "olfactory_families": ["Floral", "Frutal", "Gourmand"],
+      "context": { "highlight": "Sweet Like Candy", "brand": "Ariana Grande", "type": "Inspiracion" },
       "description": "Parfums J06 es una fragancia Floral Frutal Gourmand, dulce y juguetona, inspirada en Sweet Like Candy de Ariana Grande, perfecta para mujeres jóvenes y alegres.",
       "img": "/perfums/perfumes/J/J06-box.webp",
       "productData": [
@@ -117,11 +110,10 @@
     {
       "id": 7,
       "name": "Perfums J07",
-      "inspiration": "Legacy",
-      "highlight": "Cristiano Ronaldo",
-      "olfactory_families": ["Amaderada", "Aromática"],
+      "genre": "Hombre",
       "brand": "perfums d'perfums",
-      "genre": "Men",
+      "olfactory_families": ["Amaderada", "Aromática"],
+      "context": { "highlight": "Legacy", "brand": "Cristiano Ronaldo", "type": "Inspiracion" },
       "description": "Parfums J07 es una fragancia Amaderada Aromática, sofisticada y moderna, inspirada en Legacy de Cristiano Ronaldo, ideal para hombres elegantes y seguros.",
       "img": "/perfums/perfumes/J/J07-09-box.webp",
       "productData": [
@@ -133,11 +125,10 @@
     {
       "id": 8,
       "name": "Perfums J08",
-      "inspiration": "Spirit Of The Brave",
-      "highlight": "Neymar Diesel",
-      "olfactory_families": ["Oriental", "Amaderada"],
+      "genre": "Hombre",
       "brand": "perfums d'perfums",
-      "genre": "Men",
+      "olfactory_families": ["Oriental", "Amaderada"],
+      "context": { "highlight": "Spirit Of The Brave", "brand": "Neymar Diesel", "type": "Inspiracion" },
       "description": "Parfums J08 es una fragancia Oriental Amaderada, intensa y audaz, inspirada en Spirit Of The Brave de Diesel, ideal para hombres con carácter fuerte y decidido.",
       "img": "/perfums/perfumes/J/J07-09-box.webp",
       "productData": [
@@ -149,11 +140,10 @@
     {
       "id": 9,
       "name": "Perfums J09",
-      "inspiration": "Invictus Aqua",
-      "highlight": "Paco Rabanne",
-      "olfactory_families": ["Amaderada", "Acuática"],
+      "genre": "Hombre",
       "brand": "perfums d'perfums",
-      "genre": "Men",
+      "olfactory_families": ["Amaderada", "Acuática"],
+      "context": { "highlight": "Invictus Aqua", "brand": "Paco Rabanne", "type": "Inspiracion" },
       "description": "Parfums J09 es una fragancia Amaderada Acuática, fresca y enérgica, inspirada en Invictus Aqua de Paco Rabanne, ideal para hombres que transmiten vitalidad y dinamismo.",
       "img": "/perfums/perfumes/J/J07-09-box.webp",
       "productData": [

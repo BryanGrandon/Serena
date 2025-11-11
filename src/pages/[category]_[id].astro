@@ -1,10 +1,10 @@
 ---
+import Layout from '../layouts/Layout.astro'
 import Navbar from '../components/core/layout/Navbar'
 import Gallery from '../components/dynamic-page/layout/Gallery'
 import Description from '../components/dynamic-page/layout/Description'
-import Layout from '../layouts/Layout.astro'
-import { DYNAMIC_ID } from '../utilities/constants/dynamic-pages'
 import PriceOfPerfumes from '../components/dynamic-page/layout/PriceOfPerfumes'
+import { DYNAMIC_ID } from '../utilities/constants/dynamic-pages'
 
 export const getStaticPaths = () => {
   return DYNAMIC_ID.map(({ category, data, id }) => {
@@ -15,7 +15,7 @@ const { data, category } = Astro.props
 
 const infoPerfumes = () => {
   return [
-    { name: 'Genero', value: data?.genre == 'Woman' ? 'Mujer' : 'Hombre' },
+    { name: 'Genero', value: data?.genre },
     { name: 'Marca', value: data?.brand },
     { name: 'Familias Olfativas', value: data.olfactory_families.join(', ') },
   ]
@@ -29,18 +29,21 @@ const infoCreams = () => {
 }
 
 const info = category == 'creams' ? infoCreams() : infoPerfumes()
+const { img, productData, description, context, name } = data
+const conditional = context.type == 'Crema' || context.type == 'Gel'
+const title = conditional ? `${name} - ${context.type} ${context.highlight}` : `${name} - ${context.type} en ${context.highlight}`
 ---
 
 <Layout>
   <Navbar client:load />
   <main class='text-black grid grid-cols-1 lg:grid-cols-2 gap-8 p-8 test justify-center'>
-    <Gallery client:load imgDefault={data.img} images={data.productData} />
+    <Gallery client:load imgDefault={img} images={productData} />
 
     <article class=''>
-      <h2 class='text-3xl font-basicaline font-semibold'>{data?.name} - Inspirado en {data?.inspiration}</h2>
-      <p class='text-gray-600'>{data?.highlight}</p>
-      <PriceOfPerfumes prices={data.productData} client:load />
-      <Description description={data.description} info={info} client:load />
+      <h2 class='text-3xl font-basicaline font-semibold'>{title}</h2>
+      <p class='text-gray-600'>{data?.context.brand}</p>
+      <PriceOfPerfumes prices={productData} client:load />
+      <Description description={description} info={info} client:load />
     </article>
 
     {

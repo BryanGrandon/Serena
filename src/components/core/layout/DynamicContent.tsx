@@ -33,8 +33,8 @@ const DynamicContent = ({ info, type = '' }: Props) => {
               <section className='relative overflow-hidden px-4'>
                 <p className='flex flex-col text-xl'>{el?.name}</p>
                 <abbr title={el?.inspiration} className='no-underline'>
-                  <sub className='text-gray-600'>inspiration</sub>
-                  <h3 className='overflow-hidden text-ellipsis whitespace-nowrap cursor-pointer '>{el?.inspiration}</h3>
+                  <sub className='text-gray-600'>{el.context.type}</sub>
+                  <h3 className='overflow-hidden text-ellipsis whitespace-nowrap cursor-pointer '>{el?.context?.highlight}</h3>
                 </abbr>
               </section>
             </a>
