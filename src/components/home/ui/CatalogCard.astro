@@ -21,7 +21,7 @@ const { title, description, link, img } = Astro.props as catalog_card
   </h2>
   <p class='prose' style={{ gridArea: 'desc' }}>{description}</p>
 
-  <picture style={{ gridArea: 'img' }} class='flex justify-center items-center h-60 md:h-auto xl:max-w-[225px] overflow-hidden rounded-lg shadow shadow-black/50'>
+  <picture style={{ gridArea: 'img' }} class='flex justify-center items-center h-60 md:h-auto md:max-h-45 xl:max-w-[225px] overflow-hidden rounded-lg shadow shadow-black/50'>
     <img src={img} alt={`${title}-img`} class='object-cover object-center w-full h-full' />
   </picture>
 
