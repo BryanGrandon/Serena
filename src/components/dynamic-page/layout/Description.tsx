@@ -22,7 +22,7 @@ const Description = ({ description, info }: Props) => {
         </button>
       </section>
 
-      <article className='p-2 relative'>
+      <article className='px-4 py-2 relative'>
         <article className={type == 'desc' ? '' : 'hidden'}>
           <p className='prose '>{description}</p>
         </article>

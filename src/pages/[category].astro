@@ -24,6 +24,9 @@ const { title, paragraph, items } = data
         <h2 class='font-basicaline text-3xl text-black font-bold'>{title}</h2>
         <p class='text-gray-600'>{paragraph}</p>
       </article>
+      <article style={{ gridArea: 'aside-movil' }} class='block md:hidden'>
+        <p>||| filter</p>
+      </article>
 
       <DynamicContent info={items} type={category} client:only />
     </main>
@@ -40,12 +43,12 @@ const { title, paragraph, items } = data
       'aside content content content'
       'aside content content content';
   }
-  @media screen and (max-width: 700px) {
+  @media screen and (max-width: 768px) {
     main {
       /* grid-template-columns: 1fr 1fr 1fr 1fr; */
       grid-template-areas:
         'info info info info'
-        'aside aside aside aside'
+        'aside-movil aside-movil aside-movil aside-movil'
         'content content content content'
         'content content content content';
     }

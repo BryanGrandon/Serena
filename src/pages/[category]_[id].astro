@@ -36,7 +36,7 @@ const title = conditional ? `${name} - ${context.type} ${context.highlight}` : `
 
 <Layout>
   <Navbar client:load />
-  <main class='text-black grid grid-cols-1 lg:grid-cols-2 gap-8 p-8 test justify-center'>
+  <main class='text-black grid grid-cols-1 lg:grid-cols-2 grid-rows gap-8 p-8 test justify-center'>
     <Gallery client:load imgDefault={img} images={productData} />
 
     <article class=''>
@@ -44,19 +44,18 @@ const title = conditional ? `${name} - ${context.type} ${context.highlight}` : `
       <p class='text-gray-600'>{data?.context.brand}</p>
       <PriceOfPerfumes prices={productData} client:load />
       <Description description={description} info={info} client:load />
+      {
+        category == 'creams' ? (
+          <article class='grid grid-cols-1 lg:grid-cols-2  justify-center test gap-4 py-4'>
+            {data.extra.map((el: any) => (
+              <section class='rounded-lg border border-black/40 shadow-md shadow-gray-400 overflow-hidden'>
+                <h3 class='text-lg border-b border-gray-400 py-1 px-4'>{el.title}</h3>
+                <p class='prose px-4 py-2'>{el.description}</p>
+              </section>
+            ))}
+          </article>
+        ) : null
+      }
     </article>
-
-    {
-      category == 'creams' ? (
-        <>
-          {data.extra.map((el: any) => (
-            <section>
-              <h3>{el.title}</h3>
-              <p>{el.description}</p>
-            </section>
-          ))}
-        </>
-      ) : null
-    }
   </main>
 </Layout>

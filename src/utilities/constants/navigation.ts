@@ -34,6 +34,21 @@ const NAVBAR = [
       },
     ],
   },
+  {
+    id: 3,
+    nav: 'Cremas',
+    url: '/creams',
+  },
+  {
+    id: 4,
+    nav: 'Colonias',
+    url: '/cologne',
+  },
+  {
+    id: 5,
+    nav: 'Cuidado Personal',
+    url: '/personal-care',
+  },
 ]
 
 export { NAVBAR }

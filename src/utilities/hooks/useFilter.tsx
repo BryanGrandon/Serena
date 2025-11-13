@@ -1,7 +1,7 @@
 import { useStore } from '@nanostores/react'
 import { dataFilter, dataSelected } from '../storage/storage-filter'
 import { useState } from 'react'
-import { getArea, getBrands, getFamily, getGenres } from '../scripts/get-filter-option'
+import { getArea, getBrandReference, getBrands, getFamily, getGenres } from '../scripts/get-filter-option'
 
 const useFilter = () => {
   const [newData, setNewData] = useState<any[]>([])
@@ -24,12 +24,23 @@ const useFilter = () => {
       return
     }
     if (type == 'genero') {
-      const genre = option == 'femenino' ? 'Woman' : 'Men'
-      const newData = main.filter((el) => el.genre == genre)
+      const newData = main.filter((el) => el.genre)
       dataFilter.set(newData)
     }
     if (type == 'familias olfativas') {
       const newData = main.filter((el) => el.olfactory_families.includes(option))
+      dataFilter.set(newData)
+    }
+    if (type == 'marca') {
+      const newData = main.filter((el) => el.brand == option)
+      dataFilter.set(newData)
+    }
+    if (type == 'referencia de marcas') {
+      const newData = main.filter((el) => el.context.brand == option)
+      dataFilter.set(newData)
+    }
+    if (type == 'area') {
+      const newData = main.filter((el) => el.area.includes(option))
       dataFilter.set(newData)
     }
   }
@@ -37,12 +48,13 @@ const useFilter = () => {
   const getContentFilter = (data: any[], type: string) => {
     if (type == 'creams') {
       return [
-        { type: 'Marca', data: getBrands(data) },
-        { type: 'Area', data: getArea(data) },
+        { type: 'marca', data: getBrands(data) },
+        { type: 'area', data: getArea(data) },
       ]
     } else {
       return [
         { type: 'genero', data: getGenres(data) },
+        { type: 'referencia de marcas', data: getBrandReference(data) },
         { type: 'familias olfativas', data: getFamily(data) },
       ]
     }

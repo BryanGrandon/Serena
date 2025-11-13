@@ -14,6 +14,13 @@ const getGenres = (data: product_perfumes[]) => {
   return [...newSet]
 }
 
+const getBrandReference = (data: product_creams[]) => {
+  const newSet = new Set<string>()
+  data.map((el) => newSet.add(el.context.brand))
+  newSet.add('todos')
+  return [...newSet].sort()
+}
+
 // Creams
 
 const getBrands = (data: product_creams[]) => {
@@ -30,4 +37,4 @@ const getArea = (data: product_creams[]) => {
   return [...newSet]
 }
 
-export { getFamily, getGenres, getBrands, getArea }
+export { getFamily, getGenres, getBrands, getArea, getBrandReference }

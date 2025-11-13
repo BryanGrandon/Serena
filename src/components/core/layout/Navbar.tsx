@@ -27,8 +27,8 @@ const Navbar = () => {
         {NAVBAR.map((el) => (
           <section key={el.id} className='inline-block relative group mx-4'>
             {el.catalogs && el.catalogs.length > 0 ? (
-              <p className={`cursor-pointer duration-150 ease-in-out flex items-center gap-1 w-50 p-2 mobile-${el.id}`} onClick={() => openMenu(el.id)}>
-                <span>{el.nav}</span>
+              <p className={`cursor-pointer duration-150 ease-in-out flex items-center gap-1 p-2 w-fit mobile-${el.id}`} onClick={() => openMenu(el.id)}>
+                <span className=''>{el.nav}</span>
                 <span>^</span>
               </p>
             ) : (
