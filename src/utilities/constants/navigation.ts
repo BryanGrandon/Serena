@@ -2,6 +2,7 @@ const LINK_TO_PERFUMES_FOR_YOUNG_PEOPLE = '/perfumes-for-young-people'
 const LINK_TO_PERFUMES_FOR_WOMEN = '/perfumes-for-women'
 const LINK_TO_PERFUMES_FOR_MEN = '/perfumes-for-men'
 const LINK_TO_NICHE_PERFUMES = '/niche-perfumes'
+const LINK_ALL_PERFUMES = '/all-perfumes'
 
 export { LINK_TO_PERFUMES_FOR_YOUNG_PEOPLE, LINK_TO_PERFUMES_FOR_WOMEN, LINK_TO_PERFUMES_FOR_MEN, LINK_TO_NICHE_PERFUMES }
 
@@ -31,6 +32,10 @@ const NAVBAR = [
       {
         name: 'Nicho',
         url: LINK_TO_NICHE_PERFUMES,
+      },
+      {
+        name: 'Todos',
+        url: LINK_ALL_PERFUMES,
       },
     ],
   },

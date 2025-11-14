@@ -21,11 +21,13 @@ const PriceOfPerfumes = ({ prices }: Props) => {
     selectImage.set(size)
 
     const $btn1 = document.querySelector(`.btn-${selectSize}`)
-    $btn1?.classList.remove('bg-red-600')
+    $btn1?.classList.remove('bg-primary')
+    $btn1?.classList.remove('text-white')
 
     setSelectSize(size)
     const $btn = document.querySelector(`.btn-${size}`)
-    $btn?.classList.add('bg-red-600')
+    $btn?.classList.add('bg-primary')
+    $btn?.classList.add('text-white')
   }
 
   return (

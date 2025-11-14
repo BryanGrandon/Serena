@@ -40,7 +40,7 @@ const Navbar = () => {
             {el.catalogs && el.catalogs.length > 0 ? (
               <article
                 id={`menu-${el.id}`}
-                className='flex flex-col absolute top-full left-0 bg-white shadow-lg shadow-black/20 rounded-b-lg opacity-0 group-hover:opacity-100 invisible group-hover:visible transition-opacity duration-150 ease-in-out z-10'
+                className='flex flex-col w-fit absolute top-full left-0 bg-white shadow-lg shadow-black/20 rounded-b-lg opacity-0 group-hover:opacity-100 invisible group-hover:visible transition-opacity duration-150 ease-in-out z-10'
               >
                 {el.catalogs.map((catalog, index) => (
                   <a href={catalog.url} key={index} className='block py-2 px-4 min-w-fit'>

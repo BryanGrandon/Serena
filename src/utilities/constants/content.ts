@@ -30,7 +30,11 @@ const PERFUMES = {
     items: addMoreInfo({ items: perfumesForYoungPeople.items, type: 'perfumes', option: 'J' }),
   },
 }
-const ALL_PERFUMES = [...PERFUMES.men.items, ...PERFUMES.women.items, ...PERFUMES.niche.items, ...perfumesForYoungPeople.items]
+const ALL_PERFUMES = {
+  title: 'Todos Los perfumes',
+  paragraph: '',
+  items: [...PERFUMES.men.items, ...PERFUMES.women.items, ...PERFUMES.niche.items, ...perfumesForYoungPeople.items],
+}
 
 const CREAMS = {
   title: creams.title,

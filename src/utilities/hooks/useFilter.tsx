@@ -23,26 +23,12 @@ const useFilter = () => {
       dataFilter.set(main)
       return
     }
-    if (type == 'genero') {
-      const newData = main.filter((el) => el.genre)
-      dataFilter.set(newData)
-    }
-    if (type == 'familias olfativas') {
-      const newData = main.filter((el) => el.olfactory_families.includes(option))
-      dataFilter.set(newData)
-    }
-    if (type == 'marca') {
-      const newData = main.filter((el) => el.brand == option)
-      dataFilter.set(newData)
-    }
-    if (type == 'referencia de marcas') {
-      const newData = main.filter((el) => el.context.brand == option)
-      dataFilter.set(newData)
-    }
-    if (type == 'area') {
-      const newData = main.filter((el) => el.area.includes(option))
-      dataFilter.set(newData)
-    }
+
+    if (type == 'marca') dataFilter.set(main.filter((el) => el.brand == option))
+    if (type == 'genero') dataFilter.set(main.filter((el) => el.genre == option))
+    if (type == 'area') dataFilter.set(main.filter((el) => el.area.includes(option)))
+    if (type == 'referencia de marcas') dataFilter.set(main.filter((el) => el.context.brand == option))
+    if (type == 'familias olfativas') dataFilter.set(main.filter((el) => el.olfactory_families.includes(option)))
   }
 
   const getContentFilter = (data: any[], type: string) => {
@@ -64,3 +50,30 @@ const useFilter = () => {
 }
 
 export default useFilter
+
+//  const getNewData = (type: string, option: string) => {
+//     if (option == 'todos') {
+//       dataFilter.set(main)
+//       return
+//     }
+//     if (type == 'genero') {
+//       const newData = main.filter((el) => el.genre == option)
+//       dataFilter.set(newData)
+//     }
+//     if (type == 'familias olfativas') {
+//       const newData = main.filter((el) => el.olfactory_families.includes(option))
+//       dataFilter.set(newData)
+//     }
+//     if (type == 'marca') {
+//       const newData = main.filter((el) => el.brand == option)
+//       dataFilter.set(newData)
+//     }
+//     if (type == 'referencia de marcas') {
+//       const newData = main.filter((el) => el.context.brand == option)
+//       dataFilter.set(newData)
+//     }
+//     if (type == 'area') {
+//       const newData = main.filter((el) => el.area.includes(option))
+//       dataFilter.set(newData)
+//     }
+//   }

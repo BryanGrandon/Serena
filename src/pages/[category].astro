@@ -3,6 +3,7 @@ import Layout from '../layouts/Layout.astro'
 import { DYNAMIC_PAGE } from '../utilities/constants/dynamic-pages'
 import DynamicContent from '../components/core/layout/DynamicContent'
 import Navbar from '../components/core/layout/Navbar'
+import Filter from '../components/dynamic-page/layout/Filter'
 
 export const getStaticPaths = () => {
   return DYNAMIC_PAGE.map(({ category, data }) => {
@@ -28,7 +29,8 @@ const { title, paragraph, items } = data
         <p>||| filter</p>
       </article>
 
-      <DynamicContent info={items} type={category} client:only />
+      <Filter data={items} type={category} client:load />
+      <DynamicContent type={category} client:only />
     </main>
   </article>
 </Layout>

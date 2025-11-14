@@ -18,6 +18,10 @@ const DYNAMIC_PAGE = [
     data: PERFUMES.niche,
   },
   {
+    category: 'all-perfumes',
+    data: ALL_PERFUMES,
+  },
+  {
     category: 'creams',
     data: CREAMS,
   },
@@ -25,7 +29,7 @@ const DYNAMIC_PAGE = [
 
 const createDynamicIdPerfumes = () => {
   let data = []
-  const ids = ALL_PERFUMES.map((el) => el?.name.toLowerCase().split(' ').join('-'))
+  const ids = ALL_PERFUMES.items.map((el) => el?.name.toLowerCase().split(' ').join('-'))
 
   for (let i = 0; i < ids.length; i++) {
     const regex = ids[i].match(/^(\w+)-([a-z])(\d{2})$/)[2]
@@ -33,7 +37,7 @@ const createDynamicIdPerfumes = () => {
     const newData = {
       category: regex == 'h' ? 'perfumes-for-men' : regex == 'f' ? 'perfumes-for-women' : regex == 'j' ? 'perfumes-for-young-people' : regex == 'q' ? 'niche-perfumes' : '',
       id: ids[i],
-      data: ALL_PERFUMES[i],
+      data: ALL_PERFUMES.items[i],
     }
     data.push(newData)
   }

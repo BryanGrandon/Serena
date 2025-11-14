@@ -21,7 +21,7 @@ const Filter = ({ data, type }: Props) => {
       {content.map((el) => (
         <fieldset key={el.type} className='border rounded'>
           <legend className='cursor-pointer font-basicaline text-xl px-0.5 capitalize'>{el.type}</legend>
-          <article className='px-2'>
+          <article className='px-2 max-h-50 overflow-auto'>
             {el.data.map((item) => (
               <label key={item} className='flex gap-2 cursor-pointer'>
                 <input type='radio' name='filter' className='cursor-pointer flex items-center gap-2 capitalize' onClick={() => filter.setOption(el.type, item)} />
