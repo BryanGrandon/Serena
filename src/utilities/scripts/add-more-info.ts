@@ -24,7 +24,7 @@ const addMoreInfo = ({ items, type, option }: add_more_info) => {
           el.productData = isRed ? addPriceSizeImg('QR') : addPriceSizeImg('QB')
           break
         case 'J':
-          el.productData = addPriceSize({ arr: el.productData, size: '50ml', price: '5000' })
+          el.productData = addPriceSize({ arr: el.productData, size: '50ml', price: '6.700' })
           break
       }
     })
@@ -32,7 +32,7 @@ const addMoreInfo = ({ items, type, option }: add_more_info) => {
   }
   if (type == 'creams') {
     items.map((el) => {
-      if (el.brand == 'Lavit') el.productData = addPriceSize({ arr: el.productData, size: '50ml', price: '4000' })
+      if (el.brand == 'Lavit') el.productData = addPriceSize({ arr: el.productData, size: '50ml', price: '4.000' })
     })
     return items
   }

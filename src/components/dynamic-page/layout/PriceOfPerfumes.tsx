@@ -13,11 +13,11 @@ const PriceOfPerfumes = ({ prices }: Props) => {
   const lastPrice = prices.at(-1)?.price
 
   useEffect(() => {
-    firstPrice === lastPrice ? setPrice(`${firstPrice}`) : setPrice(`${lastPrice} - $${firstPrice}`)
+    firstPrice === lastPrice ? setPrice(`$${firstPrice}`) : setPrice(`Precios desde $${lastPrice} hasta $${firstPrice}`)
   }, [])
 
   const selectPrice = (price: string, size: string) => {
-    setPrice(`${price}`)
+    setPrice(`$${price}`)
     selectImage.set(size)
 
     const $btn1 = document.querySelector(`.btn-${selectSize}`)
@@ -32,7 +32,7 @@ const PriceOfPerfumes = ({ prices }: Props) => {
 
   return (
     <div>
-      <p className='font-basicaline font-bold text-2xl my-2'>${price}</p>
+      <p className='font-basicaline font-bold text-2xl my-2'>{price}</p>
 
       <sub>
         <p className='text-sm'>Tamaños disponibles</p>
