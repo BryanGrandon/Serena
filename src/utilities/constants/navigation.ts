@@ -9,7 +9,7 @@ export { LINK_TO_PERFUMES_FOR_YOUNG_PEOPLE, LINK_TO_PERFUMES_FOR_WOMEN, LINK_TO_
 const NAVBAR = [
   {
     id: 1,
-    nav: 'Home',
+    nav: 'Inicio',
     name: 'Brisa de Paz',
     url: '/',
   },
@@ -53,6 +53,11 @@ const NAVBAR = [
     id: 5,
     nav: 'Cuidado Personal',
     url: '/personal-care',
+  },
+  {
+    id: 6,
+    nav: 'Aromatizadores',
+    url: '/aromatizadores',
   },
 ]
 

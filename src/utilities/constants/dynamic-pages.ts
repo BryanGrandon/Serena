@@ -1,4 +1,4 @@
-import { ALL_PERFUMES, COLOGNE, CREAMS, PERFUMES, PERSONAL_CARE } from './content'
+import { ALL_PERFUMES, AROMATIZADORES, COLOGNE, CREAMS, PERFUMES, PERSONAL_CARE } from './content'
 
 const DYNAMIC_PAGE = [
   {
@@ -60,9 +60,25 @@ const createDynamicIdCreams = () => {
   return data
 }
 
+const createDynamicIdAllPerfumes = () => {
+  let data = []
+  const ids = ALL_PERFUMES.items.map((el) => el?.name.toLowerCase().split(' ').join('-'))
+
+  for (let i = 0; i < ids.length; i++) {
+    const newData = {
+      category: 'all-perfumes',
+      id: ids[i],
+      data: ALL_PERFUMES.items[i],
+    }
+    data.push(newData)
+  }
+  return data
+}
+
 const IDS_PERFUMES = createDynamicIdPerfumes()
+const IDS_ALL_PERFUMES = createDynamicIdAllPerfumes()
 const IDS_CREAMS = createDynamicIdCreams()
-const DYNAMIC_ID = [...IDS_PERFUMES, ...IDS_CREAMS]
+const DYNAMIC_ID = [...IDS_PERFUMES, ...IDS_CREAMS, ...IDS_ALL_PERFUMES]
 
 const DYNAMIC_LIST = [
   {
@@ -72,6 +88,10 @@ const DYNAMIC_LIST = [
   {
     list: 'cologne',
     data: COLOGNE,
+  },
+  {
+    list: 'aromatizadores',
+    data: AROMATIZADORES,
   },
 ]
 

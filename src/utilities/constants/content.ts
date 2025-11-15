@@ -4,6 +4,7 @@ import perfumesForWomen from '../../content/perfumes/perfumes-for-women.json'
 import perfumesForYoungPeople from '../../content/perfumes/perfumes-for-young-people.json'
 import creams from '../../content/creams.json'
 import cologne from '../../content/cologne.json'
+import aromatizadores from '../../content/aromatizadores.json'
 import personalCare from '../../content/personal-care.json'
 
 import { addMoreInfo } from '../scripts/add-more-info'
@@ -54,4 +55,10 @@ const PERSONAL_CARE = {
   items: personalCare.items,
 }
 
-export { PERFUMES, ALL_PERFUMES, CREAMS, COLOGNE, PERSONAL_CARE }
+const AROMATIZADORES = {
+  title: aromatizadores.title,
+  paragraph: aromatizadores.paragraph,
+  items: aromatizadores.items,
+}
+
+export { PERFUMES, ALL_PERFUMES, CREAMS, COLOGNE, PERSONAL_CARE, AROMATIZADORES }

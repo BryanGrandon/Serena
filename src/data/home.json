@@ -61,9 +61,9 @@
           "background": false
         },
         {
-          "title": "Ambientadores",
+          "title": "Aromatizadores",
           "description": "Crea un ambiente acogedor y refrescante en tu hogar con nuestra selección de ambientadores. Desde aromas florales hasta fragancias cítricas, nuestros ambientadores están diseñados para transformar cualquier espacio en un refugio de tranquilidad y bienestar.",
-          "link": { "href": "/Ambientadores", "text": "Ver Ambientadores" },
+          "link": { "href": "/aromatizadores", "text": "Ver Aromatizadores" },
           "img": "https://avatars.mds.yandex.net/i?id=2a0716734620f045f6c5e554b8048b5850245581-5340669-images-thumbs&n=13",
           "background": true
         }
