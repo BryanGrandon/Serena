@@ -9,6 +9,7 @@ import react from '@astrojs/react'
 export default defineConfig({
   site: 'https://BryanGrandon.github.io',
   base: '/Brisa-de-paz',
+
   vite: {
     plugins: [tailwindcss()],
   },
