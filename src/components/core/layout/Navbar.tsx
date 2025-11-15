@@ -54,8 +54,8 @@ const Navbar = () => {
         </article>
       </article>
       <a
-        target='__blak'
-        href='https://api.whatsapp.com/send?phone=959156591&text=Hola, estoy interesado en comprar.'
+        target='__blank'
+        href='https://api.whatsapp.com/send?phone=942972075&text=Hola, estoy interesado en comprar.'
         className='fixed bottom-[1rem] right-[0.5rem] rounded-full p-2 bg-[#25D366] shadow shadow-black/50 text-white active:scale-95 hover:scale-105 z-10 text-2xl'
       >
         <IconWsp />

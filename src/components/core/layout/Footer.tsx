@@ -7,7 +7,7 @@ const Footer = () => {
         <p className='text-lg text-center'>Comunícate conmigo si deseas adquirir algún producto.</p>
         <a
           href='https://api.whatsapp.com/send?phone=942972075&text=Hola, estoy interesado en comprar.'
-          target='__bank'
+          target='__blank'
           className='text-xl font-semibold hover:text-primary flex flex-col justify-center items-center'
         >
           <IconWsp />
