@@ -11,7 +11,7 @@ const NAVBAR = [
     id: 1,
     nav: 'Inicio',
     name: 'Brisa de Paz',
-    url: '/',
+    url: '/Brisa-de-paz/',
   },
   {
     id: 2,
@@ -42,22 +42,22 @@ const NAVBAR = [
   {
     id: 3,
     nav: 'Cremas',
-    url: '/creams',
+    url: '/Brisa-de-paz/creams',
   },
   {
     id: 4,
     nav: 'Colonias',
-    url: '/cologne',
+    url: '/Brisa-de-paz/cologne',
   },
   {
     id: 5,
     nav: 'Cuidado Personal',
-    url: '/personal-care',
+    url: '/Brisa-de-paz/personal-care',
   },
   {
     id: 6,
     nav: 'Aromatizadores',
-    url: '/aromatizadores',
+    url: '/Brisa-de-paz/aromatizadores',
   },
 ]
 
