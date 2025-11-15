@@ -1,10 +1,9 @@
-import { NAVBAR } from '../../../utilities/constants/navigation'
 import IconWsp from '../icons/IconWsp'
 
 const Footer = () => {
   return (
     <footer className=''>
-      <article className='flex flex-col items-center p-8 gap-2 '>
+      <article className='flex flex-col items-center p-4 gap-2 '>
         <p className='text-lg text-center'>Comunícate conmigo si deseas adquirir algún producto.</p>
         <IconWsp />
         <a href='https://api.whatsapp.com/send?phone=959156591&text=Hola, estoy interesado en comprar.' target='__bank' className='text-xl font-semibold hover:text-primary'>

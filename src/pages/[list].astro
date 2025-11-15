@@ -12,14 +12,14 @@ export const getStaticPaths = () => {
     }
   })
 }
-const { data, list } = Astro.props
+const { data } = Astro.props
 const { title, paragraph, items } = data
 ---
 
 <Layout>
   <Navbar client:load />
   <main class='p-4'>
-    <article class='p-4 flex flex-col items-center'>
+    <article class='p-4 flex flex-col items-center gap-2'>
       <h2 class='font-basicaline text-3xl text-black font-bold'>{title}</h2>
       <p class='text-gray-600'>{paragraph}</p>
     </article>
