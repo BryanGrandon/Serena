@@ -1,9 +1,9 @@
 const PERFUMES_IMG = {
   women: {
-    box: '/images/product/perfumes/F/F-box.webp',
-    '100ml': '/images/product/perfumes/F/F-100ml.webp',
-    '50ml': '/images/product/perfumes/F/F-50ml.webp',
-    '20ml': '/images/product/perfumes/F/F-20ml.webp',
+    box: '/Brisa-de-paz/images/product/perfumes/F/F-box.webp',
+    '100ml': '/Brisa-de-paz/images/product/perfumes/F/F-100ml.webp',
+    '50ml': '/Brisa-de-paz/images/product/perfumes/F/F-50ml.webp',
+    '20ml': '/Brisa-de-paz/images/product/perfumes/F/F-20ml.webp',
   },
   men: {
     box: '/images/product/perfumes/H/H-box.webp',
