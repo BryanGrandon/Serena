@@ -1,57 +1,65 @@
 import { NAVBAR } from '../../../utilities/constants/navigation'
+import IconClose from '../icons/IconClose'
+import IconMenu from '../icons/IconMenu'
+import IconWsp from '../icons/IconWsp'
+import NavbarLink from '../ui/NavbarLink'
+import NavbarMenu from '../ui/NavbarMenu'
 
 const Navbar = () => {
-  const openMenu = (id: number) => {
-    const $menu = document.getElementById(`menu-${id}`)
-    $menu?.classList.toggle('opacity-100')
-    $menu?.classList.toggle('visible')
+  const clickClose = () => {
+    const btn = document.getElementById('list-movil')
+    btn?.classList.toggle('hidden')
+    btn?.classList.toggle('flex')
   }
 
   return (
-    <header className='text-black bg-white/70 relative'>
+    <header className='text-black bg-white/70'>
       <nav className='p-4 flex flex-col gap-4'>
         <article className='flex w-full items-center justify-between gap-8'>
-          <a href='#' className='min-w-fit font-bold'>
+          <a href='/' className='min-w-fit font-bold'>
             Brisa de Paz
           </a>
-          <section className='flex w-full border border-black rounded-lg overflow-hidden '>
-            <input type='text' placeholder='Escribe lo que buscas...' className='py-1 px-2 w-full rounded-l-lg' />
-            <a href='#' className=' border-l rounded-r-lg py-1 px-2'>
-              Search
-            </a>
-          </section>
-          <button>|||</button>
+          <article className='hidden lg:block'>
+            <NavbarMenu />
+          </article>
+          <button className='flex lg:hidden active:scale-95' onClick={clickClose}>
+            <IconMenu />
+          </button>
         </article>
       </nav>
-      <article>
-        {NAVBAR.map((el) => (
-          <section key={el.id} className='inline-block relative group mx-4'>
-            {el.catalogs && el.catalogs.length > 0 ? (
-              <p className={`cursor-pointer duration-150 ease-in-out flex items-center gap-1 p-2 w-fit mobile-${el.id}`} onClick={() => openMenu(el.id)}>
-                <span className=''>{el.nav}</span>
-                <span>^</span>
-              </p>
-            ) : (
-              <a href={el.url ? el.url : '#'} className='hover:text-secondary transition-colors duration-150 ease-in-out p-2'>
-                {el.nav}
-              </a>
-            )}
 
-            {el.catalogs && el.catalogs.length > 0 ? (
-              <article
-                id={`menu-${el.id}`}
-                className='flex flex-col w-fit absolute top-full left-0 bg-white shadow-lg shadow-black/20 rounded-b-lg opacity-0 group-hover:opacity-100 invisible group-hover:visible transition-opacity duration-150 ease-in-out z-10'
-              >
-                {el.catalogs.map((catalog, index) => (
-                  <a href={catalog.url} key={index} className='block py-2 px-4 min-w-fit'>
-                    {catalog.name}
-                  </a>
-                ))}
-              </article>
-            ) : null}
-          </section>
-        ))}
+      <article id='list-movil' className='hidden fixed top-0 left-0 right-0 bottom-0 z-20 bg-[#efefef] text-black  flex-col'>
+        <section className='p-2 pb-4 flex justify-end'>
+          <button className='rounded-full h-10 w-10 flex items-center justify-center bg-white/40 shadow shadow-black/40 active:scale-95' onClick={clickClose}>
+            <IconClose />
+          </button>
+        </section>
+        <article className='flex flex-col w-full gap-2'>
+          {NAVBAR.map((el) => (
+            <section key={el.id} className='mx-4'>
+              {el.catalogs && el.catalogs.length > 0 ? (
+                <p className='p-2'>{el.nav}</p>
+              ) : (
+                <NavbarLink url={el.url ? el.url : ''} text={el.nav} onClick={clickClose} moreClass='bg-white/90 shadow shadow-black/40 rounded-lg px-4 active:scale-97' />
+              )}
+              {el.catalogs && el.catalogs.length > 0 ? (
+                <article className='pl-6 flex flex-col gap-2'>
+                  {el.catalogs.map((catalog) => (
+                    <NavbarLink key={catalog.name} url={catalog.url} text={catalog.name} onClick={clickClose} moreClass='bg-white/90 shadow shadow-black/40 rounded-lg px-4 active:scale-97' />
+                  ))}
+                </article>
+              ) : null}
+            </section>
+          ))}
+        </article>
       </article>
+      <a
+        target='__blak'
+        href='https://api.whatsapp.com/send?phone=959156591&text=Hola, estoy interesado en comprar.'
+        className='fixed bottom-[1rem] right-[0.5rem] rounded-full p-2 bg-[#25D366] shadow shadow-black/50 text-white active:scale-95 hover:scale-105 z-10 text-2xl'
+      >
+        <IconWsp />
+      </a>
     </header>
   )
 }
