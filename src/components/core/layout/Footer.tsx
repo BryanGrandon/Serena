@@ -11,7 +11,7 @@ const Footer = () => {
         </a>
       </article>
       <article className='bg-white/80 py-2 px-4 flex flex-col gap-2 justify-center items-center'>
-        <a href='/' className='font-basicaline text-xl font-semibold tracking-wide'>
+        <a href='/Brisa-de-paz/' className='font-basicaline text-xl font-semibold tracking-wide'>
           Brisa de Paz
         </a>
         <p>©2025 Brisa de Paz. All rights reserved.</p>

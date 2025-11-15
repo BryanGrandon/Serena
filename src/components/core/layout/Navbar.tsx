@@ -16,7 +16,7 @@ const Navbar = () => {
     <header className='text-black bg-white/70'>
       <nav className='p-4 flex flex-col gap-4'>
         <article className='flex w-full items-center justify-between gap-8'>
-          <a href='/' className='min-w-fit font-bold'>
+          <a href='/Brisa-de-paz/' className='min-w-fit font-bold'>
             Brisa de Paz
           </a>
           <article className='hidden lg:block'>
