@@ -1,11 +1,11 @@
 {
   "header": {
-    "title": "Bienvenido a Tesorito de Mateo",
+    "title": "Bienvenido a Brisa de Paz",
     "description": "Descubre productos diseñados para resaltar tu belleza natural y brindarte bienestar, desde perfumes y colonias hasta cremas que cuidan y suavizan la piel con elegancia."
   },
   "catalogs": [
     {
-      "title": "Tesorito de Mateo",
+      "title": "Perfumes",
       "article": true,
       "items": [
         {
