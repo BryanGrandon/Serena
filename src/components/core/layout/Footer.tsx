@@ -15,8 +15,13 @@ const Footer = () => {
         </a>
       </article>
       <article className='bg-white/80 py-2 px-4 flex flex-col gap-2 justify-center items-center'>
+<<<<<<< HEAD
         <a href='/Tesorito-de-Mateo/' className='font-basicaline text-xl font-semibold tracking-wide'>
           Tesorito de Mateo
+=======
+        <a href='/' className='font-basicaline text-xl font-semibold tracking-wide'>
+          Brisa de Paz
+>>>>>>> parent of 229358e (deploy)
         </a>
         <p>©2025 Tesorito de Mateo. All rights reserved.</p>
       </article>

@@ -16,8 +16,13 @@ const Navbar = () => {
     <header className='text-black bg-white/70'>
       <nav className='p-4 flex flex-col gap-4'>
         <article className='flex w-full items-center justify-between gap-8'>
+<<<<<<< HEAD
           <a href='/Tesorito-de-Mateo/' className='min-w-fit font-bold'>
             Tesorito de Mateo
+=======
+          <a href='/' className='min-w-fit font-bold'>
+            Brisa de Paz
+>>>>>>> parent of 229358e (deploy)
           </a>
           <article className='hidden lg:block'>
             <NavbarMenu />
