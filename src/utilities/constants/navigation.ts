@@ -1,16 +1,8 @@
-<<<<<<< HEAD
 const LINK_TO_PERFUMES_FOR_YOUNG_PEOPLE = '/Tesorito-de-Mateo/perfumes-for-young-people'
 const LINK_TO_PERFUMES_FOR_WOMEN = '/Tesorito-de-Mateo/perfumes-for-women'
 const LINK_TO_PERFUMES_FOR_MEN = '/Tesorito-de-Mateo/perfumes-for-men'
 const LINK_TO_NICHE_PERFUMES = '/Tesorito-de-Mateo/niche-perfumes'
 const LINK_ALL_PERFUMES = '/Tesorito-de-Mateo/all-perfumes'
-=======
-const LINK_TO_PERFUMES_FOR_YOUNG_PEOPLE = '/perfumes-for-young-people'
-const LINK_TO_PERFUMES_FOR_WOMEN = '/perfumes-for-women'
-const LINK_TO_PERFUMES_FOR_MEN = '/perfumes-for-men'
-const LINK_TO_NICHE_PERFUMES = '/niche-perfumes'
-const LINK_ALL_PERFUMES = '/all-perfumes'
->>>>>>> parent of 229358e (deploy)
 
 export { LINK_TO_PERFUMES_FOR_YOUNG_PEOPLE, LINK_TO_PERFUMES_FOR_WOMEN, LINK_TO_PERFUMES_FOR_MEN, LINK_TO_NICHE_PERFUMES }
 
