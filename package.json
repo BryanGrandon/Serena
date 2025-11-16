@@ -1,5 +1,5 @@
 {
-  "name": "serena",
+  "name": "tesorito-de-mateo",
   "type": "module",
   "version": "0.0.1",
   "scripts": {
@@ -14,7 +14,7 @@
     "@tailwindcss/vite": "4.1.14",
     "@types/react": "19.2.2",
     "@types/react-dom": "19.2.2",
-    "astro": "5.14.6",
+    "astro": "^5.15.8",
     "nanostores": "1.0.1",
     "react": "19.2.0",
     "react-dom": "19.2.0",
